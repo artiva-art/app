@@ -35,7 +35,11 @@ html, body {
     position: absolute;
 }
 
-
+.components .atras{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
 
 .icon-close {
     top: 17px;
