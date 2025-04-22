@@ -1,0 +1,783 @@
+        *{
+            font-family: 'Carbona Test', sans-serif;
+            margin: 0;
+        }
+
+        a {color: white;}
+
+
+
+        @import url('https://fonts.cdnfonts.com/css/carbona-test');
+        .topbar {
+            background: #282C63;
+            position: fixed;
+            height: 50px;
+            width: 100%;
+            top:0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding-left: 20px;
+            float: left;
+        }
+
+        .contingut {
+            margin-top: 50px;
+            width: 100%;
+            height: 760px;
+        }
+
+        .tancar {
+            width: 25px;
+            height: 25px;
+            background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+            background-size: 100%;
+            margin-top: 13px;
+            margin-left: 5px;
+            float: left;
+            margin-right: 232px;
+        }
+
+        .endavant{
+            width: 37px;
+            height: 23px;
+            background-image: url(../img/Publicar_Publicacio/Fletxa_Endavant.png);
+            background-size: 100%;
+            margin-top: 13px;
+            margin-left: 89px;
+            float: left;
+        }
+
+        .opcions1 {
+            width: 390px;
+            height: 27px;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+            color: white;
+            font-size: 1.1rem;
+            line-height: 27px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .opcions2 {
+            width: 390px;
+            height: 27px;
+            margin: 0 auto;
+            color: white;
+            font-size: 1.1rem;
+            text-align: center;
+            line-height: 27px;
+            font-weight: bold;
+        } 
+
+        .Categoria {
+            width: 115px;
+            height: 27px;
+            border-radius: 20px;
+            background-color: #282c63b7;
+            float: left;
+            margin-left: 10px;
+        }        
+
+        .P {
+            margin-left: 75px;
+        }
+
+        .botbar {
+            position: fixed;
+            height: 60px;
+            bottom:0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            padding: 0px 30px;
+        }
+
+        .icona {
+            width: 27px;
+            height: 27px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            float: left;
+            margin-top: 24px;
+        }
+
+        .PaginaHome {background-image: url(../img/Botbar/Botbar_Home.png);}
+
+        .homeClicada {
+            margin-right: 53px;
+            margin-top: 15px;
+            background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
+        }   
+
+        .reptes {
+            margin-right: 53px;
+            background-image: url(../img/Icones/Icona_Reptes.png);
+        }
+
+        .publicar {
+            width: 50px;
+            height: 50px;
+            margin-top: 4.5px;
+            margin-right: 53px;
+            background-image: url(../img/Icones/Icona_Publicar.png);
+        }
+
+        .comunitat {
+            width: 33px;
+            margin-right: 45px;
+            background-image: url(../img/Icones/Icona_Comunitat.png);
+        }
+
+        .perfil {
+            background-image: url(../img/Icones/Icona_Perfil.png);
+        }
+
+        #SeleccionarAudio {
+            .enrere {
+                margin-right: 60px;
+            }
+
+            .Arxiu {
+                width: 393px;
+                height: 55px;
+                background-color: white;
+                border-radius: 12px;
+                margin-top: 13px;
+                color: #282C63;
+                float: left;
+                margin-left: 20px;
+            }
+
+            .icona {
+                width: 55px;
+                height: 55px;
+                background-color: #282c63b7;
+                border-radius: 12px;
+                float: left;
+                text-align: center;
+                margin: 0;
+            }
+
+            .icona img {
+                width: 25px;
+                height: 25px;
+                margin-top: 15px;
+            }
+
+            .text {
+                width: 330px;
+                height: 55px;
+                float: left;
+                margin-left: 8px;
+            }
+
+            h3 {
+                width: 180px;
+                height: 25px;
+                line-height: 25px;
+                margin-top: 3px;
+            }
+
+            p {
+                width: 260px;
+                height: 27px;
+                float: left;
+                line-height: 27px;
+            }
+
+            .espai {
+                width: 60px;
+                float: left;
+            }
+
+            h2 {
+                color: #282C63;
+                height: 35px;
+                width: 90%;
+                margin-left: 20px;
+                font-size: 1.5rem;
+                margin-top: 15px;
+                clear: both;
+            }
+
+            .U {
+                margin-bottom: 15px;
+            }
+
+            .Opcio {
+                width: 120px;
+                height: 120px;
+                margin-left: 18px;
+                text-align: center;
+                float: left;
+                margin-bottom: 25px;
+            }
+
+            .Opcio h3 {
+                width: 80px;
+                margin: 0;
+                font-size: 0.95rem;
+                color: #282c63b7;
+                float: right;
+                margin-top: -19px;
+                margin-right: 12px;
+            }
+
+            .Previsualitzacio h3 {
+                float: left;
+                height: 40px;
+                width: 320px;
+                line-height: 40px;
+                margin-top: -1px;
+                margin-left: 12px;
+                font-size: 1rem;
+            }
+
+            .Seleccionada {
+                background-color: #282C63;
+            }
+        }
+
+        #SeleccionarDocument {
+            .enrere {
+                margin-right: 60px;
+            }
+
+            .Arxiu {
+                width: 393px;
+                height: 55px;
+                background-color: white;
+                border-radius: 12px;
+                margin-top: 13px;
+                color: #282C63;
+                float: left;
+                margin-left: 20px;
+            }
+
+            .icona {
+                width: 55px;
+                height: 55px;
+                background-color: #282c63b7;
+                border-radius: 12px;
+                float: left;
+                text-align: center;
+                margin: 0;
+            }
+
+            .icona img {
+                width: 25px;
+                height: 25px;
+                margin-top: 15px;
+            }
+
+            .text {
+                width: 330px;
+                height: 55px;
+                float: left;
+                margin-left: 8px;
+            }
+
+            h3 {
+                width: 180px;
+                height: 25px;
+                line-height: 25px;
+                margin-top: 3px;
+            }
+
+            p {
+                width: 260px;
+                height: 27px;
+                float: left;
+                line-height: 27px;
+            }
+
+            .espai {
+                width: 60px;
+                float: left;
+            }
+
+            h2 {
+                color: #282C63;
+                height: 35px;
+                width: 90%;
+                margin-left: 20px;
+                font-size: 1.5rem;
+                margin-top: 15px;
+                clear: both;
+            }
+
+            .U {
+                margin-bottom: 15px;
+            }
+
+            .Opcio {
+                width: 120px;
+                height: 120px;
+                margin-left: 18px;
+                text-align: center;
+                float: left;
+                margin-bottom: 25px;
+            }
+
+            .Opcio h3 {
+                width: 80px;
+                margin: 0;
+                font-size: 0.95rem;
+                color: #282c63b7;
+                float: right;
+                margin-top: -19px;
+                margin-right: 12px;
+            }
+
+            .Previsualitzacio h3 {
+                float: left;
+                height: 40px;
+                width: 320px;
+                line-height: 40px;
+                margin-top: -1px;
+                margin-left: 12px;
+                font-size: 1rem;
+            }
+
+            .Seleccionada {
+                background-color: #282C63;
+            }
+        }
+
+        #SeleccionarVideo {
+            .enrere {
+                margin-right: 60px;
+            }
+
+            .Seleccionada {
+                background-color: #282C63;
+            }
+
+            .fila{
+                width: 390px;
+                height: 120px;
+                margin: 0 auto;
+                margin-top: 14px;
+            }
+
+            .foto {
+                width: 122px;
+                height: 120px;
+                margin-right: 12px;
+                float: left;
+                background-size: 100%;
+                border-radius: 10px;
+                background-repeat: no-repeat;
+            }
+
+            .durada {
+                width: 42px;
+                height: 34px;
+                background-color: #282C63;
+                color: white;
+                margin-top: 86px;
+                margin-left: 73px;
+                border-radius: 10px 0 10px 0;
+                font-size: 1rem;
+                font-weight: bold;
+                padding-left: 7px;
+                line-height: 34px;
+            }
+
+            .f1 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_1.jpg);
+                background-size: 200%;
+            }
+
+            .f2 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_2.jpg);
+            }
+
+            .f3 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_3.jpg);
+                margin-right: 0;
+                background-position: 0 -60px;
+            }
+
+            .f4 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_4.jpg);
+            }
+
+            .f5 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_5.jpg);
+            }
+
+            .f6 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_6.jpg);
+                margin-right: 0;
+            }
+
+            .f7 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_7.jpg);
+                background-size: 130%;
+            }
+
+            .f8 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_8.jpg);
+            }
+
+            .f9 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_9.jpg);
+                margin-right: 0;
+            }
+
+            .f10 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_10.jpg);
+                background-size: 150%;
+            }
+
+            .f11 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_11.jpg);
+                background-size: 150%;
+                background-position: -30px 0;
+            }
+
+            .f12 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_12.jpg);
+                margin-right: 0;
+            }
+
+            .f13 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_13.jpg);
+                background-size: 140%;
+            }
+
+            .f14 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_14.jpg);
+            }
+
+            .f15 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_15.jpg);
+                margin-right: 0;
+            }
+        }
+
+        #SeleccionarFoto {
+            .enrere {
+                margin-right: 60px;
+            }
+
+            .Seleccionada {
+                background-color: #282C63;
+            }
+
+            .fila{
+                width: 390px;
+                height: 120px;
+                margin: 0 auto;
+                margin-top: 14px;
+            }
+
+            .foto {
+                width: 122px;
+                height: 120px;
+                margin-right: 12px;
+                float: left;
+                background-size: 100%;
+                border-radius: 10px;
+                background-repeat: no-repeat;
+            }
+
+            .f1 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_1.jpg);
+                background-size: 200%;
+            }
+
+            .f2 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_2.jpg);
+            }
+
+            .f3 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_3.jpg);
+                margin-right: 0;
+                background-position: 0 -60px;
+            }
+
+            .f4 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_4.jpg);
+            }
+
+            .f5 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_5.jpg);
+            }
+
+            .f6 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_6.jpg);
+                margin-right: 0;
+            }
+
+            .f7 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_7.jpg);
+                background-size: 130%;
+            }
+
+            .f8 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_8.jpg);
+            }
+
+            .f9 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_9.jpg);
+                margin-right: 0;
+            }
+
+            .f10 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_10.jpg);
+                background-size: 150%;
+            }
+
+            .f11 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_11.jpg);
+                background-size: 150%;
+                background-position: -30px 0;
+            }
+
+            .f12 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_12.jpg);
+                margin-right: 0;
+            }
+
+            .f13 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_13.jpg);
+                background-size: 140%;
+            }
+
+            .f14 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_14.jpg);
+            }
+
+            .f15 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_15.jpg);
+                margin-right: 0;
+            }
+        }
+
+        #SeleccionarTots {
+            .enrere {
+                margin-right: 60px;
+            }
+
+            .Seleccionada {
+                background-color: #282C63;
+            }
+
+            .fila{
+                width: 390px;
+                height: 120px;
+                margin: 0 auto;
+                margin-top: 14px;
+            }
+
+            .foto {
+                width: 122px;
+                height: 120px;
+                margin-right: 12px;
+                float: left;
+                background-size: 100%;
+                border-radius: 10px;
+                background-repeat: no-repeat;
+            }
+
+            .durada {
+                width: 42px;
+                height: 34px;
+                background-color: #282C63;
+                color: white;
+                margin-top: 86px;
+                margin-left: 73px;
+                border-radius: 10px 0 10px 0;
+                font-size: 1rem;
+                font-weight: bold;
+                padding-left: 7px;
+                line-height: 34px;
+            }
+
+            .f1 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_1.jpg);
+                background-size: 200%;
+            }
+
+            .f2 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_2.jpg);
+            }
+
+            .f3 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_3.jpg);
+                margin-right: 0;
+                background-position: 0 -60px;
+            }
+
+            .f4 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_4.jpg);
+            }
+
+            .f5 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_5.jpg);
+            }
+
+            .f6 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_6.jpg);
+                margin-right: 0;
+            }
+
+            .f7 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_7.jpg);
+                background-size: 130%;
+            }
+
+            .f8 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_8.jpg);
+            }
+
+            .f9 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_9.jpg);
+                margin-right: 0;
+            }
+
+            .f10 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_10.jpg);
+                background-size: 150%;
+            }
+
+            .f11 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_11.jpg);
+                background-size: 150%;
+                background-position: -30px 0;
+            }
+
+            .f12 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_12.jpg);
+                margin-right: 0;
+            }
+
+            .f13 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_13.jpg);
+                background-size: 140%;
+            }
+
+            .f14 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_14.jpg);
+            }
+
+            .f15 {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_15.jpg);
+                margin-right: 0;
+            }
+        }
+
+        #AfegirUsuaris {
+            .contingut {
+                height: 500px;
+            }
+
+            .missatge {
+                margin: 0 auto;
+                margin-top: 141px;
+                margin-bottom: 45px;
+                width: 390px;
+                height: 120px;
+                color: #282C63;
+                font-size: 2rem;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            .cercador {
+                width: 390px;
+                height: 30px;
+                border-radius: 25px;
+                margin: 0 auto;
+                background-color: #282C63;
+                margin-bottom: 50px;
+            }
+
+            .lupa {
+                width: 30px;
+                height: 30px;
+                background-image: url(../img/Topbar_Principal/Icona_Buscador.png);
+                background-repeat: no-repeat;
+                background-position: 0 4.25px;
+                background-size: 70%;
+                margin-top: 20px;
+                margin-left: 17px;
+            }
+
+            .PrimeraFila {
+                width: 390px;
+                height: 110px;
+                margin: 0 auto;
+            }
+
+            .SegonaFila {
+                width: 390px;
+                height: 110px;
+                margin: 0 auto;
+                margin-top: 25px;
+            }
+
+            .Usuari {
+                width: 84px;
+                height: 110px;
+                margin-left: 34px;
+                float: left;
+                text-align: center;
+                color: #282C63;
+                font-size: 0.738rem;
+                font-weight: bold;
+            }
+
+            .Perfil {
+                margin: 0 auto;
+                width: 84px;
+                height: 84px;
+                border-radius: 50px;
+                background-color: #282C63;
+                margin-bottom: 10px;
+                background-size: 130%;
+                background-repeat: no-repeat;
+                box-shadow: #282c6393 7px 7px 10px;
+            }
+
+            .I1 {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_1.png);
+            }
+
+            .I2 {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_4.png);
+                background-size: 150%;
+                background-position: 0 -50px;
+            }
+
+            .I3 {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png);
+                background-size: 100%;
+            }
+
+            .I4 {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png);
+                background-size: 100%;
+            }
+
+            .I5 {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_3.png);
+            }
+
+            .I6 {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_1.png);
+            }
+        }
+        
+
+
+
+        

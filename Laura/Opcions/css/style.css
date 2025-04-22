@@ -1,0 +1,377 @@
+        *{
+            font-family: 'Carbona Test', sans-serif;
+        }
+
+        @import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #AvisIA {
+            .contingut {
+                width: 100%;
+                height: 840px;
+                margin: 0px;
+                background-color: rgba(0, 0, 0, 0.129);
+            }
+
+            .MissatgeIA {
+                position: absolute;
+                top: 350px;
+                left: 31px;
+                width: 368px;
+                height: 115px;
+                background-color: #282C63;
+                margin: 0 auto;
+                border-radius: 20px;
+                font-size: 1rem;
+                color: white;
+                text-align: center;
+            }
+
+            .Tancar {
+                width: 15px;
+                height: 15px;
+                background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+        }
+
+        #PublicarCategories {
+            .Categories {
+                width: 390px;
+                height: 160px;
+                background-color: #282C63;
+                border-radius: 25px;
+                margin: 0 auto;
+                position: absolute;
+                top: 560px;
+                left: 20px;
+            }
+
+            .contingut {
+                width: 100%;
+                height: 840px;
+                margin: 0px;
+                background-color: transparent;
+            }
+    
+            .Visual {
+                margin-left: 22px;
+            }
+
+            .Apartat {
+                width: 64px;
+                height: 82px;
+                float: left;
+                margin-top: 11px;
+                text-align: center;
+            }
+
+            .Visual, .Sonor, .Tactil, .Gustatiu {
+                margin-left: 25px;
+            }
+    
+            .Apartat p {
+                margin-top: 0px;
+                color: white;
+                font-size: 0.9rem;
+                text-align: center;
+                font-weight: bolder;
+                font-family: 'Carbona Test', sans-serif;
+            }
+    
+            .Icona {
+                width: 64px;
+                height: 64px;
+                margin-bottom: 3px;
+                background-color: white;
+                border-radius: 100%;
+            }
+    
+            .Visual .Icona {
+                color: #00C8FF;
+            }
+    
+            .Apartat img {
+                width: 55%;
+                padding-top: 10px;
+            }
+    
+            .Visual img {
+                padding-top: 20px;
+            }
+    
+            .Sonor img {
+                width: 47%;  
+                padding-top: 12px;
+                padding-left: 4px;          
+            }
+    
+            .Tactil img {
+                padding-top: 13px;
+            }
+    
+            .Gustatiu img {
+                padding-top: 22px;
+            }
+
+            .Tancar {
+                width: 15px;
+                height: 15px;
+                background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+        }
+
+        #IndividualGrupal {
+            .Opcions {
+                width: 390px;
+                height: 160px;
+                background-color: #282C63;
+                border-radius: 25px;
+                margin: 0 auto;
+                position: absolute;
+                top: 560px;
+                left: 20px;
+            }
+
+            .contingut {
+                width: 100%;
+                height: 840px;
+                margin: 0px;
+                background-color: rgba(0, 0, 0, 0.129);
+            }
+
+            .Tancar {
+                width: 15px;
+                height: 15px;
+                background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+
+            .Opcions p {
+                margin-top: 0px;
+                color: white;
+                font-size: 1.45rem;
+                text-align: center;
+                font-weight: bolder;
+                font-family: 'Carbona Test', sans-serif;
+            }
+
+            }
+
+            .Apartat {
+                width: 132px;
+                height: 120px;
+                text-align: center;
+                float: left;
+                margin-left: 45px;
+            }
+
+            .Individual {
+                width: 100%;
+                height: 70px;
+                background-color: white;
+                border-radius: 20px;
+                margin-bottom: 10px;
+            }
+
+            .Grupal {
+                width: 100%;
+                height: 70px;
+                background-color: white;
+                border-radius: 20px;
+                margin-bottom: 10px;
+            }
+
+            .Individual img {
+                margin-top: 10px;
+                width: 35px;
+                height: 49px;
+                text-align: center;
+            }
+
+            .Grupal img {
+                margin-top: 10px;
+                width: 60px;
+                height: 49px;
+                text-align: center;
+            }
+
+            #HomeIndividual {
+                .Opcions {
+                    width: 390px;
+                    height: 160px;
+                    background-color: white;
+                    border: #282C63 5px solid;
+                    border-radius: 25px;
+                    margin: 0 auto;
+                    position: absolute;
+                    top: 50px;
+                    left: 10px;
+                }
+    
+                .contingut {
+                    width: 100%;
+                    height: 840px;
+                    margin: 0px;
+                    background-color: rgba(0, 0, 0, 0.129);
+                }
+    
+                .Tancar {
+                    width: 15px;
+                    height: 15px;
+                    background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blava.png);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    margin-top: 15px;
+                    margin-left: 15px;
+                }
+    
+                .Opcions p {
+                    margin-top: 0px;
+                    color: #282C63;
+                    font-size: 1.45rem;
+                    text-align: center;
+                    font-weight: bolder;
+                    font-family: 'Carbona Test', sans-serif;
+                }
+    
+                .Apartat {
+                    width: 132px;
+                    height: 120px;
+                    text-align: center;
+                    float: left;
+                    margin-left: 45px;
+                }
+    
+                .Individual {
+                    width: 100%;
+                    height: 70px;
+                    background-color: #282C63;
+                    border-radius: 20px;
+                    margin-bottom: 10px;
+                }
+    
+                .Grupal {
+                    width: 100%;
+                    height: 70px;
+                    background-color: #282C63;
+                    border-radius: 20px;
+                    margin-bottom: 10px;
+                    opacity: 50%;
+                }
+
+                .opacitat {
+                    opacity: 50%;
+                }
+    
+                .Individual img {
+                    margin-top: 10px;
+                    width: 35px;
+                    height: 49px;
+                    text-align: center;
+                }
+    
+                .Grupal img {
+                    margin-top: 10px;
+                    width: 60px;
+                    height: 49px;
+                    text-align: center;
+                }  
+            }
+
+            #HomeGrupal {
+                .Opcions {
+                    width: 390px;
+                    height: 160px;
+                    background-color: white;
+                    border: #282C63 5px solid;
+                    border-radius: 25px;
+                    margin: 0 auto;
+                    position: absolute;
+                    top: 50px;
+                    left: 10px;
+                }
+    
+                .contingut {
+                    width: 100%;
+                    height: 840px;
+                    margin: 0px;
+                    background-color: rgba(0, 0, 0, 0.129);
+                }
+    
+                .Tancar {
+                    width: 15px;
+                    height: 15px;
+                    background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blava.png);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    margin-top: 15px;
+                    margin-left: 15px;
+                }
+    
+                .Opcions p {
+                    margin-top: 0px;
+                    color: #282C63;
+                    font-size: 1.45rem;
+                    text-align: center;
+                    font-weight: bolder;
+                    font-family: 'Carbona Test', sans-serif;
+                }
+    
+                .Apartat {
+                    width: 132px;
+                    height: 120px;
+                    text-align: center;
+                    float: left;
+                    margin-left: 45px;
+                }
+    
+                .Individual {
+                    width: 100%;
+                    height: 70px;
+                    background-color: #282C63;
+                    border-radius: 20px;
+                    margin-bottom: 10px;
+                    opacity: 50%;
+                }
+    
+                .Grupal {
+                    width: 100%;
+                    height: 70px;
+                    background-color: #282C63;
+                    border-radius: 20px;
+                    margin-bottom: 10px;
+                }
+
+                .opacitat {
+                    opacity: 50%;
+                }
+    
+                .Individual img {
+                    margin-top: 10px;
+                    width: 35px;
+                    height: 49px;
+                    text-align: center;
+                }
+    
+                .Grupal img {
+                    margin-top: 10px;
+                    width: 60px;
+                    height: 49px;
+                    text-align: center;
+                }  
+            }

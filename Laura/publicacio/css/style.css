@@ -1,0 +1,962 @@
+        *{
+            font-family: 'Carbona Test', sans-serif;
+            margin: 0px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none
+        }
+
+        @import url('https://fonts.cdnfonts.com/css/carbona-test');
+        .topbar {
+            background: #282C63;
+            position: fixed;
+            height: 50px;
+            width: 100%;
+            top:0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding-left: 20px;
+            float: left;
+        }
+
+        .NomArtiva {
+            width: 78px;
+            height: 23px;
+            margin-top: 13px;
+            margin-right: 43px;
+            background-image: url(../img/Topbar_Principal/Artiva.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            float: left;
+        }
+
+        .Temps {
+            padding-top: 6px;
+            width: 159px;
+            height: 44px;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .compte {
+            width: 43px;
+            height: 27px;
+            float: left;
+            color: white;
+            text-align: center;
+            font-size: 0.70rem;
+            font-family: 'Carbona Test', sans-serif;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .numero {
+            width: 43px;
+            height: 27px;
+            color: white;
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 1px;
+        }
+
+        .dies {
+            padding-top: -30px;
+            color: #00C8FF;
+            font-size: 1.55rem;
+        }
+
+        .hores {
+            color: #00C8A0;
+            font-size: 1.55rem;
+        }
+
+        .minuts {
+            color: #F03C82;
+            font-size: 1.55rem;
+            margin-right: 0px;
+        }
+
+        .Botiga {
+            width: 25px;
+            height: 31px;
+            margin-top: 10px;
+            margin-right: 23px;
+            background-image: url(../img/Topbar_Principal/Icona_Botiga.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+        }
+
+        .Buscador {
+            width: 30px;
+            height: 31px;
+            margin-top: 10px;
+            background-image: url(../img/Topbar_Principal/Icona_Buscador.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+        }
+
+        .contingut {
+            margin-top: 50px;
+            width: 100%;
+            height: 800px;
+            background-color: #C7C7CF;
+        }
+
+        .interaccio {
+            width: 100%;
+            height: 192px;
+            float: left;
+        }
+
+        .icones1 {
+            width: 37px;
+            height: 165px;
+            margin-left: 20px;
+        }
+
+        .enrere {
+            width: 37px;
+            height: 23px;
+            background-image: url(../img/Publicar_Publicacio/Fletxa_Enrere.png);
+            background-size: 100%;
+            margin-top: 23px;
+        }
+
+        .icones2 {
+            width: 30px;
+            height: 169px;
+            margin-top: -165px;
+            margin-right: 20px;
+            text-align: center;
+            color: white;
+            font-size: 1.063rem;
+            font-weight: bold;
+            float: right;
+        }
+
+        .like {
+            width: 30px;
+            height: 30px;
+            background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Cor.png);
+            margin-left: 10px;
+            background-color: red;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        } 
+
+
+
+        input {
+            visibility: hidden;
+          }
+          
+          #likes {
+            width: 30px;
+            height: 30px;
+            background-image: url(../img/Home_Principal/Elements_Publicacio/like_NoClicat.png);   
+            background-size: 100%;
+            position: relative;
+          }
+          
+          #likes label {
+            width: 30px;
+            height: 30px;
+            visibility: visible;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0; transition: all .5s ease;
+            cursor: pointer;
+            opacity: 0;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+            background-color: transparent;
+            background-size: 30px 30px;
+          }
+          
+          #likes input[type=checkbox]:checked+label {
+            opacity: 1;
+          }
+
+          input {
+            visibility: hidden;
+          }
+          
+          #likesPetit {
+            width: 30px;
+            height: 30px;
+            background-image: url(https://images.vexels.com/media/users/3/137310/isolated/preview/cf5a1b0cf2ebd6f2d7f707ff9317495e-logotipo-de-corazon-de-trazo.png);   
+            background-size: 100%;
+            position: relative;
+            margin-left: 10px;
+          }
+          
+          #likesPetit label {
+            width: 30px;
+            height: 30px;
+            visibility: visible;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0; transition: all .5s ease;
+            cursor: pointer;
+            opacity: 0;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+            background-color: transparent;
+            background-size: 30px 30px;
+          }
+          
+          #likesPetit input[type=checkbox]:checked+label {
+            opacity: 1;
+          }
+
+
+        .visualitzacions {
+            width: 30px;
+            height: 30px;
+            margin-top: 6px;
+            background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Visualitzacions.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .compartit {
+            width: 30px;
+            height: 35px;
+            margin-top: 6px;
+            background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Compartir.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .imatge {
+            width: 100%;
+            height: 430px;
+            background-image: url(../img/Home_Principal/Imatges/Publicacio_2.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            clear: both;
+        }
+
+        .quantitatImatges {
+            margin-top: 50px;
+            width: 100%;
+            height: 15px;
+            float: left;
+        }
+
+        .foto1 {
+            margin: 0 auto;
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            background-color: #00C8FF;
+            float: left;
+            margin-left: 197px;
+            margin-right: 11px;
+        }
+
+        .foto2 {
+            margin: 0 auto;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            background-color: white;
+            border-color: #00C8FF;
+            border-width: 3px;
+            border-style: solid;
+            float: left;
+        }
+
+        .dades {
+            width: 100%;
+            bottom: 0;
+            height: 110px;
+            position: fixed;
+            text-align: center;
+        }
+
+        .usuari {
+            position: relative;
+            top: 20px;
+            width: 195px;
+            height: 40px;
+            margin: 0 auto;
+            border-radius: 25px;
+            background-color: #00C8FF;
+            clear: both;
+        }
+
+        .fotoPerfil {
+            width: 27px;
+            height: 27px;
+            border-radius: 100%;
+            background-image: url(../img/Fotos_Usuaris/FotoUsuari_1.png);
+            background-size: 200%;
+            margin-top: 7px;
+            margin-left: 29px;
+            background-position: -12px -5px;
+            background-repeat: no-repeat;
+            float: left;
+        }
+
+        .nomUsuari {
+            width: 100px;
+            height: 40px;
+            color: white;
+            font-size: 0.938rem;
+            font-weight: bold;
+            line-height: 40px;
+            margin-left: 12px;
+            float: left;
+        }
+
+        .mesInfo {
+            width: 100%;
+            height: 74px;
+            background-color: white;
+            border-radius: 50px 50px 0 0;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        .AvisIA {
+            width: 65px;
+            height: 35px;
+            background-color: #282C63;
+            border-radius: 25px;
+            margin-top: -55px;
+            margin-right: 20px;
+            float: right;
+        }
+
+        .IconaIA {
+            margin-top: 9px;
+            margin-left: 10px;
+            width: 17px;
+            height: 17px;
+            background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_IA.png);
+            background-size: 100%;
+            float: left;
+        }
+
+        .ParaulaIA {
+            width: 42.5px;
+            height: 35px;
+            margin-top: 6px;
+            margin-left: -20px;
+            color: white;
+            font-size: 1.25rem;
+            font-weight: bold;
+            float: right;
+        }
+        
+
+        .Menu {
+            width: 74px;
+            height: 35px;
+            background-color: #282C63;
+            float: right;
+            border-radius: 25px;
+            margin-top: -35px;
+            margin-right: 22px;
+           }
+
+           .IconaDescripcio {
+            width: 25px;
+            height: 30px;
+            background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Descripcio_Clicat.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-top: 5px;
+            margin-left: 6.5px;
+            float: left;
+           }
+
+           .IconaComentaris {
+            width: 25px;
+            height: 30px;
+            background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Comentaris.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-top: 5px;
+            margin-right: 8.5px;
+            float: right;
+           }
+
+            .mesInfo h2 {
+                width: 200px;
+                line-height: 0.938rem;
+                font-size: 0.938rem;
+                font-weight: bold;
+                color: #00C8FF;
+                text-align: left;
+                margin-left: 20px;
+                margin-bottom: 10px;
+            }
+
+            .categoria {
+                width: 50px;
+                float: left;
+                margin-left: 0px;
+            }
+
+            .Categoria2 {
+                width: 50px;
+                float: left;
+            }
+
+            .mesInfo p {
+                width: 390px;
+                font-size: 0.813rem;
+                line-height: 0.9rem;
+                text-align: justify;
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+
+            .iconaCategoria {
+                margin-left: 20px;
+                width: 13px;
+                margin-right: 5px;
+                height: 0.9rem;
+                background-repeat: no-repeat;
+                background-image: url(../img/Publicar_Publicacio/Tactil_Publicar.png);
+                background-position: 0 -1px;
+                background-size: 100%;
+                float: left;
+            }
+
+            .iconaDescarregar {
+                width: 14px;
+                height: 14px;
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/DescarregarArxiu_Tactil.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                float: left;
+                margin-left: 130px;
+                margin-top: -36px;
+            }
+
+            .fotoPerfilC {
+                margin-left: 20px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #00C8FF;
+                margin-top: -3px;
+                margin-right: 7px;
+                float: left;
+            }
+
+            .U {background-image: url(../img/Fotos_Usuaris/FotoUsuari_1.png); background-size: 100%;}
+
+            .Dos {background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png); background-size: 100%;}
+
+            .Tres {background-image: url(../img/Fotos_Usuaris/FotoUsuari_3.png); background-size: 100%;}
+
+            .Quatre {background-image: url(../img/Fotos_Usuaris/FotoUsuari_1.png); background-size: 100%;}
+
+            .Cinc {background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png); background-size: 100%;}
+
+           .comentari {
+            width: 360px;
+            height: 80px;
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 25px;
+           }
+
+           .comentari p {
+            width: 325px;
+            height: 30px;
+           }
+
+           .likesComentari {
+            width: 50px;
+            height: 80px;
+            margin-top: 20px;
+            float: left;
+           }
+
+           .respostes {
+            margin-left: 20px;
+            width: 27px;
+            height: 17px;
+            background-image: url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Icona_Respostes.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-bottom: 10px;
+            float: left;
+           }
+
+           .quantitatRespostes {
+            width: 10px;
+            height: 10px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #282C63;
+            float: left;
+            background-color: azure;
+            margin-top: -32px;
+            margin-left: 5px;
+           }
+
+            .quantitatLikes {
+                width: 100%;
+                height: 30px;
+                font-size: 1rem;
+                line-height: 30px;
+               }
+
+------------------------------------------------------------------------------------------
+
+        #Imatge {
+            .contingut {
+            height: 790px;
+            }
+        }
+
+        #ImatgeVisualitzacio{
+            .contingut {
+                margin-top: 0;
+                width: 100%;
+                height: 840px;
+                background-color: #C7C7CF;
+            }
+            .interaccio {
+                margin-bottom: 50px;
+            }
+        }
+
+        #ImatgeDescripcio {
+            .contingut {
+                background-color: #C7C7CF;
+                height: 700px;
+            }
+
+            .dades {
+                width: 100%;
+                height: 750px;
+                border-radius: 100%;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+        }
+
+        #ImatgeComentaris {
+            .contingut {
+                background-color: #C7C7CF;
+                height: 700px;
+            }
+
+            .dades {
+                width: 100%;
+                height: 750px;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .IconaDescripcio {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Descripcio.png);
+               }
+    
+               .IconaComentaris {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Comentaris_Clicat.png);
+               }
+
+           .comentari .like {
+            margin: 0 auto;
+            margin-top: 15px;
+           }
+        }
+
+        #IA {
+            .imatge {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_3.jpg);
+                background-position: 0 -200px;
+            }
+
+            .contingut {
+                background-color: #C7C7CF;
+                height: 790px;
+                }
+
+            .usuari {background-color: #00C8A0;}
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_4.png);
+                background-size: 200%;
+                background-position: 0px -20px;
+            }
+
+            .dades {
+                clear: both;
+            }
+        }
+
+        #IaVisualitzacio {
+            .contingut {
+                margin-top: 0;
+                width: 100%;
+                height: 840px;
+                background-color: #C7C7CF;
+            }
+            .interaccio {
+                margin-bottom: 50px;
+            }
+
+            .imatge {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_3.jpg);
+                background-position: 0 -200px;
+            }
+        }
+
+        #IADescripcio {
+            .contingut {background-color: #C7C7CF;}
+
+            .dades {
+                width: 100%;
+                height: 750px;
+                border-radius: 100%;
+            }
+
+            .usuari {
+                background-color: #00C8A0;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_4.png);
+                background-size: 200%;
+                background-position: 0px -20px;
+            }
+
+            .mesInfo h2 {
+                color: #00C8A0;
+            }
+
+            .iconaCategoria {
+                width: 15px;
+                height: 1.8rem;
+                background-image: url(../img/Publicar_Publicacio/Gustatiu_Publicar.png);
+                background-position: 1px 1.5px;
+                background-size: 90%;
+            }
+
+            .iconaDescarregar {
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/DescarregarArxiu_Gustatiu.png);
+            }
+        }
+
+        #IAComentaris {
+            .contingut {background-color: #C7C7CF;}
+
+            .dades {
+                width: 100%;
+                height: 750px;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .IconaDescripcio {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Descripcio.png);
+               }
+    
+            .IconaComentaris {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Comentaris_Clicat.png);
+               }
+
+           .comentari .like {
+            margin: 0 auto;
+            margin-top: 15px;
+           }
+
+           .usuari {background-color: #00C8A0;}
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_4.png);
+                background-size: 200%;
+                background-position: 0px -20px;
+            }
+
+            h2 {
+                color: #00C8A0;
+            }
+        }
+        
+
+        #Audio {
+            .contingut {background-image: url(../img/Home_Principal/Imatges/Publicacio_4.jpg);
+            background-size: 200%;
+            background-position: -100px 0;
+            height: 790px;
+            }
+
+
+            .usuari {background-color: #F03C82;}
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png);
+                background-size: 100%;
+                background-position: 0px 0px;
+            }
+
+            .iconaAudio {
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+                padding-top: 146px;
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Audio.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                clear: both;
+            }
+
+            .barraTemps {
+                width: 335px;
+                height: 50px;
+                margin: 0 auto;
+                margin-top: 20px;
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Barra_Audio.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .continuarStop {
+                width: 63px;
+                height: 63px;
+                margin: 0 auto;
+                margin-top: 18px;
+                background-color: white;
+                border-radius: 50px;
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Continuar.png);
+                background-position: 20px 14px;
+                background-size: 35%;
+                background-repeat: no-repeat;
+            }
+        }
+
+        #AudioDescripcio {
+            .contingut {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_4.jpg);
+            }
+
+            .dades {
+                width: 100%;
+                height: 750px;
+                border-radius: 100%;
+            }
+
+            .usuari {
+                background-color: #F03C82;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png);
+                background-size: 100%;
+                background-position: 0px 0;
+            }
+
+            .mesInfo h2 {
+                color: #F03C82;
+            }
+
+            .iconaCategoria {
+                width: 15px;
+                height: 1.8rem;
+                background-image: url(../img/Publicar_Publicacio/Sonor_Publicar.png);
+                background-position: 1px 1px;
+                background-size: 70%;
+            }
+
+            .iconaDescarregar {
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/DescarregarArxiu_Sonor.png);
+            }
+        }
+
+        #AudioComentaris {
+            .contingut {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_4.jpg);
+            }
+
+            .dades {
+                width: 100%;
+                height: 750px;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .IconaDescripcio {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Descripcio.png);
+               }
+    
+               .IconaComentaris {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Comentaris_Clicat.png);
+               }
+
+           .comentari .like {
+            margin: 0 auto;
+            margin-top: 15px;
+           }
+
+           .usuari {background-color: #F03C82;}
+
+           .fotoPerfil {
+            background-image: url(../img/Fotos_Usuaris/FotoUsuari_2.png);
+            background-size: 100%;
+            background-position: 0px 0;
+        }
+
+            h2 {
+                color: #F03C82;
+            }
+        }
+        
+        #Video {
+            .usuari {background-color: #282C63;}
+
+            .interaccio {
+                margin-bottom: 409px;
+            }
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_3.png);
+                background-size: 200%;
+            }
+
+            .contingut {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_1_V.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                height: 790px;
+                margin-top: 50px;
+            }
+
+            .barraTemps {
+                width: 335px;
+                height: 50px;
+                margin: 0 auto;
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Barra_Audio.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                clear: both;
+            }
+        }
+
+        #VideoDescripcio {
+            .contingut {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_1_V.jpg);
+                background-size: 100%;
+            }
+
+            .dades {
+                width: 100%;
+                height: 750px;
+                border-radius: 100%;
+            }
+
+            .usuari {
+                background-color: #282C63;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .fotoPerfil {
+                background-image: url(../img/Fotos_Usuaris/FotoUsuari_3.png);
+                background-size: 200%;
+            }
+
+            .mesInfo h2 {
+                color: #282C63;
+            }
+
+            .iconaCategoria {
+                width: 15px;
+                height: 1.8rem;
+                background-image: url(../img/Publicar_Publicacio/Visual_Publicar.png);
+                background-position: 0px 1px;
+                background-size: 100%;
+            }
+
+            .iconaDescarregar {
+                background-image: url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/DescarregarArxiu_Auditiu.png);
+            }
+        }
+
+        #VideoComentaris {
+            .contingut {
+                background-image: url(../img/Home_Principal/Imatges/Publicacio_1_V.jpg);
+                background-size: 100%;
+            }
+
+            .dades {
+                width: 100%;
+                height: 750px;
+            }
+
+            .mesInfo{
+                width: 100%;
+                height: 710px;
+                padding-top: 57px;
+            }
+
+            .IconaDescripcio {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Descripcio.png);
+               }
+    
+            .IconaComentaris {
+                background-image:url(../img/Home_Principal/Elements_Publicacio/Descripcio_Comentaris/Comentaris_Clicat.png);
+               }
+
+           .comentari .like {
+            margin: 0 auto;
+            margin-top: 15px;
+           }
+
+           .usuari {background-color: #282C63;}
+
+           .fotoPerfil {
+            background-image: url(../img/Fotos_Usuaris/FotoUsuari_3.png);
+            background-size: 200%;
+        }
+
+            h2 {
+                color: #282C63;
+            }
+        }
