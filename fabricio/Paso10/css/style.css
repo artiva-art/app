@@ -1,0 +1,353 @@
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    height: 844px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+  }
+
+.components {
+    background-color: #282864;
+    height: 50px;
+    z-index: 100;
+}
+
+
+.seguiment{
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    top: 8px;
+    left: 70px;
+    height: 15px;
+    width: 250px;
+}
+
+.seguiment .envio{
+    margin-right: 60px;
+    margin-left: 10px;
+}
+.seguiment .pago{
+    margin-right: 60px;
+}
+
+.seguiment .resum{
+    color: #F03C82;
+}
+
+
+
+
+.icon {
+    position: absolute;
+}
+
+
+
+.icon-close {
+    top: 17px;
+    left: 20px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+/* ------------ titol ---------------------------------------------- */
+
+h1{
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.blue{
+    background-color: #282864;
+    color: white;
+    height: 240px;
+    margin-top: 20px;
+}
+
+.blue .total{
+    font-size: 25px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 115px;
+}
+
+
+
+.blue .preu{
+    font-size: 25px;
+    top: 12px;
+    left: 40px;
+}
+
+
+
+
+
+
+.contenido{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: ;
+    position: absolute; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 130px;
+    gap: 5px;
+}
+
+
+
+
+.producto .recomendado {
+    background-color: red;
+    left: 0px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    bottom: 10px;
+}
+
+
+
+
+/* ------------ Resum de compra ---------------------------------------------- */
+
+
+.caja{
+    height: 130px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+.caja img{
+    height: 50px;
+    width: 45px;
+    float: left;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.caja .titulo{
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.caja .detalls{
+    position: relative;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 11px;
+    display: inline-block;
+}
+
+
+.caja .gratis{
+    line-height: 30px;
+    font-size: 20px;
+    display: inline;
+    color: #F03C82;
+    left: 90px;
+}
+
+.caja .editar {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 295px;
+    bottom: 15px;
+}
+
+.caja .editar img{
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    bottom: 23px;
+}
+
+
+/* ------------ Resum de compra2 ---------------------------------------------- */
+
+.tarjeta{
+    height: 70px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.tarjeta img{
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.tarjeta .titol{
+    float: left;
+    position: relative;
+    margin-top: 22px;
+    line-height: 25px;
+    font-size: 15px;
+    left: 70px;
+}
+
+.tarjeta3{
+    height: 70px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.tarjeta3 .imatge3{
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    left: 25px;
+    position: absolute;
+}
+
+.tarjeta3 .imatge3 img{
+    width: 30px;
+    height: 30px;
+    top: 5px;
+}
+
+.tarjeta3 .titol {
+    left: 30px;
+    margin-top: 25px;
+    margin-left: 43px;
+    height: 30px;
+}
+
+.tarjeta img{
+    height: 30px;
+    width: 25px;
+    bottom: 15px;
+    right: 130px;
+}
+
+
+
+
+
+.tarjeta, .tarjeta3 {
+    position: relative;
+}
+
+
+.customizar-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    bottom: 12px;
+    left: 300px; 
+}
+
+.customizar-checkbox:checked::after {
+    content: "✔";
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    color: green;
+    font-size: 16px;
+}
+
+.customizar-checkbox2 {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 117px;
+}
+
+.customizar-checkbox2:checked::after {
+    content: "✔";
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    color: green;
+    font-size: 16px;
+}
+
+
+
+
+
+/* ------------ Comprar ---------------------------------------------- */
+
+.tramitar{
+    font-size: 17px;
+    background-color: #DB256E;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    top: 150px;
+    height: 20px;
+    width: 180px;
+    font-weight: 550;
+    margin-left: 83px;
+}
+
+.tramitar:hover {
+    background-color: #F2609B;
+}

@@ -1,0 +1,337 @@
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+}
+
+body {
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    height: 844px;
+ 
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.components {
+    background-color: transparent;
+    height: 100px;
+    z-index: 100;
+}
+
+
+/* ------------ Columnes ---------------------------------------------- */
+
+.contenidor{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    background-color: ; 
+}
+
+.producte .tarjeta {
+    background-color: ;
+    padding: 0px;
+    text-align: center;
+    width: 390px;
+    bottom: 100px;
+    height: 300px;
+}
+
+.producte img {
+    width: 100%;
+    bottom: 5px;
+}
+
+
+
+
+
+.container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+}
+
+.icon-close {
+    top: 20px;
+    left: 20px;
+    width: 30px;
+}
+
+.icon-cart {
+    top: 10px;
+    right: 30px;
+    width: 40px;
+}
+
+.icon-share {
+    bottom: 10px;
+    right: 30px;
+    width: 40px;
+}
+
+.editar {
+    position: absolute;
+    height: 70px;
+    background-color: ; 
+    z-index: 1000; 
+
+    left: 390px;
+    right: 0px;
+    width: 40px;
+}
+
+.editar2 {
+    position: absolute;
+    height: 70px;
+    background-color: ; 
+    z-index: 1000; 
+
+    left: 390px;
+
+    top: 100px;
+    right: 30px;
+    width: 40px;
+    
+}
+
+/* ------------ despres de l'imatge ---------------------------------------------- */
+
+.vermell{
+    height: 50px;
+    background: #F03C82;
+    bottom: 30px;
+}
+
+.vermell .text1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+
+.vermell .text2{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-left: 260px;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* ------------ sugeriment ---------------------------------------------- */
+
+
+.fons{
+    background: white;
+    bottom: 50px;
+    z-index: 500;
+
+}
+
+
+
+
+/* ------------ Similars ---------------------------------------------- */
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    top: 20px;
+}
+
+
+
+
+
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    background-color: ; 
+
+}
+
+
+
+
+.producto .recomendado {
+    background-color: ;
+    padding: 10px;
+    text-align: center;
+    width: 160px;
+}
+
+.producto img {
+    width: 100%;
+}
+
+/* ------------ text ---------------------------------------------- */
+
+
+.producto .titol {
+    margin: 0px 0; 
+    right: 85px;
+    font-size: 13px;
+    margin-top: 10px
+}
+
+
+.producto .preu {
+    color: ;
+    right: 15px;
+    font-size: 13px;
+    bottom: 15px;
+
+}
+
+
+
+
+/* ------------ descripcio ---------------------------------------------- */
+
+
+.esquerra{
+    width: 50%;
+    margin: 0;
+    background: ;
+    float: left;
+}
+
+
+
+.dreta{
+    width: 40%;
+    margin: 0;
+    background: ;
+    float: right;
+    margin-top: 20px;
+}
+
+.dreta .cesta img{
+    width: 25px;
+}
+
+.dreta .likes img{
+    width: 20px;
+    bottom: 5px;
+}
+
+
+.textos{
+    height: 84px;
+    background-color: ;
+    overflow: hidden;
+}
+
+
+.titol{    
+    width: 250px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 5px;
+    
+}
+
+.likes{
+    height: 23px;
+    width: 23px;
+    background-color: ;
+    float: left;
+    bottom: 7px;
+    right: 5px;
+
+    argin: 2rem 0 0 0;
+}
+
+input[type=checkbox]{
+    visibility: hidden;
+  }
+
+.likes label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: 1;
+    background-image: url(https://images.vexels.com/media/users/3/137310/isolated/preview/cf5a1b0cf2ebd6f2d7f707ff9317495e-logotipo-de-corazon-de-trazo.png);
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+  }
+  
+  .likes input[type=checkbox]:checked+label {
+    opacity: 1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+    background-size: 1.25rem 1.25rem;
+    background-repeat: no-repeat;
+  }
+
+
+
+.cesta{
+    width: 40px;
+    height: 40px;
+    background-color: ;
+    font-size: 20px;
+    float: left;
+    line-height: 30px;
+    font-size: 600;
+    bottom: 10px;
+}
+
+
+.menu-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url('../img/barra.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .menu-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .menu-bar img {
+    height: 28px; 
+    width: auto;
+    top: 7px;
+  }
+
+  
+.menu-bar .central-btn img{
+    height: 50px;
+    margin-bottom: 14px;
+    left: 3px;
+}

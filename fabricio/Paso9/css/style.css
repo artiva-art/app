@@ -1,0 +1,232 @@
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    height: 844px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+  }
+
+
+.components {
+    background-color: #282864;
+    height: 50px;
+    z-index: 100;
+}
+
+
+.seguiment{
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    top: 8px;
+    left: 70px;
+    height: 15px;
+    width: 250px;
+}
+
+.seguiment .envio{
+    margin-right: 60px;
+    margin-left: 10px;
+}
+.seguiment .pago{
+    color: #F03C82;
+    margin-right: 60px;
+}
+
+
+
+
+
+.icon {
+    position: absolute;
+}
+
+
+
+.icon-close {
+    top: 17px;
+    left: 20px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+/* ------------ titol ---------------------------------------------- */
+
+h1{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+
+/* ------------ articles ---------------------------------------------- */
+
+.tarjeta{
+    height: 70px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.tarjeta img{
+    
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 270px;
+    margin-right: 20px;
+    display: block;
+    bottom: 10px;
+
+}
+
+.tarjeta .titol{
+    float: left;
+    position: relative;
+    margin-top: 22px;
+    line-height: 25px;
+    font-size: 15px;
+    left: 20px;
+}
+
+
+.tarjeta2{
+    height: 70px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.tarjeta2 img{
+    
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 265px;
+    margin-right: 20px;
+    display: block;
+    bottom: 25px;
+
+}
+
+.tarjeta2 .titol{
+    float: left;
+    position: relative;
+    margin-top: 22px;
+    line-height: 25px;
+    font-size: 15px;
+    left: 20px;
+}
+
+
+.tarjeta3{
+    height: 70px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.tarjeta3 img{
+    
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 265px;
+    margin-right: 20px;
+    display: block;
+    bottom: 25px;
+
+}
+
+.tarjeta3 .titol{
+    float: left;
+    position: relative;
+    margin-top: 22px;
+    line-height: 25px;
+    font-size: 15px;
+    left: 20px;
+}
+
+
+
+.blue{
+    background-color: #282864;
+    color: white;
+    height: 190px;
+    margin-top: 190px;
+}
+
+.blue .total{
+    font-size: 25px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 115px;
+}
+
+
+
+.blue .preu{
+    font-size: 25px;
+    top: 15px;
+    left: 40px;
+}
+
+
+
+
+
+
+.contenido{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: ;
+    position: absolute; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    height: 100px;
+}
+
+
+
+
+.producto .recomendado {
+    background-color: ;
+    left: 0px;
+    text-align: center;
+    
+}
+
+.producto img {
+    width: 50%;
+    bottom: 10px;
+}
+

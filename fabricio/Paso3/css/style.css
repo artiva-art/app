@@ -1,0 +1,453 @@
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+  }
+
+.components {
+    background-color: black;
+    height: 100px;
+}
+
+
+
+/* ------------ Columnes ---------------------------------------------- */
+
+.contenidor{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    background-color: ; 
+}
+
+.producte .tarjeta {
+    background-color: ;
+    padding: 0px;
+    text-align: center;
+    width: 390px;
+}
+
+.producte img {
+    width: 100%;
+}
+
+
+
+.boton {
+
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    top: 60px;
+    left: 20px;
+}
+
+.boton:hover {
+    background-color: #DB256E;
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+}
+
+.icon-close {
+    top: 20px;
+    left: 20px;
+    width: 30px;
+}
+
+.icon-cart {
+    top: 10px;
+    right: 30px;
+    width: 40px;
+}
+
+.icon-share {
+    bottom: 10px;
+    right: 30px;
+    width: 40px;
+}
+
+.editar {
+    position: absolute;
+    height: 70px;
+    background-color: ; 
+    z-index: 1000; 
+
+    left: 390px;
+    right: 0px;
+    width: 40px;
+}
+
+.editar2 {
+    position: absolute;
+    height: 70px;
+    background-color: ; 
+    z-index: 1000; 
+
+    left: 390px;
+
+    top: 100px;
+    right: 30px;
+    width: 40px;
+    
+}
+
+
+
+
+/* ------------ despres de l'imatge ---------------------------------------------- */
+
+.negre{
+    height: 100px;
+    background: black;
+    bottom: 3px;
+    z-index: -100;
+}
+
+.fons{
+    height: 600px;
+    background: white;
+    bottom: 40px;
+}
+
+/* ------------ usuari ---------------------------------------------- */
+
+.fons .usuari {
+    font-family: ;
+    font-size: 15px;
+    background-color: #1FB4ED;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    bottom: 22px;
+    left: 110px;
+    height: 25px;
+    width: 125px;
+}
+
+.fons .usuari .cercle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: white;
+}
+
+.fons .usuari .autor{
+    height: 30px;
+    width: 30px;
+    background: ;
+    padding: 5px 15px;
+    margin-top: 15px;
+    color: white;
+}
+
+.fons .usuari .cercle img{
+    height: 35px;
+    width: 35px;
+    right: 2px;
+    bottom: 2px;
+}
+
+
+/* ------------ visual ---------------------------------------------- */
+
+.visual{
+    height: 40px;
+    width: 40px;
+    left: 20px;
+}
+
+
+/* ------------ afegir ---------------------------------------------- */
+
+.fons .afegir{
+    font-size: 20px;
+    background-color: #DB256E;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    bottom: 45px;
+    left: 130px;
+    height: 25px;
+    width: 80px;
+}
+
+.afegir:hover {
+    background-color: #F2609B;
+}
+
+
+.fons .afegir p{
+    left: 15px;
+}
+
+
+.fons .preu{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    bottom: 45px;
+    left: 280px;
+    height: 25px;
+    width: 80px;
+    top: 45px;
+    right: 30px;
+    width: 40px;
+    position: absolute;
+    font-size: 20px;
+}
+
+
+.descripcio{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.categoria{
+    color: #282864;
+    font-weight: 600;
+}
+
+.descarga{
+    height: 20px;
+    width: 20px;
+    left: 20px;
+    top: 5px;
+}
+
+
+/* ------------ Similars ---------------------------------------------- */
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    background-color: ; 
+
+}
+
+
+
+
+.producto .recomendado {
+    background-color: ;
+    padding: 5px;
+    text-align: center;
+    width: 160px;
+}
+
+.producto img {
+    width: 100%;
+}
+
+/* ------------ text ---------------------------------------------- */
+
+
+.producto .textos .titol {
+    font-weight: 400;
+    margin: 0px 0; 
+    right: 80px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* ------------ descripcio ---------------------------------------------- */
+
+
+.esquerra{
+    width: 50%;
+    margin: 0;
+    background: ;
+    float: left;
+}
+
+.esquerra .titol{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+.dreta{
+    width: 40%;
+    margin: 0;
+    background: ;
+    float: right;
+    left: 20px;
+}
+
+.dreta .cesta img{
+    width: 25px;
+}
+
+.dreta .likes img{
+    width: 20px;
+    bottom: 5px;
+    right: 10px;
+}
+
+
+.textos{
+    height: 84px;
+    background-color: ;
+    overflow: hidden;
+}
+
+
+.titol{    
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 0;
+    font-size: 22px;
+    
+}
+
+input[type=checkbox]{
+    visibility: hidden;
+  }
+
+.likes{
+    height: 23px;
+    width: 23px;
+    background-color: ;
+    float: left;
+    top: 10px;
+    right: 5px;
+
+    argin: 2rem 0 0 0;
+}
+
+.likes label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: 1;
+    background-image: url(https://images.vexels.com/media/users/3/137310/isolated/preview/cf5a1b0cf2ebd6f2d7f707ff9317495e-logotipo-de-corazon-de-trazo.png);
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+  }
+  
+  .likes input[type=checkbox]:checked+label {
+    opacity: 1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+    background-size: 1.25rem 1.25rem;
+    background-repeat: no-repeat;
+  }
+
+
+
+.cesta{
+    width: 20px;
+    height: 20px;
+    background-color: ;
+    font-size: 20px;
+    float: left;
+    line-height: 30px;
+    font-size: 600;
+    top: 5px;
+}
+
+
+
+.menu-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url('../img/barra.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .menu-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .menu-bar img {
+    height: 28px; 
+    width: auto;
+    top: 7px;
+  }
+
+  
+.menu-bar .central-btn img{
+    height: 50px;
+    margin-bottom: 14px;
+    left: 3px;
+}

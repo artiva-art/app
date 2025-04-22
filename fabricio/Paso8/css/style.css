@@ -1,0 +1,376 @@
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    height: 844px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+  }
+
+.components {
+    background-color: #282864;
+    height: 50px;
+    z-index: 100;
+}
+
+
+.seguiment{
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    top: 8px;
+    left: 70px;
+    height: 15px;
+    width: 250px;
+}
+
+.seguiment .envio{
+    color: #F03C82;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+
+h1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.icon {
+    position: absolute;
+}
+
+
+
+.icon-close {
+    top: 17px;
+    left: 20px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+
+
+
+/* ------------ Dades ---------------------------------------------- */
+
+.tarjeta{
+    height: 40px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+.tarjeta .barra{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 20px;
+    opacity: 50%;
+    
+}
+
+.buscador {
+    width: 300px;
+    height: 30px;
+    bottom: 0px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.tarjeta2{
+    height: 40px;
+    background-color: #FCFAFA;
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.buscadorr2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+    border: none;
+}
+
+
+.tarjeta2 .barra2{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 10px;
+    opacity: 50%;
+}
+
+.tarjeta3{
+    float: left;
+    height: 40px;
+    background-color: #FCFAFA;
+    left: 70px;
+    width: 280px;
+    margin-left: 20px;
+    border-radius: 10px;
+    bottom: 40px;
+}
+
+.buscadorr3 {
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.tarjeta3 .barra3{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 30px;
+    opacity: 50%;
+}
+
+/* ------------ Dades2 ---------------------------------------------- */
+
+.titol2{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+.tarjeta4{
+    height: 40px;
+    background-color: #FCFAFA;
+    top: 20px;
+    margin-top: 15px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+.tarjeta4 .barra4{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 20px;
+    opacity: 50%;
+}
+
+.tarjeta5{
+    height: 40px;
+    background-color: #FCFAFA;
+    top: 15px;
+    margin-top: 20px;
+    width: 170px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.buscadorr5 {
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.tarjeta5 .barra5{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 20px;
+    opacity: 50%;
+}
+
+.tarjeta6{
+    height: 40px;
+    background-color: #FCFAFA;
+    bottom: 40px;
+    margin-top: 15px;
+    width: 170px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+
+.tarjeta6 .barra6{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 20px;
+    opacity: 50%;
+}
+
+
+.tarjeta7{
+    height: 40px;
+    background-color: #FCFAFA;
+    bottom: 25px;
+    width: 170px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+.tarjeta7 .barra7{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 20px;
+    opacity: 50%;
+}
+
+.tarjeta8{
+    height: 40px;
+    background-color: #FCFAFA;
+    bottom: 65px;
+    width: 170px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+
+.tarjeta8 .barra8{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 20px;
+    opacity: 50%;
+}
+
+/* ------------ Final Dades ---------------------------------------------- */
+
+.final{
+    height: 40px;
+    background-color: #FCFAFA;
+    bottom: 50px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+.final .guardar{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 20px;
+    left: 150px;
+}
+
+.final:hover{
+    background-color: #F03C82;
+    color: white;
+}
+
+/* ------------ Descripcio ---------------------------------------------- */
+
+.descripcio{
+    font-size: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom: 35px;
+}
+
+/* ------------ Productes ---------------------------------------------- */
+
+.blue{
+    background-color: #282864;
+    color: white;
+    height: 190px;
+    bottom: 24px;
+}
+
+.blue .total{
+    font-size: 25px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 115px;
+}
+
+
+
+.blue .preu{
+    font-size: 25px;
+    top: 15px;
+    left: 40px;
+}
+
+
+
+
+
+
+.contenido{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: ;
+    position: absolute; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    height: 100px;
+}
+
+
+
+
+.producto .recomendado {
+    background-color: ;
+    left: 0px;
+    text-align: center;
+}
+
+.producto img {
+    width: 50%;
+    bottom: 10px;
+}
+
+

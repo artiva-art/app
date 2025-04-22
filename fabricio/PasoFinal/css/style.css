@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    height: 844px;
+}
+
+.components {
+    background-color: ;
+    height: 50px;
+    z-index: 100;
+}
+
+
+.icon {
+    position: absolute;
+}
+
+
+
+.icon-close {
+    top: 11px;
+    right: 30px;
+    width: 30px;
+}
+
+/* ------------ descripcio ---------------------------------------------- */
+
+.descripcio{
+    font-size: 17px;
+    color: #282864;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 53px;
+
+}
+
+.cercle{
+    height: 300px;
+    width: 300px;
+    background-color: #282864;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.cercle img{
+    height: 200px;
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+
+
+/* ------------ footer ---------------------------------------------- */
+
+.blue{
+    background-color: #91B508;
+    color: white;
+    height: 250px;
+}
+
+.blue .total{
+    font-size: 13px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.blue .iva{
+    font-size: 14px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 12px;
+}
