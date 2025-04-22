@@ -976,13 +976,22 @@ input {
     border: none;
     margin-bottom: 18px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
-.primer input{height: 37px; ;}
+
+.primer input {height: 37px;}
 
 .segon input {height: 188px;}
 
 .tercer input {height: 95px;}
 
 .quart input {height: 37px;}
+
+
+.primer {margin-bottom: 20px;}
+.segon {margin-bottom: 20px;}
+.tercer {margin-bottom: 35px;}
+.quart {margin-bottom: 35px;}
+
+
