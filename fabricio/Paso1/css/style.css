@@ -31,7 +31,6 @@ html, body {
 }
 
 
-
 .icon-close {
     top: 17px;
     left: 20px;
@@ -47,14 +46,17 @@ html, body {
     width: 420px;
 }
 
-
+.components .atras{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
 
 
 .flecha {
     color: white;
     text-decoration: none;
     font-size: 24px;
-    
 }
 
 .buscador {
