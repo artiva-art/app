@@ -956,3 +956,33 @@
 .PrevNo {
     opacity: 75%;
 }
+
+input {
+    width: 390px;
+    margin: 0 auto;
+    background-color: #282c6349;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+input {
+    width: 390px;
+    margin: 0 auto;
+    background-color: #282c6349;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.primer input{height: 37px; ;}
+
+.segon input {height: 188px;}
+
+.tercer input {height: 95px;}
+
+.quart input {height: 37px;}
