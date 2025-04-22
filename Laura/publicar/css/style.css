@@ -1,958 +1,958 @@
-        *{
-            font-family: 'Carbona Test', sans-serif;
-            margin: 0;
-        }
-
-        @import url('https://fonts.cdnfonts.com/css/carbona-test');
-        .topbar {
-            background: #282C63;
-            position: fixed;
-            height: 50px;
-            width: 100%;
-            top:0;
-            left: 0;
-            right: 0;
-            z-index: 100;
-            padding-left: 20px;
-            float: left;
-        }
-
-        .NomArtiva {
-            width: 78px;
-            height: 23px;
-            margin-top: 13px;
-            margin-right: 43px;
-            background-image: url(../img/Topbar_Principal/Artiva.png);
-            background-repeat: no-repeat;
-            background-size: 100%;
-            float: left;
-        }
-
-        .Temps {
-            padding-top: 6px;
-            width: 159px;
-            height: 44px;
-            float: left;
-            margin-right: 30px;
-        }
-
-        .compte {
-            width: 43px;
-            height: 27px;
-            float: left;
-            color: white;
-            text-align: center;
-            font-size: 0.70rem;
-            font-family: 'Carbona Test', sans-serif;
-            font-weight: bold;
-            margin-right: 10px;
-        }
-
-        .numero {
-            width: 43px;
-            height: 27px;
-            color: white;
-            background-color: white;
-            border-radius: 8px;
-            margin-bottom: 1px;
-        }
-
-        .dies {
-            padding-top: -30px;
-            color: #00C8FF;
-            font-size: 1.55rem;
-        }
-
-        .hores {
-            color: #00C8A0;
-            font-size: 1.55rem;
-        }
-
-        .minuts {
-            color: #F03C82;
-            font-size: 1.55rem;
-            margin-right: 0px;
-        }
-
-        .Botiga {
-            width: 25px;
-            height: 31px;
-            margin-top: 10px;
-            margin-right: 23px;
-            background-image: url(../img/Topbar_Principal/Icona_Botiga.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            float: left;
-        }
-
-        .Buscador {
-            width: 30px;
-            height: 31px;
-            margin-top: 10px;
-            background-image: url(../img/Topbar_Principal/Icona_Buscador.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            float: left;
-        }
-    
-        .botbar {
-            position: fixed;
-            height: 60px;
-            bottom:0;
-            left: 0;
-            right: 0;
-            z-index: 100;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            padding: 0px 30px;
-        }
-
-        .icona {
-            width: 27px;
-            height: 27px;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            float: left;
-            margin-top: 24px;
-        }
-
-        .PaginaHome {background-image: url(../img/Botbar/Botbar_Home.png);}
-
-        .homeClicada {
-            margin-right: 53px;
-            margin-top: 15px;
-            background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
-        }   
-
-        .reptes {
-            margin-right: 53px;
-            background-image: url(../img/Icones/Icona_Reptes.png);
-        }
-
-        .publicar {
-            width: 50px;
-            height: 50px;
-            margin-top: 4.5px;
-            margin-right: 53px;
-            background-image: url(../img/Icones/Icona_Publicar.png);
-        }
-
-        .comunitat {
-            width: 33px;
-            margin-right: 45px;
-            background-image: url(../img/Icones/Icona_Comunitat.png);
-        }
-
-        .perfil {
-            background-image: url(../img/Icones/Icona_Perfil.png);
-        }
-
-        .contingut {
-            margin-top: 50px;
-            width: 100%;
-            height: 760px;
-        }
-
-        .enrere {
-            width: 37px;
-            height: 23px;
-            background-image: url(../img/Publicar_Publicacio/Fletxa_Enrere.png);
-            background-size: 100%;
-            margin-top: 13px;
-            margin-left: 5px;
-            float: left;
-            margin-right: 80px;
-        }
-
-        .previsualitzacio {
-            width: 160px;
-            height: 50px;
-            color: white;
-            font-size: 1.6rem;
-            line-height: 54px;
-            font-weight: bold;
-            float: left;
-        }
-
-        #Descripcio {
-            .publicar {
-                width: 32px;
-                height: 32px;
-                background-color: white;
-                border-radius: 25px;
-                float: left;
-                text-align: center;
-                margin-top: 10px;
-                margin-left: 76px;
-                margin-right: 0;
-            }
-
-            .publicar img {
-                width: 17px;
-                height: 17px;
-                margin-top: 7.5px;
-                margin-left: 0.86px;
-            }
-
-            h2 {
-                color: #282C63;
-                font-size: 1.375rem;
-                margin-left: 20px;
-                margin-bottom: 8px;
-                height: 20px;
-            }
-
-            .prim {
-                margin-top: 68px;
-                height: 20px;
-            }
-
-            .text {
-                width: 390px;
-                margin: 0 auto;
-                background-color: #282c6349;
-                border-radius: 10px;
-                margin-bottom: 18px;
-                margin-top: 10px;
-            }
-
-            .primer {height: 37px;}
-            .segon {height: 188px;}
-            .tercer {height: 95px;}
-            .quart {height: 37px;}
-
-            .EtiquetaIA {
-                width: 100%;
-                height: 60px;
-                background-color: #282C63;
-                margin-bottom: 15px;
-            }
-
-            .blanc {
-                color: white;
-                line-height: 60px;
-            }
-
-            .boto {
-                width: 68px;
-                height: 33px;
-                background-color: white;
-                float: right;
-                margin-top: -15px;
-                margin-right: 20px;
-                border-radius: 25px;
-            }
-
-            .clicat {
-                width: 22px;
-                height: 22px;
-                background-color: #282c6349;
-                border-radius: 10px;
-                margin-top: 5px;
-                margin-left: 8px;
-            }
-
-            .publicarGran {
-                width: 65px;
-                height: 65px;
-                background-color: #282C63;
-                margin-left: 20px;
-                text-align: center;
-                border-radius: 30px;
-                margin-top: 10px;
-            }
-
-            .publicarGran img {
-                width: 35px;
-                height: 35px;
-                margin-top: 14px;
-            }
-        }
-
-        .Vertical {
-            width: 45px;
-            height: 95px;
-            background-color: #282c63b7;
-            border-radius: 10px;
-            margin: 0 auto;
-        }
-
-        .Horitzontal {
-            width: 94px;
-            height: 54px;
-            background-color: #282c63b7;
-            border-radius: 10px;
-            margin: 0 auto;
-            margin-top: 41px;
-            margin-left: 25px;
-        }
-
-        .Quadre {
-            width: 95px;
-            height: 95px;
-            background-color: #282c63b7;
-            border-radius: 10px;
-            margin: 0 auto;
-        }
-
-        .Previsualitzacio {
-            width: 390px;
-            height: 40px;
-            margin: 0 auto;
-            background-color: #282C63;
-            border-radius: 20px;
-            clear: both;
-            color: white;
-        }
-
-        .IconaPrev {
-            width: 23px;
-            height: 23px;
-            background-image: url(../img/Publicar_Publicacio/Icona_Previsualitzacio.png);
-            background-size: 100%;
-            float: left;
-            margin-top: 8px;
-            margin-left: 15px;
-        }
-
-        .dades {
-            width: 100%;
-            height: 30px;
-            float: left;
-        }
-
-        .Clicar {
-            width: 12px;
-            height: 12px;
-            border-radius: 100%;
-            margin-left: 9px;
-            margin-top: 5px;
-            border: #282c63b7 3px solid;
-        }
-
-        .endavant{
-            width: 37px;
-            height: 23px;
-            background-image: url(../img/Publicar_Publicacio/Fletxa_Endavant.png);
-            background-size: 100%;
-            margin-top: 13px;
-            margin-left: 89px;
-            float: left;
-        }
-
-        .publicarGran {
-            width: 65px;
-            height: 65px;
-            background-color: #282c63b7;
-            margin-left: 20px;
-            text-align: center;
-            border-radius: 30px;
-            margin-top: 10px;
-        }
-
-        .publicarGran img {
-            width: 35px;
-            height: 35px;
-            margin-top: 14px;
-        }
-
-        #VisualitzacioAudio {
-            .enrere {
-                margin-right: 60px;
-            }
-    
-            .Visualitzacio {
-                width: 160px;
-                height: 50px;
-                color: white;
-                font-size: 1.6rem;
-                line-height: 54px;
-                font-weight: bold;
-                float: left;
-            }
-
-            .Arxiu {
-                width: 393px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                margin-top: 15px;
-                color: white;
-                float: left;
-                margin-left: 20px;
-            }
-
-            .icona {
-                width: 55px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                float: left;
-                text-align: center;
-                margin: 0;
-            }
-
-            .icona img {
-                width: 25px;
-                height: 25px;
-                margin-top: 15px;
-                opacity: 50%;
-            }
-
-            .text {
-                width: 330px;
-                height: 55px;
-                float: left;
-                margin-left: 8px;
-            }
-
-            h3 {
-                width: 180px;
-                height: 25px;
-                line-height: 25px;
-                margin-top: 3px;
-            }
-
-            p {
-                width: 260px;
-                height: 27px;
-                float: left;
-                line-height: 27px;
-            }
-
-            .espai {
-                width: 60px;
-                float: left;
-            }
-
-            h2 {
-                color: #282C63;
-                height: 35px;
-                width: 90%;
-                margin-left: 20px;
-                font-size: 1.5rem;
-                margin-top: 15px;
-                clear: both;
-            }
-
-            .U {
-                margin-bottom: 15px;
-            }
-
-            .Opcio {
-                width: 120px;
-                height: 120px;
-                margin-left: 18px;
-                text-align: center;
-                float: left;
-                margin-bottom: 25px;
-            }
-
-            .Opcio h3 {
-                width: 80px;
-                margin: 0;
-                font-size: 0.95rem;
-                color: #282c63b7;
-                float: right;
-                margin-top: -19px;
-                margin-right: 12px;
-            }
-
-            .Previsualitzacio h3 {
-                float: left;
-                height: 40px;
-                width: 320px;
-                line-height: 40px;
-                margin-top: -1px;
-                margin-left: 12px;
-                font-size: 1rem;
-            }
-        }
-
-        #VisualitzacioDocument {
-            .enrere {
-                margin-right: 60px;
-            }
-    
-            .Visualitzacio {
-                width: 160px;
-                height: 50px;
-                color: white;
-                font-size: 1.6rem;
-                line-height: 54px;
-                font-weight: bold;
-                float: left;
-            }
-
-            .Arxiu {
-                width: 393px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                margin-top: 15px;
-                color: white;
-                float: left;
-                margin-left: 20px;
-            }
-
-            .icona {
-                width: 55px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                float: left;
-                text-align: center;
-                margin: 0;
-            }
-
-            .icona img {
-                width: 25px;
-                height: 25px;
-                margin-top: 15px;
-                opacity: 50%;
-            }
-
-            .text {
-                width: 330px;
-                height: 55px;
-                float: left;
-                margin-left: 8px;
-            }
-
-            h3 {
-                width: 180px;
-                height: 25px;
-                line-height: 25px;
-                margin-top: 3px;
-            }
-
-            p {
-                width: 260px;
-                height: 27px;
-                float: left;
-                line-height: 27px;
-            }
-
-            .espai {
-                width: 60px;
-                float: left;
-            }
-
-            h2 {
-                color: #282C63;
-                height: 35px;
-                width: 90%;
-                margin-left: 20px;
-                font-size: 1.5rem;
-                margin-top: 15px;
-                clear: both;
-            }
-
-            .U {
-                margin-bottom: 15px;
-            }
-
-            .Opcio {
-                width: 120px;
-                height: 120px;
-                margin-left: 18px;
-                text-align: center;
-                float: left;
-                margin-bottom: 25px;
-            }
-
-            .Opcio h3 {
-                width: 80px;
-                margin: 0;
-                font-size: 0.95rem;
-                color: #282c63b7;
-                float: right;
-                margin-top: -19px;
-                margin-right: 12px;
-            }
-
-            .Previsualitzacio h3 {
-                float: left;
-                height: 40px;
-                width: 320px;
-                line-height: 40px;
-                margin-top: -1px;
-                margin-left: 12px;
-                font-size: 1rem;
-            }  
-        }
-
-        #VisualitzacioFotos {
-            .principal {
-                margin: 0 auto;
-                width: 390px;
-                height: 257px;
-                border-radius: 10px;
-                background-image: url(../img/Home_Principal/Imatges/Publicacio_25.jpg);
-                background-size: 100%;
-                background-position: 0 -223px;
-                margin-top: 20px;
-                position: relative;
-                top: 20px;
-            }
-
-            .foto2 {
-                width: 120px;
-                height: 120px;
-                background-image: url(../img/Home_Principal/Imatges/Publicacio_24.jpg);
-                background-repeat: no-repeat;
-                background-position: -10px 0px;  
-                background-size: 150%;                margin-left: 20px;
-                border-radius: 10px;
-                float: left;
-                margin-top: 30px;
-            }
-
-            .foto3 {
-                width: 120px;
-                height: 120px;
-                background-image: url(../img/Home_Principal/Imatges/Publicacio_21.jpg);
-                background-size: 130%;
-                background-repeat: no-repeat;
-                background-position: -20px -2px;  
-                margin-left: 10px;
-                border-radius: 10px;
-                float: left;
-                margin-top: 30px;
-                margin-bottom: 15px;
-            }
-
-            .eliminar {
-                width: 22px;
-                height: 22px;
-                margin-top: 10px;
-                float: right;
-                margin-right: 10px;
-                background-color: #282C63;
-                text-align: center;
-                border-radius: 5px;
-            }
-
-            .eliminar img {
-                width: 12px;
-                height: 12px;
-                margin-top: 6px;
-            }
-
-            .enrere {
-                margin-right: 60px;
-            }
-    
-            .Visualitzacio {
-                width: 160px;
-                height: 50px;
-                color: white;
-                font-size: 1.6rem;
-                line-height: 54px;
-                font-weight: bold;
-                float: left;
-            }
-
-            .Arxiu {
-                width: 393px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                margin-top: 15px;
-                color: white;
-                float: left;
-                margin-left: 20px;
-            }
-
-            .icona {
-                width: 55px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                float: left;
-                text-align: center;
-                margin: 0;
-            }
-
-            .icona img {
-                width: 25px;
-                height: 25px;
-                margin-top: 15px;
-                opacity: 50%;
-            }
-
-            .text {
-                width: 330px;
-                height: 55px;
-                float: left;
-                margin-left: 8px;
-            }
-
-            h3 {
-                width: 180px;
-                height: 25px;
-                line-height: 25px;
-                margin-top: 3px;
-            }
-
-            p {
-                width: 260px;
-                height: 27px;
-                float: left;
-                line-height: 27px;
-            }
-
-            .espai {
-                width: 60px;
-                float: left;
-            }
-
-            h2 {
-                color: #282C63;
-                height: 35px;
-                width: 90%;
-                margin-left: 20px;
-                font-size: 1.5rem;
-                margin-top: 15px;
-                clear: both;
-            }
-
-            .U {
-                margin-bottom: 15px;
-            }
-
-            .Opcio {
-                width: 120px;
-                height: 120px;
-                margin-left: 18px;
-                text-align: center;
-                float: left;
-                margin-bottom: 25px;
-            }
-
-            .Opcio h3 {
-                width: 80px;
-                margin: 0;
-                font-size: 0.95rem;
-                color: #282c63b7;
-                float: right;
-                margin-top: -19px;
-                margin-right: 12px;
-            }
-
-            .Previsualitzacio h3 {
-                float: left;
-                height: 40px;
-                width: 320px;
-                line-height: 40px;
-                margin-top: -1px;
-                margin-left: 12px;
-                font-size: 1rem;
-            }
-        }
-
-        #VisualitzacioVideos {
-            .principal {
-                margin: 0 auto;
-                width: 390px;
-                height: 257px;
-                border-radius: 10px;
-                background-image: url(../img/Home_Principal/Imatges/Publicacio_25.jpg);
-                background-size: 100%;
-                background-position: 0 -223px;
-                margin-top: 20px;
-                position: relative;
-                top: 20px;
-            }
-
-            .foto2 {
-                width: 120px;
-                height: 120px;
-                background-image: url(../img/Home_Principal/Imatges/Publicacio_24.jpg);
-                background-repeat: no-repeat;
-                background-position: -10px 0px;  
-                background-size: 150%;                margin-left: 20px;
-                border-radius: 10px;
-                float: left;
-                margin-top: 30px;
-            }
-
-            .foto3 {
-                width: 120px;
-                height: 120px;
-                background-image: url(../img/Home_Principal/Imatges/Publicacio_21.jpg);
-                background-size: 130%;
-                background-repeat: no-repeat;
-                background-position: -20px -2px;  
-                margin-left: 10px;
-                border-radius: 10px;
-                float: left;
-                margin-top: 30px;
-                margin-bottom: 15px;
-            }
-
-            .eliminar {
-                width: 22px;
-                height: 22px;
-                margin-top: 10px;
-                float: right;
-                margin-right: 10px;
-                background-color: #282C63;
-                text-align: center;
-                border-radius: 5px;
-            }
-
-            .eliminar img {
-                width: 12px;
-                height: 12px;
-                margin-top: 6px;
-            }
-
-            .enrere {
-                margin-right: 60px;
-            }
-
-            .iconaVideo {
-                margin: 0 auto;
-                width: 65px;
-                height: 205px;
-                background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Video_Visual.png);
-                background-size: 100%;
-                background-position: 0 100px;
-                background-repeat: no-repeat;
-            }
-
-            .durada {
-                width: 53px;
-                height: 36px;
-                background-color: #282C63;
-                color: white;
-                margin-top: 16px;
-                margin-left: 324px;
-                border-radius: 10px 0 10px 0;
-                font-size: 1.25rem;
-                font-weight: bold;
-                padding-left: 12px;
-                line-height: 36px;
-            }
-    
-            .Visualitzacio {
-                width: 160px;
-                height: 50px;
-                color: white;
-                font-size: 1.6rem;
-                line-height: 54px;
-                font-weight: bold;
-                float: left;
-            }
-
-            .Arxiu {
-                width: 393px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                margin-top: 15px;
-                color: white;
-                float: left;
-                margin-left: 20px;
-            }
-
-            .icona {
-                width: 55px;
-                height: 55px;
-                background-color: #282c63b7;
-                border-radius: 12px;
-                float: left;
-                text-align: center;
-                margin: 0;
-            }
-
-            .icona img {
-                width: 25px;
-                height: 25px;
-                margin-top: 15px;
-                opacity: 50%;
-            }
-
-            .text {
-                width: 330px;
-                height: 55px;
-                float: left;
-                margin-left: 8px;
-            }
-
-            h3 {
-                width: 180px;
-                height: 25px;
-                line-height: 25px;
-                margin-top: 3px;
-            }
-
-            p {
-                width: 260px;
-                height: 27px;
-                float: left;
-                line-height: 27px;
-            }
-
-            .espai {
-                width: 60px;
-                float: left;
-            }
-
-            h2 {
-                color: #282C63;
-                height: 35px;
-                width: 90%;
-                margin-left: 20px;
-                font-size: 1.5rem;
-                margin-top: 15px;
-                clear: both;
-            }
-
-            .U {
-                margin-bottom: 15px;
-            }
-
-            .Opcio {
-                width: 120px;
-                height: 120px;
-                margin-left: 18px;
-                text-align: center;
-                float: left;
-                margin-bottom: 25px;
-            }
-
-            .Opcio h3 {
-                width: 80px;
-                margin: 0;
-                font-size: 0.95rem;
-                color: #282c63b7;
-                float: right;
-                margin-top: -19px;
-                margin-right: 12px;
-            }
-
-            .Previsualitzacio h3 {
-                float: left;
-                height: 40px;
-                width: 320px;
-                line-height: 40px;
-                margin-top: -1px;
-                margin-left: 12px;
-                font-size: 1rem;
-            }
-        }
-
-        .Seleccionat .Vertical, .Seleccionat .Horitzontal, .Seleccionat .Quadre{
-            background-color: #282C63;
-            color: #282C63;
-        }
-
-        .Seleccionat .Clicar {
-            background-color: #282C63;
-        }
-
-        .PrevNo {
-            opacity: 75%;
-        }
+*{
+    font-family: 'Carbona Test', sans-serif;
+    margin: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+.topbar {
+    background: #282C63;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-left: 20px;
+    float: left;
+}
+
+.NomArtiva {
+    width: 78px;
+    height: 23px;
+    margin-top: 13px;
+    margin-right: 43px;
+    background-image: url(../img/Topbar_Principal/Artiva.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+.Temps {
+    padding-top: 6px;
+    width: 159px;
+    height: 44px;
+    float: left;
+    margin-right: 30px;
+}
+
+.compte {
+    width: 43px;
+    height: 27px;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 0.70rem;
+    font-family: 'Carbona Test', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.numero {
+    width: 43px;
+    height: 27px;
+    color: white;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 1px;
+}
+
+.dies {
+    padding-top: -30px;
+    color: #00C8FF;
+    font-size: 1.55rem;
+}
+
+.hores {
+    color: #00C8A0;
+    font-size: 1.55rem;
+}
+
+.minuts {
+    color: #F03C82;
+    font-size: 1.55rem;
+    margin-right: 0px;
+}
+
+.Botiga {
+    width: 25px;
+    height: 31px;
+    margin-top: 10px;
+    margin-right: 23px;
+    background-image: url(../img/Topbar_Principal/Icona_Botiga.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.Buscador {
+    width: 30px;
+    height: 31px;
+    margin-top: 10px;
+    background-image: url(../img/Topbar_Principal/Icona_Buscador.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.botbar {
+    position: fixed;
+    height: 60px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px 30px;
+}
+
+.icona {
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-top: 24px;
+}
+
+.PaginaHome {background-image: url(../img/Botbar/Botbar_Home.png);}
+
+.homeClicada {
+    margin-right: 53px;
+    margin-top: 15px;
+    background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
+}   
+
+.reptes {
+    margin-right: 53px;
+    background-image: url(../img/Icones/Icona_Reptes.png);
+}
+
+.publicar {
+    width: 50px;
+    height: 50px;
+    margin-top: 4.5px;
+    margin-right: 53px;
+    background-image: url(../img/Icones/Icona_Publicar.png);
+}
+
+.comunitat {
+    width: 33px;
+    margin-right: 45px;
+    background-image: url(../img/Icones/Icona_Comunitat.png);
+}
+
+.perfil {
+    background-image: url(../img/Icones/Icona_Perfil.png);
+}
+
+.contingut {
+    margin-top: 50px;
+    width: 100%;
+    height: 760px;
+}
+
+.enrere {
+    width: 37px;
+    height: 23px;
+    background-image: url(../img/Publicar_Publicacio/Fletxa_Enrere.png);
+    background-size: 100%;
+    margin-top: 13px;
+    margin-left: 5px;
+    float: left;
+    margin-right: 80px;
+}
+
+.previsualitzacio {
+    width: 160px;
+    height: 50px;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 54px;
+    font-weight: bold;
+    float: left;
+}
+
+#Descripcio {
+    .publicar {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        border-radius: 25px;
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 76px;
+        margin-right: 0;
+    }
+
+    .publicar img {
+        width: 17px;
+        height: 17px;
+        margin-top: 7.5px;
+        margin-left: 0.86px;
+    }
+
+    h2 {
+        color: #282C63;
+        font-size: 1.375rem;
+        margin-left: 20px;
+        margin-bottom: 8px;
+        height: 20px;
+    }
+
+    .prim {
+        margin-top: 68px;
+        height: 20px;
+    }
+
+    .text {
+        width: 390px;
+        margin: 0 auto;
+        background-color: #282c6349;
+        border-radius: 10px;
+        margin-bottom: 18px;
+        margin-top: 10px;
+    }
+
+    .primer {height: 37px;}
+    .segon {height: 188px;}
+    .tercer {height: 95px;}
+    .quart {height: 37px;}
+
+    .EtiquetaIA {
+        width: 100%;
+        height: 60px;
+        background-color: #282C63;
+        margin-bottom: 15px;
+    }
+
+    .blanc {
+        color: white;
+        line-height: 60px;
+    }
+
+    .boto {
+        width: 68px;
+        height: 33px;
+        background-color: white;
+        float: right;
+        margin-top: -15px;
+        margin-right: 20px;
+        border-radius: 25px;
+    }
+
+    .clicat {
+        width: 22px;
+        height: 22px;
+        background-color: #282c6349;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+
+    .publicarGran {
+        width: 65px;
+        height: 65px;
+        background-color: #282C63;
+        margin-left: 20px;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    .publicarGran img {
+        width: 35px;
+        height: 35px;
+        margin-top: 14px;
+    }
+}
+
+.Vertical {
+    width: 45px;
+    height: 95px;
+    background-color: #282c63b7;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.Horitzontal {
+    width: 94px;
+    height: 54px;
+    background-color: #282c63b7;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 41px;
+    margin-left: 25px;
+}
+
+.Quadre {
+    width: 95px;
+    height: 95px;
+    background-color: #282c63b7;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.Previsualitzacio {
+    width: 390px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #282C63;
+    border-radius: 20px;
+    clear: both;
+    color: white;
+}
+
+.IconaPrev {
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/Publicar_Publicacio/Icona_Previsualitzacio.png);
+    background-size: 100%;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.dades {
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+.Clicar {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-left: 9px;
+    margin-top: 5px;
+    border: #282c63b7 3px solid;
+}
+
+.endavant{
+    width: 37px;
+    height: 23px;
+    background-image: url(../img/Publicar_Publicacio/Fletxa_Endavant.png);
+    background-size: 100%;
+    margin-top: 13px;
+    margin-left: 89px;
+    float: left;
+}
+
+.publicarGran {
+    width: 65px;
+    height: 65px;
+    background-color: #282c63b7;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.publicarGran img {
+    width: 35px;
+    height: 35px;
+    margin-top: 14px;
+}
+
+#VisualitzacioAudio {
+    .enrere {
+        margin-right: 60px;
+    }
+
+    .Visualitzacio {
+        width: 160px;
+        height: 50px;
+        color: white;
+        font-size: 1.6rem;
+        line-height: 54px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .Arxiu {
+        width: 393px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        margin-top: 15px;
+        color: white;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .icona {
+        width: 55px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        float: left;
+        text-align: center;
+        margin: 0;
+    }
+
+    .icona img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        opacity: 50%;
+    }
+
+    .text {
+        width: 330px;
+        height: 55px;
+        float: left;
+        margin-left: 8px;
+    }
+
+    h3 {
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 3px;
+    }
+
+    p {
+        width: 260px;
+        height: 27px;
+        float: left;
+        line-height: 27px;
+    }
+
+    .espai {
+        width: 60px;
+        float: left;
+    }
+
+    h2 {
+        color: #282C63;
+        height: 35px;
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        margin-top: 15px;
+        clear: both;
+    }
+
+    .U {
+        margin-bottom: 15px;
+    }
+
+    .Opcio {
+        width: 120px;
+        height: 120px;
+        margin-left: 18px;
+        text-align: center;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .Opcio h3 {
+        width: 80px;
+        margin: 0;
+        font-size: 0.95rem;
+        color: #282c63b7;
+        float: right;
+        margin-top: -19px;
+        margin-right: 12px;
+    }
+
+    .Previsualitzacio h3 {
+        float: left;
+        height: 40px;
+        width: 320px;
+        line-height: 40px;
+        margin-top: -1px;
+        margin-left: 12px;
+        font-size: 1rem;
+    }
+}
+
+#VisualitzacioDocument {
+    .enrere {
+        margin-right: 60px;
+    }
+
+    .Visualitzacio {
+        width: 160px;
+        height: 50px;
+        color: white;
+        font-size: 1.6rem;
+        line-height: 54px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .Arxiu {
+        width: 393px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        margin-top: 15px;
+        color: white;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .icona {
+        width: 55px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        float: left;
+        text-align: center;
+        margin: 0;
+    }
+
+    .icona img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        opacity: 50%;
+    }
+
+    .text {
+        width: 330px;
+        height: 55px;
+        float: left;
+        margin-left: 8px;
+    }
+
+    h3 {
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 3px;
+    }
+
+    p {
+        width: 260px;
+        height: 27px;
+        float: left;
+        line-height: 27px;
+    }
+
+    .espai {
+        width: 60px;
+        float: left;
+    }
+
+    h2 {
+        color: #282C63;
+        height: 35px;
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        margin-top: 15px;
+        clear: both;
+    }
+
+    .U {
+        margin-bottom: 15px;
+    }
+
+    .Opcio {
+        width: 120px;
+        height: 120px;
+        margin-left: 18px;
+        text-align: center;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .Opcio h3 {
+        width: 80px;
+        margin: 0;
+        font-size: 0.95rem;
+        color: #282c63b7;
+        float: right;
+        margin-top: -19px;
+        margin-right: 12px;
+    }
+
+    .Previsualitzacio h3 {
+        float: left;
+        height: 40px;
+        width: 320px;
+        line-height: 40px;
+        margin-top: -1px;
+        margin-left: 12px;
+        font-size: 1rem;
+    }  
+}
+
+#VisualitzacioFotos {
+    .principal {
+        margin: 0 auto;
+        width: 390px;
+        height: 257px;
+        border-radius: 10px;
+        background-image: url(../img/Home_Principal/Imatges/Publicacio_25.jpg);
+        background-size: 100%;
+        background-position: 0 -223px;
+        margin-top: 20px;
+        position: relative;
+        top: 20px;
+    }
+
+    .foto2 {
+        width: 120px;
+        height: 120px;
+        background-image: url(../img/Home_Principal/Imatges/Publicacio_24.jpg);
+        background-repeat: no-repeat;
+        background-position: -10px 0px;  
+        background-size: 150%;                margin-left: 20px;
+        border-radius: 10px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .foto3 {
+        width: 120px;
+        height: 120px;
+        background-image: url(../img/Home_Principal/Imatges/Publicacio_21.jpg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: -20px -2px;  
+        margin-left: 10px;
+        border-radius: 10px;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .eliminar {
+        width: 22px;
+        height: 22px;
+        margin-top: 10px;
+        float: right;
+        margin-right: 10px;
+        background-color: #282C63;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .eliminar img {
+        width: 12px;
+        height: 12px;
+        margin-top: 6px;
+    }
+
+    .enrere {
+        margin-right: 60px;
+    }
+
+    .Visualitzacio {
+        width: 160px;
+        height: 50px;
+        color: white;
+        font-size: 1.6rem;
+        line-height: 54px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .Arxiu {
+        width: 393px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        margin-top: 15px;
+        color: white;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .icona {
+        width: 55px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        float: left;
+        text-align: center;
+        margin: 0;
+    }
+
+    .icona img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        opacity: 50%;
+    }
+
+    .text {
+        width: 330px;
+        height: 55px;
+        float: left;
+        margin-left: 8px;
+    }
+
+    h3 {
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 3px;
+    }
+
+    p {
+        width: 260px;
+        height: 27px;
+        float: left;
+        line-height: 27px;
+    }
+
+    .espai {
+        width: 60px;
+        float: left;
+    }
+
+    h2 {
+        color: #282C63;
+        height: 35px;
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        margin-top: 15px;
+        clear: both;
+    }
+
+    .U {
+        margin-bottom: 15px;
+    }
+
+    .Opcio {
+        width: 120px;
+        height: 120px;
+        margin-left: 18px;
+        text-align: center;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .Opcio h3 {
+        width: 80px;
+        margin: 0;
+        font-size: 0.95rem;
+        color: #282c63b7;
+        float: right;
+        margin-top: -19px;
+        margin-right: 12px;
+    }
+
+    .Previsualitzacio h3 {
+        float: left;
+        height: 40px;
+        width: 320px;
+        line-height: 40px;
+        margin-top: -1px;
+        margin-left: 12px;
+        font-size: 1rem;
+    }
+}
+
+#VisualitzacioVideos {
+    .principal {
+        margin: 0 auto;
+        width: 390px;
+        height: 257px;
+        border-radius: 10px;
+        background-image: url(../img/Home_Principal/Imatges/Publicacio_25.jpg);
+        background-size: 100%;
+        background-position: 0 -223px;
+        margin-top: 20px;
+        position: relative;
+        top: 20px;
+    }
+
+    .foto2 {
+        width: 120px;
+        height: 120px;
+        background-image: url(../img/Home_Principal/Imatges/Publicacio_24.jpg);
+        background-repeat: no-repeat;
+        background-position: -10px 0px;  
+        background-size: 150%;                margin-left: 20px;
+        border-radius: 10px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .foto3 {
+        width: 120px;
+        height: 120px;
+        background-image: url(../img/Home_Principal/Imatges/Publicacio_21.jpg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: -20px -2px;  
+        margin-left: 10px;
+        border-radius: 10px;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .eliminar {
+        width: 22px;
+        height: 22px;
+        margin-top: 10px;
+        float: right;
+        margin-right: 10px;
+        background-color: #282C63;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .eliminar img {
+        width: 12px;
+        height: 12px;
+        margin-top: 6px;
+    }
+
+    .enrere {
+        margin-right: 60px;
+    }
+
+    .iconaVideo {
+        margin: 0 auto;
+        width: 65px;
+        height: 205px;
+        background-image: url(../img/Home_Principal/Elements_Publicacio/Icona_Video_Visual.png);
+        background-size: 100%;
+        background-position: 0 100px;
+        background-repeat: no-repeat;
+    }
+
+    .durada {
+        width: 53px;
+        height: 36px;
+        background-color: #282C63;
+        color: white;
+        margin-top: 16px;
+        margin-left: 324px;
+        border-radius: 10px 0 10px 0;
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding-left: 12px;
+        line-height: 36px;
+    }
+
+    .Visualitzacio {
+        width: 160px;
+        height: 50px;
+        color: white;
+        font-size: 1.6rem;
+        line-height: 54px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .Arxiu {
+        width: 393px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        margin-top: 15px;
+        color: white;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .icona {
+        width: 55px;
+        height: 55px;
+        background-color: #282c63b7;
+        border-radius: 12px;
+        float: left;
+        text-align: center;
+        margin: 0;
+    }
+
+    .icona img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        opacity: 50%;
+    }
+
+    .text {
+        width: 330px;
+        height: 55px;
+        float: left;
+        margin-left: 8px;
+    }
+
+    h3 {
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 3px;
+    }
+
+    p {
+        width: 260px;
+        height: 27px;
+        float: left;
+        line-height: 27px;
+    }
+
+    .espai {
+        width: 60px;
+        float: left;
+    }
+
+    h2 {
+        color: #282C63;
+        height: 35px;
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        margin-top: 15px;
+        clear: both;
+    }
+
+    .U {
+        margin-bottom: 15px;
+    }
+
+    .Opcio {
+        width: 120px;
+        height: 120px;
+        margin-left: 18px;
+        text-align: center;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .Opcio h3 {
+        width: 80px;
+        margin: 0;
+        font-size: 0.95rem;
+        color: #282c63b7;
+        float: right;
+        margin-top: -19px;
+        margin-right: 12px;
+    }
+
+    .Previsualitzacio h3 {
+        float: left;
+        height: 40px;
+        width: 320px;
+        line-height: 40px;
+        margin-top: -1px;
+        margin-left: 12px;
+        font-size: 1rem;
+    }
+}
+
+.Seleccionat .Vertical, .Seleccionat .Horitzontal, .Seleccionat .Quadre{
+    background-color: #282C63;
+    color: #282C63;
+}
+
+.Seleccionat .Clicar {
+    background-color: #282C63;
+}
+
+.PrevNo {
+    opacity: 75%;
+}
