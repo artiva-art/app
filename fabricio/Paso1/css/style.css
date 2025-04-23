@@ -23,7 +23,7 @@ html, body {
     background-color: #282864;
     height: 50px;
     z-index: 100;
-    width: 390px;
+    width: 100%;
 }
 
 .icon {
@@ -72,7 +72,7 @@ html, body {
     height: 40px;
     width: 40px;
     bottom: 35px;
-    left: 340px;
+    left: 87.1%;
 }
 
 .cistella img{
