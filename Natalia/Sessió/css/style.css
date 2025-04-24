@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Carbona Test', sans-serif;
     position: relative;
     margin: 0;
@@ -12,25 +12,20 @@ body {
 
 }
 
-#registre {
-    
-}
-
 .topbar {
     position: fixed;
-    height: 50px;
+    height: 5.92%;
     top:0;
     left: 0;
     right: 0;
     z-index: 10;
-    padding-left: 15px;
+    padding-left: 3.48%;
 }
 
 .logoart {
-    width: 78px;
-    height: 23px;
-    margin-top: 13px;
-    margin-right: 43px;
+    width: 18.13%;
+    height: 46%;
+    margin-top: 3.5%;
     background-image: url(../img/artivalogotip.png);
     background-repeat: no-repeat;
     background-size: 90%;
@@ -40,7 +35,7 @@ body {
     width: 390px;
     height: 550px;
     margin: 0 auto;
-    top: 140px;
+    top: 110px;
 }
 
 h1 {
@@ -52,30 +47,30 @@ h1 {
 
 .formulari {
     width: 96%;
+    height: 100%;
     margin: 0 auto;
     overflow: hidden;
     top: 20px;
 }
 
 input {
-    width: 172px;
+    width: 100%;
     height: 30px;
     border-radius: 10px;
-    display: inline;
     border: none;
     background: #E4E4EC;
 }
 
 #registre .correu input {
-    width: 372px;
+    width: 100%;
 }
 
 #registre .contrasenya input {
-    width: 372px;
+    width: 100%;
 }
 
 #registre .repetir input {
-    width: 372px;
+    width: 100%;
 }
 
 p {
@@ -159,6 +154,8 @@ p {
 .checks p {
     font-size: 0.75rem;
     color: #282864;
+    top: -17.5px;
+    left: 21px;
 }
 
 .huma {
@@ -195,23 +192,22 @@ p {
     font-size: 16px;
 }
 
-.checks p {
-    top: -18px;
-    left: 21px;
+.condicions {
+    top: -10px;
 }
 
 .botoRegis {
     width: 172px;
     height: 40px;
     background: #282864;
-    margin-top: 70px;
+    top: 10px;
     font-size: 1.063rem;
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
     color: white;
     font-weight: 410;
-    margin-left: 105px;
+    left: 105px;
 }
 
 .inicia {
@@ -223,28 +219,44 @@ p {
     font-size: 0.75rem;
     opacity: 70%;
     color: #282864;
+    top: 17px;
 }
 
 .amb {
+    top: 40px;
+}
+
+.amb p {
+    opacity: 70%;
     text-align: center;
     font-size: 1rem;
-    opacity: 70%;
     color: #282864;
-    margin-top: 30px;
 }
 
-.benvingut {
-    width: 380px;
+.opcionsamb {
+    top: 8px;
+}
+
+.google img {
+    width: 7%;
+    float: left;
+    left: 40%;
+}
+
+.facebook img {
+    width: 7%;
+    float: left;
+    left: 45%;
+}
+
+.benvinguda {
+    width: 390px;
     margin: 0 auto;
-    position: relative;
-}
-
-#benvingut h1 {
-    margin-top: 220px;
+    top: 220px;
 }
 
 #benvingut h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -252,38 +264,46 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
+    top: 15px;
 }
 
 #benvingut .formulari {
-    height: 400px;
+    width: 96%;
     padding-top: 15px;
-    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
 }
 
 #benvingut input {
-    width: 372px;
+    width: 100%;
     height: 30px;
     border-radius: 10px;
-    display: inline;
     border: none;
     background: #E4E4EC;
 }
 
 #benvingut .usuari {
+    width: 95%;
     height: 80px;
-    outline: none;
-    width: 180px;
     opacity: 70%;
     color: #282864;
+    margin: 0 auto;
 }
 
 #benvingut .perfil {
+    width: 95%;
     height: 80px;
-    outline: none;
-    width: 180px;
     opacity: 70%;
     color: #282864;
-    margin-top: -15px;
+    margin: 0 auto;
+}
+
+#benvingut .usuari input {
+    width: 100%;
+}
+
+#benvingut .perfil input {
+    width: 100%;
 }
 
 #benvingut .botoConti {
@@ -297,6 +317,7 @@ p {
     color: white;
     font-weight: 410;
     margin: 0 auto;
+    top: 20px;
 }
 
 .enrere {
