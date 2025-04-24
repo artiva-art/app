@@ -133,6 +133,13 @@
         }
 
         #IndividualGrupal {
+            .contingut {
+                width: 100%;
+                height: 840px;
+                margin: 0px;
+                background-color: rgba(0, 0, 0, 0.129);
+            }
+
             .Opcions {
                 width: 390px;
                 height: 160px;
@@ -142,13 +149,6 @@
                 position: absolute;
                 top: 560px;
                 left: 20px;
-            }
-
-            .contingut {
-                width: 100%;
-                height: 840px;
-                margin: 0px;
-                background-color: rgba(0, 0, 0, 0.129);
             }
 
             .Tancar {
