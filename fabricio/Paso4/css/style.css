@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: ;
-    height: 844px;
+    height: ;
  
 }
 
@@ -43,7 +43,7 @@ html, body {
     background-color: ;
     padding: 0px;
     text-align: center;
-    width: 390px;
+    width: 100%;
     bottom: 100px;
     height: 300px;
 }
@@ -89,7 +89,7 @@ html, body {
     background-color: ; 
     z-index: 1000; 
 
-    left: 390px;
+    left: 100%;
     right: 0px;
     width: 40px;
 }
@@ -100,7 +100,7 @@ html, body {
     background-color: ; 
     z-index: 1000; 
 
-    left: 390px;
+    left: 100%;
 
     top: 100px;
     right: 30px;
@@ -126,8 +126,8 @@ html, body {
 .vermell .text2{
     position: absolute;
     margin-top: 16px;
-    margin-left: 20px;
-    margin-left: 260px;
+    margin-left: 5.12%;
+    margin-left: 66.66%;
     color: white;
     font-size: 14px;
 }
