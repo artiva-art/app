@@ -40,7 +40,7 @@ a {
     top: 8px;
     left: 70px;
     height: 15px;
-    width: 250px;
+    width: 64.10%;
 }
 
 .seguiment .envio{
@@ -118,8 +118,8 @@ h1{
     grid-template-columns: repeat(2, 1fr);
     background-color: ;
     position: absolute; 
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25.64%;
+    margin-right: 25.64%;
     margin-top: 20px;
     height: 130px;
     gap: 5px;
@@ -150,7 +150,7 @@ h1{
     background-color: #FCFAFA;
     margin-top: 20px;
     width: 350px;
-    margin-left: 20px;
+    margin-left: 5.12%;
     border-radius: 10px;
 }
 
@@ -350,4 +350,11 @@ h1{
 
 .tramitar:hover {
     background-color: #F2609B;
+}
+
+@media screen and (min-width:430px) {
+    .tramitar{
+        top: 160px;
+        right: 80px;
+    }
 }

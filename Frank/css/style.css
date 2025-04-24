@@ -1,0 +1,1049 @@
+*{
+    font-family: 'Carbona Test', sans-serif;
+}
+
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+body {
+  margin: 0;
+  width: 430px;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.topbar {
+    background: #282C63;
+    position: fixed;
+    height: 50px;
+    top:0;
+    left: 0;
+    right: 0;
+    padding-left: 18px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.NomArtiva {
+    width: 78px;
+    height: 23px;
+    margin-top: 13px;
+    margin-right: 45px;
+    background-image: url(../img/Topbar_Principal/Artiva.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+.Temps {
+    padding-top: 6px;
+    width: 159px;
+    height: 44px;
+    float: left;
+    margin-right: 30px;
+}
+
+.compte {
+    width: 43px;
+    height: 27px;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 0.70rem;
+    font-family: 'Carbona Test', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.numero {
+    width: 43px;
+    height: 27px;
+    color: white;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 1px;
+}
+
+.dies {
+    padding-top: -30px;
+    color: #00C8FF;
+    font-size: 1.55rem;
+}
+
+.hores {
+    color: #00C8A0;
+    font-size: 1.55rem;
+}
+
+.minuts {
+    color: #F03C82;
+    font-size: 1.55rem;
+    margin-right: 0px;
+}
+
+.Botiga {
+    width: 25px;
+    height: 31px;
+    margin-top: 10px;
+    margin-right: 23px;
+    background-image: url(../img/Topbar_Principal/Icona_Botiga.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.Buscador {
+    width: 30px;
+    height: 31px;
+    margin-top: 10px;
+    background-image: url(../img/Topbar_Principal/Icona_Buscador.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/* ----------------- CONTENIDO ----------------*/
+
+.contingut {
+  width: 394px;
+  height: 949px;
+  position: relative;
+  left: 18px;
+  top: 68px;
+}
+
+.ApartatPrincipal {
+  font-size: 1.938rem;
+  font-weight: 700;
+  color: #282C63;
+  margin-bottom: 18px;
+}
+
+.apartats {
+  width: 318px;
+  height: 89px;
+  float: left;
+  margin-bottom: 18px;
+}
+
+.visual {
+  width: 150px;
+  height: 40px;
+  background-image: url(../img/ApartatVisual.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 9px 9px 0;
+  float: left;
+}
+
+.sonor {
+  width: 150px;
+  height: 40px;
+  background-image: url(../img/ApartatSonor.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 9px 9px 0;
+  float: left;
+}
+
+.tactil {
+  width: 150px;
+  height: 40px;
+  background-image: url(../img/ApartatTactil.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 9px 0 0;
+  float: left;
+}
+
+.gustatiu {
+  width: 150px;
+  height: 40px;
+  background-image: url(../img/ApartatGustatiu.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 9px 0 0;
+  float: left;
+}
+
+.publicar {
+  background-image: url(../img/PublicarComentari.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 89px;
+  float: left;
+  margin-bottom: 18px;
+}
+
+.tendencia {
+  font-size: 0.938rem;
+  font-weight: 700;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.IconTendencia {
+  background-image: url(../img/IconTendencia.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 5%;
+  top: 2px;
+  float: left;
+  position: relative;
+}
+
+.tendencia p {
+  width: 94%;
+  font-size: 0.938rem;
+  font-weight: 600;
+  padding-left: 1%;
+  float: left;
+}
+
+.linea {
+  border: solid 0,5px #7a7a7a;
+  margin: 9px 0;
+  width: 430px;
+  left: -18px;
+  float: left;
+  position: relative;
+}
+
+/* ----------- COMENTARIS ------------ */
+
+/* ----------- Primer comentari ------------ */
+
+.PrimerComentari {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.perfil {
+  font-size: 0.688rem;
+  font-weight: 700;
+  width: 30%;
+  height: 13px;
+  float: left;
+}
+
+.perfil1 {
+  width: 20px;
+  height: 20px;
+  bottom: 4px;
+  background-image: url(../img/fotoperfil1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+}
+
+.perfil p {
+  width: 91px;
+  left: 6px;
+  float: left;
+  position: relative;
+}
+
+.informacio {
+  width: 62%;
+  font-size: 0.688rem;
+  font-weight: 100;
+  padding-right: 2%;
+  float: left;
+}
+
+.informacio p {
+  float: left;
+}
+
+.informacio .hora {
+  text-align: left;
+  width: 25%;
+}
+
+.informacio .vist {
+  text-align: right;
+  width: 75%;
+}
+
+.comentari {
+  width: 100%;
+  font-size: 0.813rem;
+  margin: 0 0 9px 0;
+  bottom: 1px;
+  position: relative;
+  float: left;
+}
+
+.interaccions {
+  background: rgb(136, 255, 0);
+}
+
+.like {
+  width: 60px;
+  height: 23px;
+  border-radius: 17px;
+  border: solid 1px #282C63;
+  position: relative;
+  float: left;
+}
+
+.element1 {
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/like.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  text-align: left;
+  top: 3px;
+  left: 5px;
+  position: relative;
+}
+
+.like p {
+  font-size: 0.688rem;
+  width: 30px;
+  float: left;
+  text-align: right;
+  left: 7px;
+  top: 6px;
+  position: relative;
+}
+
+.comentaris {
+  width: 60px;
+  height: 23px;
+  left: 10px;
+  border-radius: 17px;
+  border: solid 1px #282C63;
+  position: relative;
+  float: left;
+}
+
+.element2 {
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/comentari.png);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 4px;
+  left: 6px;
+  float: left;
+  position: relative;
+}
+
+.comentaris p {
+  width: 30px;
+  left: 10px;
+  top: 6px;
+  font-size: 0.688rem;
+  float: left;
+  position: relative;
+}
+
+.compartir {
+  width: 60px;
+  height: 23px;
+  left: 207px;
+  border-radius: 17px;
+  border: solid 1px #282C63;
+  float: left;
+  position: relative;
+}
+
+.element3 {
+  width: 17px;
+  height: 15px;
+  background-image: url(../img/comparteix.png);
+  background-size: 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 4px;
+  left: 6px;
+  float: left;
+  position: relative;
+}
+
+.compartir p {
+  font-size: 0.688rem;
+  top: 6px;
+  left: 8px;
+  float: left;
+  position: relative;
+}
+
+.CategoriaS {
+  background-image: url(../img/IconSonor.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 6%;
+  bottom: 10px;
+  margin-bottom: 4px;
+  position: relative;
+  float: left;
+}
+
+.CategoriaV {
+  background-image: url(../img/IconVisual.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 6%;
+  bottom: 10px;
+  margin-bottom: 4px;
+  position: relative;
+  float: left;
+}
+
+.CategoriaT {
+  background-image: url(../img/IconTactil.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 6%;
+  bottom: 10px;
+  margin-bottom: 4px;
+  position: relative;
+  float: left;
+}
+
+.CategoriaG {
+  background-image: url(../img/IconGustatiu.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 6%;
+  bottom: 10px;
+  margin-bottom: 4px;
+  position: relative;
+  float: left;
+}
+
+/* ----------- Segon comentari ------------ */
+
+.SegonComentari {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.perfil2 {
+  width: 20px;
+  height: 20px;
+  bottom: 4px;
+  background-image: url(../img/fotoperfil2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+}
+
+.ComentariImatge {
+  width: 394px;
+  height: 200px;
+  background-image: url(../img/ComentariImatge.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 9px;
+  float: left;
+  position: relative;
+}
+
+/* ----------- Tercer comentari ------------ */
+
+.TercerComentari {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.perfil3 {
+  width: 20px;
+  height: 20px;
+  bottom: 4px;
+  background-image: url(../img/fotoperfil3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+}
+
+.ComentariVideo {
+  width: 394px;
+  height: 200px;
+  background-image: url(../img/ComentariVideo.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 9px;
+  float: left;
+  position: relative;
+}
+
+.boto {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/BotoPlay.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 43%;
+  top: 35%;
+}
+
+/* ------------ BotBar ----------- */
+
+.botbar {
+  position: fixed;
+  height: 60px;
+  bottom:0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0px 30px;
+}
+
+.icona {
+  width: 27px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  margin-top: 24px;
+}
+
+.PaginaComunitat {background-image: url(../img/Botbar/Botbar_Comunitat.png);}
+
+.home {
+  margin-right: 53px;
+  background-image: url(../img/Icones/Icona_Home.png);
+}
+
+.reptes {
+  margin-right: 53px;
+  background-image: url(../img/Icones/Icona_Reptes.png);
+}
+
+.publicarb {
+  width: 50px;
+  height: 50px;
+  margin-top: 4.5px;
+  margin-right: 53px;
+  background-image: url(../img/Icones/Icona_Publicar.png);
+}
+
+.comunitatClicada {
+  margin-top: 16px;
+  background-image: url(../img/Icones/Clicades/Icona_Comunitat_Clicada.png);
+  margin-left: -4px;
+}
+
+.perfilb {
+  background-image: url(../img/Icones/Icona_Perfil.png);
+  margin-left: 55px;
+}
+
+/* ------------------- Pagina secció visual ------------------- */
+
+#comunitatvisual .contingut {
+  height: 990px;
+}
+
+#comunitatvisual .sonor {
+  opacity: 50%;
+}
+
+#comunitatvisual .tactil {
+  opacity: 50%;
+}
+
+#comunitatvisual .gustatiu {
+  opacity: 50%;
+}
+
+#comunitatvisual .ComentariVideo {
+  background-image: url(../img/VideoVisual.png);
+}
+
+/* ------------------- Pagina secció sonor ------------------- */
+
+#comunitatsonor .contingut {
+  height: 990px;
+}
+
+#comunitatsonor .visual {
+  opacity: 50%;
+}
+
+#comunitatsonor .tactil {
+  opacity: 50%;
+}
+
+#comunitatsonor .gustatiu {
+  opacity: 50%;
+}
+
+#comunitatsonor .ComentariImatge {
+  background-image: url(../img/ImatgeSonor.png);
+}
+
+#comunitatsonor .ComentariVideo {
+  background-image: url(../img/VideoSonor.png);
+}
+
+/* ------------------- Pagina secció tàctil ------------------- */
+
+#comunitattactil .contingut {
+  height: 990px;
+}
+
+#comunitattactil .visual {
+  opacity: 50%;
+}
+
+#comunitattactil .sonor {
+  opacity: 50%;
+}
+
+#comunitattactil .gustatiu {
+  opacity: 50%;
+}
+
+#comunitattactil .ComentariImatge {
+  background-image: url(../img/ImatgeTactil.png);
+}
+
+#comunitattactil .ComentariVideo {
+  background-image: url(../img/VideoTactil.png);
+}
+
+/* ------------------- Pagina secció gustatiu ------------------- */
+
+#comunitatgustatiu .contingut {
+  height: 990px;
+}
+
+#comunitatgustatiu .visual {
+  opacity: 50%;
+}
+
+#comunitatgustatiu .sonor {
+  opacity: 50%;
+}
+
+#comunitatgustatiu .tactil {
+  opacity: 50%;
+}
+
+#comunitatgustatiu .ComentariImatge {
+  background-image: url(../img/ImatgeGustatiu.png);
+}
+
+#comunitatgustatiu .ComentariVideo {
+  background-image: url(../img/VideoGustatiu.png);
+}
+
+/* ------------------- Pagina publicar comentari ------------------- */
+
+#publicarcomentari .contingut {
+  height: 776px;
+}
+
+#publicarcomentari .creu {
+  background-image: url(../img/creu.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+#publicarcomentari .titol {
+  font-size: 1.188rem;
+  color: white;
+  width: 70%;
+  top: 14px;
+  padding-left: 5%;
+  float: left;
+  position: relative;
+}
+
+#publicarcomentari .BotoPublicar {
+  font-size: 0.938rem;
+  font-weight: 600;
+  color: #3BFFFF;
+  width: 20%;
+  top: 17px;
+  float: left;
+  position: relative;
+}
+
+#publicarcomentari .SeleccioApartat {
+  font-size: 0.813rem;
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-bottom: 9px;
+}
+
+#publicarcomentari .visual {
+  width: 95px;
+  height: 25px;
+  background-image: url(../img/ApartatVisual.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 4px 9px 0;
+  float: left;
+}
+
+#publicarcomentari .sonor {
+  width: 95px;
+  height: 25px;
+  background-image: url(../img/ApartatSonor.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 4px 9px 0;
+  float: left;
+}
+
+#publicarcomentari .tactil {
+  width: 95px;
+  height: 25px;
+  background-image: url(../img/ApartatTactil.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 4px 9px 0;
+  float: left;
+}
+
+#publicarcomentari .gustatiu {
+  width: 95px;
+  height: 25px;
+  background-image: url(../img/ApartatGustatiu.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 0 9px 0;
+  float: left;
+}
+
+#publicarcomentari .linea {
+  border: solid 1px #7a7a7a;
+  margin: 9px 0;
+  left: 0;
+  width: 100%;
+}
+
+#publicarcomentari .PujarImatge {
+  background-image: url(../img/PujarImatge.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 190px;
+  height: 40px;
+  margin: 0 14px 9px 0;
+  float: left;
+  position: relative;
+}
+
+#publicarcomentari .PujarVideo {
+  background-image: url(../img/PujarVideo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 190px;
+  height: 40px;
+  margin: 0 0 9px 0;
+  float: left;
+  position: relative;
+}
+
+#publicarcomentari .ParaulesClau {
+  font-size: 0.813rem;
+  width: 100%;
+  float: left;
+  position: relative;
+  margin: 9px 0;
+}
+
+#publicarcomentari .uneix {
+  width: 100%;
+  margin: 9px 0 278px 0;
+  float: left;
+  position: relative;
+}
+
+#publicarcomentari input {
+  border: none;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+/* ------------------- Pagina videos ------------------- */
+
+#videos .topbar {
+  background: #000000;
+}
+
+#videos .creu {
+  background-image: url(../img/creu.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+#videos .titol {
+  font-size: 1.813rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  width: 80%;
+  top: 8px;
+  padding-left: 5%;
+  float: left;
+  position: relative;
+}
+
+#videos .trespunts {
+  background-image: url(../img/trespuntets.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 18px;
+  margin-left: 18px;
+  width: 5px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+#videos .contingut {
+  height: 776px;
+}
+
+#videos .degradat1 {
+  background: linear-gradient(0deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  width: 430px;
+  height: 100px;
+  top: -18px;
+  left: -18px;
+  position: absolute;
+  z-index: 1;
+}
+
+#videos .degradat2 {
+  background: linear-gradient(-180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  width: 430px;
+  height: 250px;
+  top: 481px;
+  left: -18px;
+  position: absolute;
+  z-index: 1;
+}
+
+#videos .video {
+  width: 430px;
+  height: 764.5px;
+  background-image: url(../img/video.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -18px;
+  top: -18px;
+}
+
+#videos .controlador {
+  width: 394px;
+  height: 16px;
+  margin-top: 655px;
+  margin-bottom: 15px;
+  background-image: url(../img/controladorvideo.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+
+#videos .perfil {
+  color: white;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 9px;
+  z-index: 2;
+}
+
+#videos .comentari {
+  color: white;
+  z-index: 2;
+}
+
+#videos .bottombar {
+  background-color: #000000;
+  width: 430px;
+  height: 45px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+#videos .like {
+  width: 60px;
+  height: 23px;
+  left: 18px;
+  top: 10px;
+  border-radius: 17px;
+  border: solid 1px white;
+}
+
+#videos .element1 {
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/likeblanc.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  text-align: left;
+  top: 3px;
+  left: 5px;
+  position: relative;
+}
+
+#videos .like p {
+  font-size: 0.688rem;
+  width: 30px;
+  float: left;
+  text-align: right;
+  color: white;
+  left: 7px;
+  top: 6px;
+  position: relative;
+}
+
+#videos .comentaris {
+  width: 60px;
+  height: 23px;
+  left: 28px;
+  top: 10px;
+  border-radius: 17px;
+  border: solid 1px white;
+  position: relative;
+  float: left;
+}
+
+#videos .element2 {
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/comentariblanc.png);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 4px;
+  left: 6px;
+  float: left;
+  position: relative;
+}
+
+#videos .comentaris p {
+  width: 30px;
+  left: 10px;
+  top: 6px;
+  font-size: 0.688rem;
+  color: white;
+  float: left;
+  position: relative;
+}
+
+#videos .compartir {
+  width: 60px;
+  height: 23px;
+  left: 226px;
+  top: 10px;
+  border-radius: 17px;
+  border: solid 1px white;
+  float: left;
+  position: relative;
+}
+
+#videos .element3 {
+  width: 17px;
+  height: 15px;
+  background-image: url(../img/comparteixblanc.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 4px;
+  left: 6px;
+  float: left;
+  position: relative;
+}
+
+#videos .compartir p {
+  font-size: 0.688rem;
+  color: white;
+  top: 6px;
+  left: 8px;
+  float: left;
+  position: relative;
+}
+
+#videos .boto {
+  width: 104px;
+  height: 104px;
+  left: 40%;
+  top: 40%;
+}
+
+#videos .comentarisvideos {
+  width: 100%;
+  height: 61.019%;
+  position: absolute;
+  left: 0;
+  top: 35%;
+  z-index: 6;
+}
+
+#videos .barrasuperior {
+  background: #282C63;
+  width: 100%;
+  height: 40px;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 6;
+}
+
+#videos .contingutcomentaris {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 7;
+}
