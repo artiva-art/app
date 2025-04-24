@@ -23,7 +23,7 @@ html, body {
     background-color: #282864;
     height: 50px;
     z-index: 100;
-    width: 390px;
+    width: 100%;
 }
 
 .icon {
@@ -42,8 +42,8 @@ html, body {
     margin-left: 70px;
     top: 5px;
     width: calc(100% - 10px);
-    max-width: 450px;
-    width: 420px;
+    max-width: 115.38%;
+    width: 107.69%;
 }
 
 .components .atras{
@@ -72,7 +72,7 @@ html, body {
     height: 40px;
     width: 40px;
     bottom: 35px;
-    left: 340px;
+    left: 87.1%;
 }
 
 .cistella img{
@@ -107,7 +107,7 @@ h1 {
     width: 70px;
     background-color: ; 
     z-index: 1000; 
-    right: 20px;
+    right: 5.12%;
     top: 70px;
 }
 
@@ -119,9 +119,9 @@ h1 {
 
 .contenidor{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 10px;
-    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(41.02%, 1fr));
+    gap: 2.56%;
+    padding: 2.56%;
 
 }
 
@@ -129,7 +129,7 @@ h1 {
 .producte .tarjeta {
     width: 100%;
     max-width: 160px;
-    margin-left: 10px;
+    margin-left: 2.56%;
 }
 
 .producte img {
