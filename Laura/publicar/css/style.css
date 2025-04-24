@@ -957,8 +957,9 @@
     opacity: 75%;
 }
 
-input {
+textarea {
     width: 390px;
+    height: 50px;
     margin: 0 auto;
     background-color: #282c6349;
     border-radius: 10px;
@@ -968,30 +969,8 @@ input {
     margin-top: 10px;
 }
 
-input {
-    width: 390px;
-    margin: 0 auto;
-    background-color: #282c6349;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 18px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-
-.primer input {height: 37px;}
-
-.segon input {height: 188px;}
-
-.tercer input {height: 95px;}
-
-.quart input {height: 37px;}
-
-
-.primer {margin-bottom: 20px;}
-.segon {margin-bottom: 20px;}
-.tercer {margin-bottom: 35px;}
-.quart {margin-bottom: 35px;}
-
+#primer {margin-bottom: 20px; height: 37px;}
+#segon {margin-bottom: 20px; height: 188px;}
+#tercer {margin-bottom: 35px; height: 95px;}
+#quart {margin-bottom: 35px; height: 37px;}
 
