@@ -1053,7 +1053,7 @@ p {
     margin-top: -30px;
 }
 
-.botbar {
+#nouperfil .botbar {
     position: fixed;
     height: 60px;
     bottom:0;
@@ -1065,7 +1065,7 @@ p {
     padding: 0px 30px;
 }
 
-.icona {
+#nouperfil .icona {
     width: 27px;
     height: 27px;
     background-repeat: no-repeat;
@@ -1074,20 +1074,20 @@ p {
     margin-top: 24px;
 }
 
-.PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
+#nouperfil .PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
 }
 
-.home {
+#nouperfil .home {
     margin-right: 53px;
     background-image: url(../img/Icones/Icona_Home.png);
 }
 
-.reptes {
+#nouperfil .reptes {
     margin-right: 53px;
     background-image: url(../img/Icones/Icona_Reptes.png);
 }
 
-.publicar {
+#nouperfil .publicar {
     width: 50px;
     height: 50px;
     margin-top: 4.5px;
@@ -1095,13 +1095,13 @@ p {
     background-image: url(../img/Icones/Icona_Publicar.png);
 }
 
-.comunitat {
+#nouperfil .comunitat {
     width: 33px;
     margin-right: 53px;
     background-image: url(../img/Icones/Icona_Comunitat.png);
 }
 
-.perfilClicada {
+#nouperfil .perfilClicada {
     margin-top: 15px;
     background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
 }
