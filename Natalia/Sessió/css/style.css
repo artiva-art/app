@@ -9,6 +9,7 @@
 
 body {
     overflow-x: hidden;
+    height: 844px;
 }
 
 .topbar {
@@ -143,11 +144,11 @@ p {
 }
 
 .checks {
+    clear: both;
     font-size: 0.75rem;
     opacity: 70%;
     color: #282864;
     margin: 0 2.4%;
-    display: block;
 }
 
 .checks p {
@@ -166,7 +167,7 @@ p {
     background-color: white;
 }
 
-.huma:checked::after {
+.huma:checked::afte {
     content: "✔";
     left: 2px;
     top: -2px;
@@ -182,7 +183,7 @@ p {
     cursor: pointer;
 }
 
-.accepto:checked::after {
+.accepto:checked::afte {
     content: "✔";
     position: absolute;
     left: 2px;
@@ -1053,7 +1054,7 @@ p {
     margin-top: -30px;
 }
 
-#nouperfil .botbar {
+.botbar {
     position: fixed;
     height: 60px;
     bottom:0;
@@ -1065,7 +1066,7 @@ p {
     padding: 0px 30px;
 }
 
-#nouperfil .icona {
+.icona {
     width: 27px;
     height: 27px;
     background-repeat: no-repeat;
@@ -1074,20 +1075,20 @@ p {
     margin-top: 24px;
 }
 
-#nouperfil .PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
+.PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
 }
 
-#nouperfil .home {
+.home {
     margin-right: 53px;
     background-image: url(../img/Icones/Icona_Home.png);
 }
 
-#nouperfil .reptes {
+.reptes {
     margin-right: 53px;
     background-image: url(../img/Icones/Icona_Reptes.png);
 }
 
-#nouperfil .publicar {
+.publicar {
     width: 50px;
     height: 50px;
     margin-top: 4.5px;
@@ -1095,13 +1096,13 @@ p {
     background-image: url(../img/Icones/Icona_Publicar.png);
 }
 
-#nouperfil .comunitat {
+.comunitat {
     width: 33px;
     margin-right: 53px;
     background-image: url(../img/Icones/Icona_Comunitat.png);
 }
 
-#nouperfil .perfilClicada {
+.perfilClicada {
     margin-top: 15px;
     background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
 }
