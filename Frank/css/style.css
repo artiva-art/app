@@ -838,7 +838,7 @@ p {
 }
 
 #videos .contingut {
-  height: 776px;
+  height: 100%;
 }
 
 #videos .degradat1 {
@@ -1030,7 +1030,7 @@ p {
 #videos .barrasuperior {
   background: #282C63;
   width: 100%;
-  height: 40px;
+  height: 30px;
   border-radius: 25px 25px 0 0;
   position: relative;
   left: 0;
@@ -1038,12 +1038,80 @@ p {
   z-index: 6;
 }
 
+#videos .lineabarra1 {
+  background: white;
+  width: 70px;
+  height: 2.5px;
+  margin: 0 3% 0 27%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#videos .lineabarra2 {
+  background: white;
+  width: 70px;
+  height: 2.5px;
+  margin: 0 3%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#videos .iconabarra {
+  background-image: url(../img/comentaritotblanc.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 22%;
+  width: 17px;
+  height: 17px;
+  position: relative;
+  
+  display: inline-block;
+}
+
 #videos .contingutcomentaris {
   background: white;
   width: 100%;
-  height: 100%;
+  height: 92%;
   position: relative;
   left: 0;
   top: 0;
-  z-index: 7;
+  z-index: 6;
+}
+
+#videos .comentarivideo {
+  background-image: url(../img/comentarisvideos.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#videos .barrainferior {
+  background: #282C63;
+  width: 100%;
+  height: 45px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 6;
+}
+
+#videos .comentar {
+  background: white;
+  border-radius: 3px;
+  width: 95%;
+  height: 70%;
+  top: 15%;
+  left: 2.5%;
+  position: relative;
+}
+
+#videos .comentar p {
+  color: gray;
+  font-size: 0.913rem;
+  top: 20%;
+  left: 1.5%;
+  position: relative;
 }

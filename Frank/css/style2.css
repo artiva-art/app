@@ -1,0 +1,747 @@
+*{
+    font-family: 'Carbona Test', sans-serif;
+    margin-left: 0;
+    position: relative;
+}
+
+@import url('https://fonts.cdnfonts.com/css/carbona-test');
+
+body {
+    width: 430px;
+}
+
+.topbar {
+    background: #282864;
+    position: fixed;
+    height: 50px;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.creu {
+    width: 19px;
+    height: 18px;
+    background-image: url(../img/creu.png);
+    background-size: 100%;
+    background-position: center;
+    top: 17px;
+    left: 17px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.938rem;
+    top: -30px;
+    color: white;
+}
+
+.puntets {
+    width: 6px;
+    height: 23px;
+    background-image: url(../img/trespuntets.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -82px;
+    left: 410px;
+}
+
+.contingut {
+    height: 844px;
+}
+
+.comentprincipal {
+    width: 430px;
+    height: 110px;
+    overflow: hidden;
+    top: 43px;
+}
+
+.usuari1 {
+    height: 40px;
+}
+
+.perfil1 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fotoperfil1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 10px;
+    left: 20px;
+}
+
+.usuari1 p {
+    font-size: 0.688rem;
+    top: -17px;
+    left: 47px;
+}
+
+.usuari1 h2 {
+    font-size: 0.688rem;
+    top: -40px;
+    left: 132px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.visualitzacions1 {
+    width: 200px;
+    top: -47px;
+    left: 230px;
+    color: #4D4D4D;
+}
+
+.categoriaS {
+    width: 40px;
+    height: 24.5px;
+    background: #E73D80;
+    top: -102px;
+    left: 391px;
+    border-radius: 0 0 0 5px;
+    background-image: url(../img/iconasonor.png);
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coment p {
+    width: 390px;
+    font-size: 0.813rem;
+    margin: 0 auto;
+    top: -2px;
+}
+
+.interaccions {
+    height: 23px;
+    top: 5px;
+}
+
+.like {
+    width: 60px;
+    height: 23px;
+    left: 20px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+}
+
+.element1 {
+    width: 13px;
+    height: 14px;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 4px;
+    left: 6px;
+}
+
+.like p {
+    font-size: 0.688rem;
+    top: -19.2px;
+    left: 22px;
+}
+
+.comentari {
+    width: 60px;
+    height: 23px;
+    left: 90px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+    top: -25px;
+}
+
+.element2 {
+    width: 13px;
+    height: 14px;
+    background-image: url(../img/comentari.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 4px;
+    left: 6px;
+}
+
+.comentari p {
+    font-size: 0.688rem;
+    top: -19.2px;
+    left: 22px;
+}
+
+.compartir {
+    width: 60px;
+    height: 23px;
+    left: 345px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+    top: -49px;
+}
+
+.element3 {
+    width: 17px;
+    height: 13px;
+    background-image: url(../img/comparteix.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 4.5px;
+    left: 6px;
+}
+
+.compartir p {
+    font-size: 0.688rem;
+    top: -19.9px;
+    left: 25px;
+}
+
+.linia1 {
+    top: 6px;
+    border-top: 1.5px solid #282864;
+    border-bottom: 0;
+    width: 100%;
+}
+
+.respostes {
+    width: 430px;
+    height: 731px;
+    overflow: hidden;
+    top: 43px;
+}
+
+.resposta1 {
+    height: 140px;
+}
+
+.usuari2 {
+    height: 40px;
+    top: -8px;
+}
+
+.perfil2 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fotoperfil2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 20px;
+}
+
+.usuari2 p {
+    font-size: 0.688rem;
+    top: -12px;
+    left: 47px;
+}
+
+.usuari2 h2 {
+    font-size: 0.688rem;
+    top: -36px;
+    left: 132px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.coment1 p {
+    width: 390px;
+    font-size: 0.813rem;
+    margin: 0 auto;
+    top: -4px;
+}
+
+.like2 {
+    width: 42px;
+    height: 23px;
+    left: 20px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+}
+
+.like2 p {
+    font-size: 0.688rem;
+    top: -19.2px;
+    left: 22px;
+}
+
+.resposta1 .comentsResp {
+    width: 46px;
+    left: 362px;
+}
+
+.element4 {
+    width: 19px;
+    height: 11px;
+    background-image: url(../img/respostes.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 7px;
+    left: 6px;
+}
+
+.comentsResp p {
+    font-size: 0.688rem;
+    top: -16.2px;
+    left: 28px;
+}
+
+.linia2 {
+    top: 6px;
+    border-top: 1.5px solid #808080;
+    border-bottom: 0;
+    width: 390px;
+    left: 20px;
+}
+
+.resposta2 {
+    height: 130px;
+    top: 29px;
+}
+
+.usuari3 {
+    height: 40px;
+    top: -38px;
+}
+
+.perfil3 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fotoperfil3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 20px;
+}
+
+.usuari3 p {
+    font-size: 0.688rem;
+    top: -12px;
+    left: 47px;
+}
+
+.usuari3 h2 {
+    font-size: 0.688rem;
+    top: -36px;
+    left: 132px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.coment2 p {
+    width: 390px;
+    font-size: 0.813rem;
+    margin: 0 auto;
+    top: -35px;
+}
+
+.resposta2 .interaccions {
+    top: -27px;
+}
+
+.resposta2 .comentsResp {
+    width: 52px;
+    left: 353px;
+}
+
+.like3 {
+    width: 48px;
+    height: 23px;
+    left: 20px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+}
+
+.like3 p {
+    font-size: 0.688rem;
+    top: -19px;
+    left: 22px;
+}
+
+.comentsResp {
+    width: 52px;
+    height: 23px;
+    left: 353px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+    top: -24px;
+}
+
+.resposta3 .comentsResp {
+    width: 52px;
+    left: 353px;
+}
+
+.element4 {
+    width: 19px;
+    height: 11px;
+    background-image: url(../img/respostes.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 7px;
+    left: 6px;
+}
+
+.comentsResp p {
+    font-size: 0.688rem;
+    top: -16.2px;
+    left: 28px;
+}
+
+.linia3 {
+    top: -24px;
+    border-top: 1.5px solid #808080;
+    border-bottom: 0;
+    width: 390px;
+    left: 20px;
+}
+
+.resposta3 {
+    height: 130px;
+    top: -1px;
+}
+
+.usuari4 {
+    height: 40px;
+    top: -38px;
+}
+
+.perfil4 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fotoperfil4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 20px;
+}
+
+.usuari4 p {
+    font-size: 0.688rem;
+    top: -12px;
+    left: 47px;
+}
+
+.usuari4 h2 {
+    font-size: 0.688rem;
+    top: -36px;
+    left: 132px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.coment3 p {
+    width: 390px;
+    font-size: 0.813rem;
+    margin: 0 auto;
+    top: -36px;
+}
+
+.interaccions {
+    height: 23px;
+    top: 5px;
+}
+
+.like4 {
+    width: 48px;
+    height: 23px;
+    left: 20px;
+    border-radius: 17px;
+    border: solid 1px #282864;
+}
+
+.element1 {
+    width: 13px;
+    height: 14px;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 4px;
+    left: 6px;
+}
+
+.like4 p {
+    font-size: 0.688rem;
+    top: -19.8px;
+    left: 22px;
+}
+
+.linia4 {
+    top: -24px;
+    border-top: 1.5px solid #808080;
+    border-bottom: 0;
+    width: 390px;
+    left: 20px;
+}
+
+.resposta4 {
+    height: 130px;
+    top: -1px;
+}
+
+.usuari5 {
+    height: 40px;
+    top: -38px;
+}
+
+.perfil5 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fotoperfil5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 20px;
+}
+
+.usuari5 p {
+    font-size: 0.688rem;
+    top: -12px;
+    left: 47px;
+}
+
+.usuari5 h2 {
+    font-size: 0.688rem;
+    top: -36px;
+    left: 132px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.coment4 p {
+    width: 390px;
+    font-size: 0.813rem;
+    margin: 0 auto;
+    top: -37px;
+    margin-bottom: -4px;
+}
+
+.botbar {
+    width: 430px;
+    height: 45px;
+    position: fixed;
+    background: #282864;
+    top: 799px;
+}
+
+input {
+    width: 415px;
+    height: 30px;
+    border-radius: 10px;
+    top: 4px;
+    left: 4px;
+}
+
+.categoriaV {
+    width: 40px;
+    height: 24.5px;
+    background: #282864;
+    top: -102px;
+    left: 391px;
+    border-radius: 0 0 0 5px;
+    background-image: url(../img/iconavisual.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#fotocoment .comentprincipal {
+    width: 430px;
+    height: 305px;
+    overflow: hidden;
+    top: 43px;
+}
+
+#fotocoment .perfil1 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fotoperfil6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 10px;
+    left: 20px;
+}
+
+#fotocoment .usuari1 p {
+    font-size: 0.688rem;
+    top: -17px;
+    left: 47px;
+}
+
+img {
+    width: 394px;
+    height: 200px;
+    left: 18px;
+    top: -65px;
+}
+
+#fotocoment .interaccions {
+    height: 23px;
+    top: 215px;
+}
+
+#fotocoment .linia1 {
+    top: 217px;
+    border-top: 1.5px solid #282864;
+    border-bottom: 0;
+    width: 100%;
+}
+
+#fotocoment .respostes {
+    height: 565px;
+}
+
+#fotocoment .perfil3 {
+    background-image: url(../img/fotoperfil8.png);
+}
+
+#fotocoment .resposta1 .interaccions {
+    top: 4px;
+}
+
+#fotocoment .like2 p {
+    top: -9px;
+}
+
+#fotocoment .comentsResp p {
+    top: -4.5px;
+}
+
+#fotocoment .resposta2 .interaccions {
+    top: -28px;
+}
+
+#fotocoment .resposta2 .comentsResp p {
+    top: -16.2px;
+}
+
+#fotocoment .linia3 {
+    top: -26px;
+}
+
+#fotocoment .perfil4 {
+    background-image: url(../img/fotoperfil9.png);
+}
+
+#fotocoment .resposta3 .comentsResp p {
+    top: -16.5px;
+}
+
+#afegeix1 .topbar h1 {
+    font-size: 1.188rem;
+    text-align: left;
+    left: 50px;
+    top: -16px;
+    font-weight: 400;
+}
+
+#afegeix1 .topbar p {
+    font-size: 0.938rem;
+    text-align: right;
+    font-weight: 400;
+    color: #00C8FF;
+    top: -50px;
+    right: 20px;
+}
+
+#afegeix1 .contingut {
+    height: 400px;
+}
+
+#afegeix1 .principal {
+    height: 80px;
+}
+
+#afegeix1 .principal p {
+    font-size: 0.813rem;
+    top: 60px;
+    left: 20px;
+}
+
+#afegeix1 input {
+    border: none;
+    left: 20px;
+    top: 8px;
+}
+
+#afegeix2 .topbar h1 {
+    font-size: 1.188rem;
+    text-align: left;
+    left: 50px;
+    top: -16px;
+    font-weight: 400;
+}
+
+#afegeix2 .topbar p {
+    font-size: 0.938rem;
+    text-align: right;
+    font-weight: 400;
+    color: #00C8FF;
+    top: -50px;
+    right: 20px;
+}
+
+#afegeix2 .contingut {
+    height: 400px;
+}
+
+#afegeix2 .principal {
+    height: 90px;
+}
+
+#afegeix2 .principal p {
+    width: 410px;
+    height: 120px;
+    font-size: 0.813rem;
+    top: 60px;
+    left: 20px;
+}
+
+#afegeix2 .linia2 {
+    top: 10px;
+}
+
+#afegeix2 input {
+    border: none;
+    left: 20px;
+    top: 13px;
+}
+
+#afegeix3 .topbar h1 {
+    font-size: 1.188rem;
+    text-align: left;
+    left: 50px;
+    top: -16px;
+    font-weight: 400;
+}
+
+#afegeix3 .topbar p {
+    font-size: 0.938rem;
+    text-align: right;
+    font-weight: 400;
+    color: #00C8FF;
+    top: -50px;
+    right: 20px;
+}
+
+#afegeix3 .contingut {
+    height: 400px;
+}
+
+#afegeix3 .principal {
+    height: 80px;
+}
+
+#afegeix3 .principal p {
+    font-size: 0.813rem;
+    top: 60px;
+    left: 20px;
+}
+
+#afegeix3 input {
+    border: none;
+    left: 20px;
+    top: 8px;
+}
