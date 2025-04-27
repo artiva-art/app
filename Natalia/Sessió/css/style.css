@@ -302,10 +302,14 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     top: 25px;
+}
+
+#benvingut .botoConti a {
+    text-decoration: none;
+    color: white;
 }
 
 #benvingut .enrere {
@@ -375,12 +379,17 @@ p {
     margin-left: 20px;
 }
 
-.destacar {
-    margin-top: 220px;
+#destaca .destacar {
+    height: 600px;
+    top: 200px;
+}
+
+#destaca .destacar h1 {
+    font-size: 2.25rem;
 }
 
 #destaca h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -388,6 +397,7 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
+    top: 20px;
 }
 
 .fotopuja {
@@ -396,12 +406,16 @@ p {
     background-image: url(../img/pujafoto.png);
     background-size: 100%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 60px;
     background-repeat: no-repeat;
 }
 
 .pujafoto {
     text-align: center;
+}
+
+#destaca .destacar a {
+    text-decoration: none;
 }
 
 .pujafoto p {
@@ -426,6 +440,7 @@ p {
 }
 
 .ometre {
+    top: 8px;
     text-align: center;
     line-height: 1rem;
 }
@@ -434,6 +449,18 @@ p {
     font-size: 0.75rem;
     opacity: 70%;
     color: #282864;
+}
+
+#destaca .enrere {
+    margin-top: 50px;
+}
+
+#destaca .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
 }
 
 .tornar {
