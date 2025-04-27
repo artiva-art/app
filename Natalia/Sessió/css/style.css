@@ -167,29 +167,12 @@ p {
     background-color: white;
 }
 
-.huma:checked::afte {
-    content: "✔";
-    left: 2px;
-    top: -2px;
-    color: green;
-    font-size: 16px;
-}
-
 .accepto {
     width: 15px;
     height: 15px;
     border: 2px solid #555;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.accepto:checked::afte {
-    content: "✔";
-    position: absolute;
-    left: 2px;
-    top: -2px;
-    color: green;
-    font-size: 16px;
 }
 
 .condicions {
@@ -201,13 +184,18 @@ p {
     height: 40px;
     background: #282864;
     top: 10px;
-    font-size: 1.063rem;
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
     color: white;
     font-weight: 410;
     left: 105px;
+}
+
+.botoRegis a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.063rem;
 }
 
 .inicia {
@@ -330,6 +318,10 @@ p {
     margin-top: 40px;
     color: #F03C82;
     font-weight: 500;
+}
+
+#benvingut .enrere a {
+    text-decoration: none;
 }
 
 #benvingut .xarxes {
