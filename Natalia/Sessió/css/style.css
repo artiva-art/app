@@ -167,29 +167,12 @@ p {
     background-color: white;
 }
 
-.huma:checked::afte {
-    content: "✔";
-    left: 2px;
-    top: -2px;
-    color: green;
-    font-size: 16px;
-}
-
 .accepto {
     width: 15px;
     height: 15px;
     border: 2px solid #555;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.accepto:checked::afte {
-    content: "✔";
-    position: absolute;
-    left: 2px;
-    top: -2px;
-    color: green;
-    font-size: 16px;
 }
 
 .condicions {
@@ -201,13 +184,18 @@ p {
     height: 40px;
     background: #282864;
     top: 10px;
-    font-size: 1.063rem;
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
     color: white;
     font-weight: 410;
     left: 105px;
+}
+
+.botoRegis a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.063rem;
 }
 
 .inicia {
@@ -314,10 +302,14 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     top: 25px;
+}
+
+#benvingut .botoConti a {
+    text-decoration: none;
+    color: white;
 }
 
 #benvingut .enrere {
@@ -330,6 +322,10 @@ p {
     margin-top: 40px;
     color: #F03C82;
     font-weight: 500;
+}
+
+#benvingut .enrere a {
+    text-decoration: none;
 }
 
 #benvingut .xarxes {
@@ -383,12 +379,17 @@ p {
     margin-left: 20px;
 }
 
-.destacar {
-    margin-top: 220px;
+#destaca .destacar {
+    height: 600px;
+    top: 200px;
+}
+
+#destaca .destacar h1 {
+    font-size: 2.25rem;
 }
 
 #destaca h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -396,6 +397,7 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
+    top: 20px;
 }
 
 .fotopuja {
@@ -404,12 +406,16 @@ p {
     background-image: url(../img/pujafoto.png);
     background-size: 100%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 70px;
     background-repeat: no-repeat;
 }
 
 .pujafoto {
     text-align: center;
+}
+
+#destaca .destacar a {
+    text-decoration: none;
 }
 
 .pujafoto p {
@@ -434,6 +440,7 @@ p {
 }
 
 .ometre {
+    top: 8px;
     text-align: center;
     line-height: 1rem;
 }
@@ -442,6 +449,18 @@ p {
     font-size: 0.75rem;
     opacity: 70%;
     color: #282864;
+}
+
+#destaca .enrere {
+    margin-top: 50px;
+}
+
+#destaca .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
 }
 
 .tornar {
@@ -529,21 +548,41 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
+}
+
+#ajusta .botoConti a {
+    text-decoration: none;
+    color: white;
+}
+
+#ajusta .enrere {
+    margin-top: 50px;
+}
+
+#ajusta .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
+}
+
+#ajusta .enrere a {
+    text-decoration: none;
 }
 
 #perfecte h1 {
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 120px;
     font-size: 2.25rem;
     margin-top: 100px;
 }
 
 #perfecte h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -561,15 +600,19 @@ p {
     background-size: 100%;
     margin: 0 auto;
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 
 .perfefoto p {
-    margin-top: 65px;
+    margin-top: 55px;
     color: #282864;
     font-weight: 540;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 41px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #perfecte .botoConti {
@@ -580,21 +623,35 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
+}
+
+#perfecte .botoConti a {
+    color: white;
+}
+
+#perfecte .enrere {
+    margin-top: 66px;
+}
+
+#perfecte .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
 }
 
 #descripcio h1 {
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 160px;
     font-size: 2.25rem;
-    margin-top: 120px;
 }
 
 #descripcio h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -602,7 +659,7 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
-    margin-top: 125px;
+    margin-top: 165px;
 }
 
 #descripcio .formulari {
@@ -630,7 +687,8 @@ p {
 }
 
 #descripcio .breudescripcio {
-    background: transparent;
+    color: #282864;
+    opacity: 70%;
 }
 
 #descripcio p {
@@ -654,11 +712,14 @@ p {
     height: 40px;
     background: #282864;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     position: relative;
     top: 50px;
+}
+
+#descripcio .botoConti a {
+    color: white;
 }
 
 #descripcio .botoConti p {
@@ -671,7 +732,7 @@ p {
 #descripcio .ometre {
     text-align: center;
     line-height: 1rem;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #descripcio .ometre p {
@@ -761,7 +822,6 @@ p {
     height: 40px;
     background: #282864;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     position: relative;
@@ -775,6 +835,10 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-top: -30px;
+}
+
+#genial .botoVeure a {
+    color: white;
 }
 
 #genial .enrere p {
