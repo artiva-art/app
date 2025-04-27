@@ -406,7 +406,7 @@ p {
     background-image: url(../img/pujafoto.png);
     background-size: 100%;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 70px;
     background-repeat: no-repeat;
 }
 
@@ -548,21 +548,41 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
+}
+
+#ajusta .botoConti a {
+    text-decoration: none;
+    color: white;
+}
+
+#ajusta .enrere {
+    margin-top: 50px;
+}
+
+#ajusta .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
+}
+
+#ajusta .enrere a {
+    text-decoration: none;
 }
 
 #perfecte h1 {
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 120px;
     font-size: 2.25rem;
     margin-top: 100px;
 }
 
 #perfecte h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -580,15 +600,19 @@ p {
     background-size: 100%;
     margin: 0 auto;
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 
 .perfefoto p {
-    margin-top: 65px;
+    margin-top: 55px;
     color: #282864;
     font-weight: 540;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 41px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #perfecte .botoConti {
@@ -599,21 +623,35 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
+}
+
+#perfecte .botoConti a {
+    color: white;
+}
+
+#perfecte .enrere {
+    margin-top: 66px;
+}
+
+#perfecte .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
 }
 
 #descripcio h1 {
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 160px;
     font-size: 2.25rem;
-    margin-top: 120px;
 }
 
 #descripcio h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -621,7 +659,7 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
-    margin-top: 125px;
+    margin-top: 165px;
 }
 
 #descripcio .formulari {
@@ -649,7 +687,8 @@ p {
 }
 
 #descripcio .breudescripcio {
-    background: transparent;
+    color: #282864;
+    opacity: 70%;
 }
 
 #descripcio p {
@@ -673,11 +712,14 @@ p {
     height: 40px;
     background: #282864;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     position: relative;
     top: 50px;
+}
+
+#descripcio .botoConti a {
+    color: white;
 }
 
 #descripcio .botoConti p {
@@ -690,7 +732,7 @@ p {
 #descripcio .ometre {
     text-align: center;
     line-height: 1rem;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #descripcio .ometre p {
@@ -780,7 +822,6 @@ p {
     height: 40px;
     background: #282864;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     position: relative;
@@ -794,6 +835,10 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-top: -30px;
+}
+
+#genial .botoVeure a {
+    color: white;
 }
 
 #genial .enrere p {
