@@ -10,6 +10,16 @@ body {
     width: 430px;
 }
 
+a:link {
+    text-decoration: none;
+    color: currentColor;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
 .topbar {
     background: #282864;
     position: fixed;
@@ -28,6 +38,7 @@ body {
     background-position: center;
     top: 17px;
     left: 17px;
+    z-index: 10;
 }
 
 h1 {
@@ -679,8 +690,10 @@ img {
     text-align: right;
     font-weight: 400;
     color: #00C8FF;
+    width: 60px;
     top: -50px;
     right: 20px;
+    left: 345px;
 }
 
 #afegeix2 .contingut {
@@ -705,6 +718,7 @@ img {
 
 #afegeix2 input {
     border: none;
+    width: 385px;
     left: 20px;
     top: 13px;
 }
@@ -712,6 +726,7 @@ img {
 #afegeix3 .topbar h1 {
     font-size: 1.188rem;
     text-align: left;
+    width: 300px;
     left: 50px;
     top: -16px;
     font-weight: 400;
@@ -722,8 +737,10 @@ img {
     text-align: right;
     font-weight: 400;
     color: #00C8FF;
+    width: 60px;
     top: -50px;
     right: 20px;
+    left: 350px;
 }
 
 #afegeix3 .contingut {
@@ -737,11 +754,17 @@ img {
 #afegeix3 .principal p {
     font-size: 0.813rem;
     top: 60px;
+    width: 400px;
     left: 20px;
 }
 
 #afegeix3 input {
     border: none;
+    width: 400px;
     left: 20px;
     top: 8px;
+}
+
+.uneix {
+    width: 400px;
 }

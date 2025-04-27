@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.cdnfonts.com/css/carbona-test" rel="stylesheet">
-        <title>Comunitat</title>
+        <title>Comunitat gustatiu</title>
     </head>
 
     <body id="comunitatgustatiu">
@@ -30,14 +30,14 @@
         </div>
 
         <div class="contingut">
-            <div class="ApartatPrincipal">Comunitat</div>
+            <a href="comunitat.html"><div class="ApartatPrincipal">Comunitat</div></a>
             <div class="apartats">
-                <div class="visual"></div>
-                <div class="sonor"></div>
-                <div class="tactil"></div>
-                <div class="gustatiu"></div>
+                <a href="comunitatvisual.html"><div class="visual"></div></a>
+                <a href="comunitatsonor.html"><div class="sonor"></div></a>
+                <a href="comunitattactil.html"><div class="tactil"></div></a>
+                <a href="comunitatgustatiu.html"><div class="gustatiu"></div></a>
             </div>
-            <div class="publicar"></div>
+            <a href="publicarcomentari.html"><div class="publicarcomentari"></div></a>
 
             <hr class="linea">
 
@@ -134,9 +134,39 @@
         <div class="botbar PaginaComunitat">
             <div class="icona home"></div>
             <div class="icona reptes"></div>
-            <div class="icona publicarb"></div>
+            <div class="icona invisible"></div>
             <div class="icona comunitatClicada"></div>
-            <div class="icona perfilb"></div>
+            <div class="icona perfilbar"></div>
+            <div id="alternador">
+                <input type="checkbox" id="alterna">
+                <label for="alterna">
+                <div class="icona publicar"></div>
+                </label>
+        
+                <div class="quadreElegir">
+                    <div class="Opcions">
+                        <a href="comunitat.html"><div class="Tancar"></div></a>
+                        <a href="../seleccionar Arxius/Seleccionar_Tots.html"><div class="Apartats">
+                                <div class="Individual">
+                                    <div class="Icona">
+                                        <img src="img/Publicar_Publicacio/Individual_Publicar_Blava.png">
+                                    </div>
+                                </div>
+                                <p>INDIVIDUAL</p>
+                            </div>
+                        </a>
+                        <a href="../seleccionar Arxius/Afegir_Usuaris.html"><div class="Apartats">
+                            <div class="Grupal">
+                                <div class="Icona">
+                                    <img src="img/Publicar_Publicacio/Grupal_Publicar_Blava.png">
+                                </div>
+                            </div>
+                            <p>GRUPAL</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
