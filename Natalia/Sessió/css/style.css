@@ -863,7 +863,7 @@ a {
     color: white;
     font-size: 0.938rem;
     position: relative;
-    top: 2px;
+    top: 17px;
 }
 
 #nouperfil .topbar .configuracio {
@@ -873,8 +873,8 @@ a {
     background-size: 100%;
     position: fixed;
     position: relative;
-    top: -32.5px;
-    left: 380px;
+    top: -17px;
+    left: 374px;
 }
 
 #nouperfil .perfilnou {
@@ -891,7 +891,7 @@ a {
 
 #nouperfil .perfilnou h3 {
     position: relative;
-    top: -100px;
+    top: -75px;
     left: 105px;
     font-size: 1.313rem;
     color: #282864;
@@ -902,7 +902,7 @@ a {
     color: #282864;
     opacity: 30%;
     position: relative;
-    top: -118px;
+    top: -75px;
     left: 116px;
 }
 
@@ -910,8 +910,7 @@ a {
     width: 248px;
     font-size: 0.938rem;
     color: #282864;
-    position: relative;
-    top: -135px;
+    top: -80px;
     left: 116px;
     font-weight: 400;
 }
@@ -919,19 +918,18 @@ a {
 .seguidors {
     width: 80px;
     height: 60px;
-    margin-top: -140px;
+    margin-top: -60px;
     margin-left: 20px;
 }
 
 .seguidors h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -177px;
+    left: -5px;
+    top: -10px;
 }
 
 .seguidors h2 {
     font-size: 0.938rem;
-    position: relative;
     top: -20px;
     color: #282864;
 }
@@ -939,14 +937,15 @@ a {
 .seguits {
     width: 80px;
     height: 60px;
-    margin-top: -70px;
+    margin-top: -62px;
     margin-left: 183px;
 }
 
 .seguits h1 {
     font-size: 0.938rem;
     position: relative;
-    left: -185px;
+    left: -10px;
+    top: -7px;
 }
 
 .seguits h2 {
@@ -959,14 +958,15 @@ a {
 .agrada {
     width: 80px;
     height: 60px;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-left: 335px;
 }
 
 .agrada h1 {
     font-size: 0.938rem;
     position: relative;
-    left: -185px;
+    left: -5px;
+    top: -7px;
 }
 
 .agrada h2 {
@@ -1012,14 +1012,17 @@ a {
 .perfilinteract {
     width: 390px;
     height: 400px;
+    top: 60px;
 }
 
 #nouperfil .publicacions {
     width: 100px;
     height: 30px;
-    margin-left: 20px;
+    top: -41px;
+    left: 20px;
     background: #282864;
     border-radius: 4px;
+
 }
 
 #nouperfil .publicacions p {
@@ -1035,6 +1038,7 @@ a {
     margin-left: 128px;
     border-radius: 4px;
     margin-top: -44px;
+    top: -26px;
 }
 
 #nouperfil .llistes p {
@@ -1124,49 +1128,162 @@ a {
     bottom:0;
     left: 0;
     right: 0;
-    z-index: 20;
+    z-index: 100;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 0px 30px;
 }
 
 .icona {
-    width: 27px;
-    height: 27px;
+    width: 7vw;
+    height: 7vw;
     background-repeat: no-repeat;
     background-size: 100%;
     float: left;
-    margin-top: 24px;
+    background-position: center;
+    margin: 5.3vw 6.5vw 0 6.5vw;
 }
 
 .PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
 }
 
 .home {
-    margin-right: 53px;
     background-image: url(../img/Icones/Icona_Home.png);
 }
 
 .reptes {
-    margin-right: 53px;
     background-image: url(../img/Icones/Icona_Reptes.png);
 }
 
-.publicar {
-    width: 50px;
-    height: 50px;
-    margin-top: 4.5px;
-    margin-right: 53px;
-    background-image: url(../img/Icones/Icona_Publicar.png);
-}
-
 .comunitat {
-    width: 33px;
-    margin-right: 53px;
     background-image: url(../img/Icones/Icona_Comunitat.png);
 }
 
 .perfilClicada {
+    background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
+    margin-top: 14px;
+}
+
+.publicar {
+    position: absolute;
+    top: 0vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7vw;
+    height: 7vw;
+    background-image: url(../img/Icones/Icona_Publicar.png);
+    background-position: center;
+    z-index: 99999999999999999999;
+    margin: 4vw -15px;
+    transform: scale(140%);
+    transform-origin: center;
+}
+
+input[type=checkbox] {
+    visibility:hidden;
+}
+  
+  #alternador label {
+    width:7vw;
+    height:7vw;
+    border-radius:0.5rem;
+    transition:all .5s ease;
+    cursor:pointer;
+    opacity:1;
+}
+  
+  #alternador input[type=checkbox]:checked+label {
+    opacity:1;
+}
+  
+  #alternador input[type=checkbox]:checked+label~.quadreElegir {
+    left:0rem;
+}
+
+  .quadreElegir {
+    width: 100%;
+    height: 900px;
+    margin: 0px;
+    position: absolute;
+    left:-500px;
+    top: -800px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Opcions {
+    width: 91%;
+    height: 160px;
+    background-color: #282C63;
+    border-radius: 25px;
+    margin: 0 auto;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+}
+
+.Tancar {
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin-top: 15px;
-    background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
+    margin-left: 15px;
+}
+
+.Opcions p {
+    margin-top: 0px;
+    color: white;
+    font-size: 1.30rem;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Carbona Test', sans-serif;
+}
+
+.Apartats {
+    width: 30%;
+    height: 120px;
+    text-align: center;
+    float: left;
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+}
+
+.Individual {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Grupal {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Individual img {
+    margin-top: 6px;
+    width: 70%;
+    height: 90%;
+    text-align: center;
+}
+
+.Grupal img {
+    margin-top: 8px;
+    width: 100%;
+    height: 90%;
+    position: center;
+}
+
+.Icona {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 3px;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
 }
