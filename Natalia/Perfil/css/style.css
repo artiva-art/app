@@ -1,13 +1,10 @@
 * {
     position: relative;
     font-family: 'Carbona Test', sans-serif;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
 }
 
 #perfil  .contingut {
+    width: 100%;
     overflow: hidden;
 }
 
@@ -17,6 +14,9 @@
     background: #282864;
     position: fixed;
     z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #perfil .topbar p {
@@ -502,9 +502,9 @@
     z-index: 100;
     background-repeat: no-repeat;
     background-size: 100%;
-    }
+}
   
-  .icona {
+.icona {
     width: 7vw;
     height: 7vw;
     background-repeat: no-repeat;
@@ -512,9 +512,10 @@
     float: left;
     background-position: center;
     margin: 5.3vw 6.5vw 0 6.5vw;
-    }  
+}
 
-.PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
+.PaginaPerfil {
+    background-image: url(../img/Botbar/Botbar_Perfil.png);
 }
 
 .home {
@@ -525,35 +526,46 @@
     background-image: url(../img/Icones/Icona_Reptes.png);
 }
 
+.invisible {
+    background: transparent;
+}
+
 .comunitat {
     background-image: url(../img/Icones/Icona_Comunitat.png);
 }
 
 .perfilClicada {
-    background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
+    background-image: url(../img/Icones/Clicades/Icona_Perfil_Clicada.png);
     margin-top: 14px;
-}
+    left: 0px;
+} 
+
+/* -------------- publicar ---------------- */
 
 .publicar {
-    position: absolute;
-    top: 0vw;
-    left: 50%;
+    position: relative;
+    top: -10vw;
+    left: -30%;
     transform: translateX(-50%);
     width: 7vw;
-    height: 7ww;
+    height: 7vw;
     background-image: url(../img/Icones/Icona_Publicar.png);
     background-position: center;
     z-index: 99999999999999999999;
     margin: 4vw -15px;
     transform: scale(140%);
     transform-origin: center;
-  }
-  
-  input[type=checkbox] {
+}
+
+input[type=checkbox]{
     visibility:hidden;
   }
   
-  #alternador label {
+  #alternador{
+    z-index: -9999999;
+  }
+  
+  #alternador label{
     width:7vw;
     height:7vw;
     border-radius:0.5rem;
@@ -562,15 +574,15 @@
     opacity:1;
   }
   
-  #alternador input[type=checkbox]:checked+label {
+  #alternador input[type=checkbox]:checked+label{
     opacity:1;
-}
+  }
   
-  #alternador input[type=checkbox]:checked+label~.quadreElegir {
+  #alternador input[type=checkbox]:checked+label~.quadreElegir{
     left:0rem;
-}
+  }
 
-.quadreElegir {
+  .quadreElegir {
     width: 100%;
     height: 900px;
     margin: 0px;
@@ -579,9 +591,9 @@
     top: -800px;
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.4);
-  }
+}
 
-  .Opcions {
+.Opcions {
     width: 91%;
     height: 160px;
     background-color: #282C63;
@@ -590,9 +602,9 @@
     position: absolute;
     top: 560px;
     left: 20px;
-  }
-  
-  .Tancar {
+}
+
+.Tancar {
     width: 15px;
     height: 15px;
     background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
@@ -600,25 +612,25 @@
     background-repeat: no-repeat;
     margin-top: 15px;
     margin-left: 15px;
-  }
+}
 
-  .Opcions p {
+.Opcions p {
     margin-top: 0px;
     color: white;
     font-size: 1.30rem;
     text-align: center;
     font-weight: bolder;
     font-family: 'Carbona Test', sans-serif;
-  }
-  
-  .Apartats {
+}
+
+.Apartats {
     width: 30%;
     height: 120px;
     text-align: center;
     float: left;
     margin-left: 9.86%;
     margin-right: 9.86%;
-  }
+}
 
 .Individual {
     width: 100%;
@@ -628,41 +640,33 @@
     margin-bottom: 10px;
 }
 
-.Individual {
+.Grupal {
     width: 100%;
     height: 70px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 10px;
-  }
-  
-  .Grupal {
-    width: 100%;
-    height: 70px;
-    background-color: white;
-    border-radius: 20px;
-    margin-bottom: 10px;
-  }
+}
 
-  .Individual img {
+.Individual img {
     margin-top: 6px;
     width: 70%;
     height: 90%;
     text-align: center;
-  }
-  
-  .Grupal img {
+}
+
+.Grupal img {
     margin-top: 8px;
     width: 100%;
     height: 90%;
     position: center;
-  }
+}
 
-  .Icona {
+.Icona {
     width: 64px;
     height: 64px;
     margin-bottom: 3px;
     margin: 0 auto;
     border-radius: 100%;
     text-align: center;
-  }
+}

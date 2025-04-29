@@ -167,29 +167,12 @@ p {
     background-color: white;
 }
 
-.huma:checked::afte {
-    content: "✔";
-    left: 2px;
-    top: -2px;
-    color: green;
-    font-size: 16px;
-}
-
 .accepto {
     width: 15px;
     height: 15px;
     border: 2px solid #555;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.accepto:checked::afte {
-    content: "✔";
-    position: absolute;
-    left: 2px;
-    top: -2px;
-    color: green;
-    font-size: 16px;
 }
 
 .condicions {
@@ -201,7 +184,6 @@ p {
     height: 40px;
     background: #282864;
     top: 10px;
-    font-size: 1.063rem;
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
@@ -211,7 +193,9 @@ p {
 }
 
 .botoRegis a {
-    
+    color: white;
+    text-decoration: none;
+    font-size: 1.063rem;
 }
 
 .inicia {
@@ -318,10 +302,14 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     top: 25px;
+}
+
+#benvingut .botoConti a {
+    text-decoration: none;
+    color: white;
 }
 
 #benvingut .enrere {
@@ -334,6 +322,10 @@ p {
     margin-top: 40px;
     color: #F03C82;
     font-weight: 500;
+}
+
+#benvingut .enrere a {
+    text-decoration: none;
 }
 
 #benvingut .xarxes {
@@ -387,12 +379,17 @@ p {
     margin-left: 20px;
 }
 
-.destacar {
-    margin-top: 220px;
+#destaca .destacar {
+    height: 600px;
+    top: 200px;
+}
+
+#destaca .destacar h1 {
+    font-size: 2.25rem;
 }
 
 #destaca h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -400,6 +397,7 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
+    top: 20px;
 }
 
 .fotopuja {
@@ -408,12 +406,16 @@ p {
     background-image: url(../img/pujafoto.png);
     background-size: 100%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 70px;
     background-repeat: no-repeat;
 }
 
 .pujafoto {
     text-align: center;
+}
+
+#destaca .destacar a {
+    text-decoration: none;
 }
 
 .pujafoto p {
@@ -438,6 +440,7 @@ p {
 }
 
 .ometre {
+    top: 8px;
     text-align: center;
     line-height: 1rem;
 }
@@ -446,6 +449,18 @@ p {
     font-size: 0.75rem;
     opacity: 70%;
     color: #282864;
+}
+
+#destaca .enrere {
+    margin-top: 50px;
+}
+
+#destaca .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
 }
 
 .tornar {
@@ -533,21 +548,41 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
+}
+
+#ajusta .botoConti a {
+    text-decoration: none;
+    color: white;
+}
+
+#ajusta .enrere {
+    margin-top: 50px;
+}
+
+#ajusta .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
+}
+
+#ajusta .enrere a {
+    text-decoration: none;
 }
 
 #perfecte h1 {
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 120px;
     font-size: 2.25rem;
     margin-top: 100px;
 }
 
 #perfecte h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -565,15 +600,19 @@ p {
     background-size: 100%;
     margin: 0 auto;
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 
 .perfefoto p {
-    margin-top: 65px;
+    margin-top: 55px;
     color: #282864;
     font-weight: 540;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 41px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #perfecte .botoConti {
@@ -584,21 +623,35 @@ p {
     text-align: center;
     line-height: 2.5rem;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
+}
+
+#perfecte .botoConti a {
+    color: white;
+}
+
+#perfecte .enrere {
+    margin-top: 66px;
+}
+
+#perfecte .enrere p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: #F03C82;
+    font-weight: 500;
 }
 
 #descripcio h1 {
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 160px;
     font-size: 2.25rem;
-    margin-top: 120px;
 }
 
 #descripcio h2 {
-    width: 390px;
+    width: 370px;
     font-size: 0.75rem;
     color: #282864;
     opacity: 70%;
@@ -606,7 +659,7 @@ p {
     margin: 0 auto;
     line-height: 0.9rem;
     font-weight: 540;
-    margin-top: 125px;
+    margin-top: 165px;
 }
 
 #descripcio .formulari {
@@ -634,7 +687,8 @@ p {
 }
 
 #descripcio .breudescripcio {
-    background: transparent;
+    color: #282864;
+    opacity: 70%;
 }
 
 #descripcio p {
@@ -658,11 +712,14 @@ p {
     height: 40px;
     background: #282864;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
     position: relative;
     top: 50px;
+}
+
+#descripcio .botoConti a {
+    color: white;
 }
 
 #descripcio .botoConti p {
@@ -675,7 +732,7 @@ p {
 #descripcio .ometre {
     text-align: center;
     line-height: 1rem;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #descripcio .ometre p {
@@ -734,7 +791,6 @@ p {
 }
 
 .previperfil h3 {
-    position: relative;
     top: -90px;
     left: 105px;
     font-size: 1.313rem;
@@ -745,7 +801,6 @@ p {
     font-size: 0.938rem;
     color: #282864;
     opacity: 30%;
-    position: relative;
     top: -92px;
     left: 116px;
 }
@@ -754,7 +809,6 @@ p {
     width: 248px;
     font-size: 0.938rem;
     color: #282864;
-    position: relative;
     top: -98px;
     left: 116px;
     font-weight: 400;
@@ -765,10 +819,8 @@ p {
     height: 40px;
     background: #282864;
     border-radius: 10px;
-    color: white;
     font-weight: 410;
     margin: 0 auto;
-    position: relative;
     top: 50px;
 }
 
@@ -779,6 +831,10 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-top: -30px;
+}
+
+#genial .botoVeure a {
+    color: white;
 }
 
 #genial .enrere p {
@@ -797,13 +853,13 @@ p {
     width: 430px;
     height: 50px;
     background: #282864;
+    position: fixed;
 }
 
 #nouperfil .topbar p {
     color: white;
     font-size: 0.938rem;
-    position: relative;
-    top: 2px;
+    top: 17px;
 }
 
 #nouperfil .topbar .configuracio {
@@ -811,10 +867,8 @@ p {
     height: 36px;
     background-image: url(../img/configuració.png);
     background-size: 100%;
-    position: fixed;
-    position: relative;
-    top: -32.5px;
-    left: 380px;
+    top: -17px;
+    left: 374px;
 }
 
 #nouperfil .perfilnou {
@@ -830,8 +884,7 @@ p {
 }
 
 #nouperfil .perfilnou h3 {
-    position: relative;
-    top: -100px;
+    top: -75px;
     left: 105px;
     font-size: 1.313rem;
     color: #282864;
@@ -842,7 +895,7 @@ p {
     color: #282864;
     opacity: 30%;
     position: relative;
-    top: -118px;
+    top: -75px;
     left: 116px;
 }
 
@@ -850,8 +903,7 @@ p {
     width: 248px;
     font-size: 0.938rem;
     color: #282864;
-    position: relative;
-    top: -135px;
+    top: -80px;
     left: 116px;
     font-weight: 400;
 }
@@ -859,19 +911,17 @@ p {
 .seguidors {
     width: 80px;
     height: 60px;
-    margin-top: -140px;
+    margin-top: -60px;
     margin-left: 20px;
 }
 
 .seguidors h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -177px;
+    top: -10px;
 }
 
 .seguidors h2 {
     font-size: 0.938rem;
-    position: relative;
     top: -20px;
     color: #282864;
 }
@@ -879,14 +929,15 @@ p {
 .seguits {
     width: 80px;
     height: 60px;
-    margin-top: -70px;
+    margin-top: -62px;
     margin-left: 183px;
 }
 
 .seguits h1 {
     font-size: 0.938rem;
     position: relative;
-    left: -185px;
+    left: -10px;
+    top: -7px;
 }
 
 .seguits h2 {
@@ -899,14 +950,15 @@ p {
 .agrada {
     width: 80px;
     height: 60px;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-left: 335px;
 }
 
 .agrada h1 {
     font-size: 0.938rem;
     position: relative;
-    left: -185px;
+    left: -5px;
+    top: -7px;
 }
 
 .agrada h2 {
@@ -952,14 +1004,17 @@ p {
 .perfilinteract {
     width: 390px;
     height: 400px;
+    top: 60px;
 }
 
 #nouperfil .publicacions {
     width: 100px;
     height: 30px;
-    margin-left: 20px;
+    top: -41px;
+    left: 20px;
     background: #282864;
     border-radius: 4px;
+    margin-left: 5px;
 }
 
 #nouperfil .publicacions p {
@@ -967,14 +1022,16 @@ p {
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #nouperfil .llistes {
     width: 58px;
     height: 30px;
-    margin-left: 128px;
+    margin-left: 140px;
     border-radius: 4px;
     margin-top: -44px;
+    top: -26px;
 }
 
 #nouperfil .llistes p {
@@ -987,9 +1044,10 @@ p {
 #nouperfil .coleccions {
     width: 93px;
     height: 30px;
-    margin-left: 195px;
+    margin-left: 210px;
     border-radius: 4px;
     margin-top: -44px;
+    top: -12px;
 }
 
 #nouperfil .coleccions p {
@@ -1002,9 +1060,9 @@ p {
 #nouperfil .favorits {
     width: 93px;
     height: 30px;
-    margin-left: 298px;
+    margin-left: 305px;
     border-radius: 4px;
-    margin-top: -44px;
+    margin-top: -43.6px;
 }
 
 #nouperfil .favorits p {
@@ -1012,14 +1070,14 @@ p {
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #nouperfil hr {
     border-top: 1px solid #282864;
     border-bottom: 0;
-    width: 390px;
-    left: 20px;
-    margin-left: 20px;
+    width: 400px;
+    margin-left: 15px;
     margin-top: 0px;
 }
 
@@ -1064,49 +1122,173 @@ p {
     bottom:0;
     left: 0;
     right: 0;
-    z-index: 20;
+    z-index: 100;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 0px 30px;
-}
-
+    }
+  
 .icona {
-    width: 27px;
-    height: 27px;
+    width: 7vw;
+    height: 7vw;
     background-repeat: no-repeat;
     background-size: 100%;
     float: left;
-    margin-top: 24px;
-}
+    background-position: center;
+    margin: 5.3vw 6.5vw 0 6.5vw;
+    }
 
-.PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
+.PaginaPerfil {
+    background-image: url(../img/Botbar/Botbar_Perfil.png);
 }
 
 .home {
-    margin-right: 53px;
     background-image: url(../img/Icones/Icona_Home.png);
 }
 
 .reptes {
-    margin-right: 53px;
     background-image: url(../img/Icones/Icona_Reptes.png);
 }
 
-.publicar {
-    width: 50px;
-    height: 50px;
-    margin-top: 4.5px;
-    margin-right: 53px;
-    background-image: url(../img/Icones/Icona_Publicar.png);
+.invisible {
+    background: transparent;
 }
 
 .comunitat {
-    width: 33px;
-    margin-right: 53px;
     background-image: url(../img/Icones/Icona_Comunitat.png);
 }
 
 .perfilClicada {
+    background-image: url(../img/Icones/Clicades/Icona_Perfil_Clicada.png);
+    margin-top: 14px;
+} 
+
+/* -------------- publicar ---------------- */
+
+.publicar {
+    position: relative;
+    top: -20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7vw;
+    height: 7vw;
+    background-image: url(../img/Icones/Icona_Publicar.png);
+    background-position: center;
+    z-index: 99999999999999999999;
+    margin: 4vw -15px;
+    transform: scale(140%);
+    transform-origin: center;
+}
+
+input[type=checkbox]{
+    visibility:hidden;
+  }
+  
+  #alternador{
+    z-index: -9999999;
+  }
+  
+  #alternador label{
+    width:7vw;
+    height:7vw;
+    border-radius:0.5rem;
+    transition:all .5s ease;
+    cursor:pointer;
+    opacity:1;
+  }
+  
+  #alternador input[type=checkbox]:checked+label{
+    opacity:1;
+  }
+  
+  #alternador input[type=checkbox]:checked+label~.quadreElegir{
+    left:0rem;
+  }
+
+  .quadreElegir {
+    width: 100%;
+    height: 900px;
+    margin: 0px;
+    position: absolute;
+    left:-500px;
+    top: -800px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Opcions {
+    width: 91%;
+    height: 160px;
+    background-color: #282C63;
+    border-radius: 25px;
+    margin: 0 auto;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+}
+
+.Tancar {
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin-top: 15px;
-    background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
+    margin-left: 15px;
+}
+
+.Opcions p {
+    margin-top: 0px;
+    color: white;
+    font-size: 1.30rem;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Carbona Test', sans-serif;
+}
+
+.Apartats {
+    width: 30%;
+    height: 120px;
+    text-align: center;
+    float: left;
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+}
+
+.Individual {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Grupal {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Individual img {
+    margin-top: 6px;
+    width: 70%;
+    height: 90%;
+    text-align: center;
+}
+
+.Grupal img {
+    margin-top: 8px;
+    width: 100%;
+    height: 90%;
+    position: center;
+}
+
+.Icona {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 3px;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
 }
