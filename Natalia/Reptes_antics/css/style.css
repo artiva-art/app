@@ -382,12 +382,20 @@ h2 {
     opacity: 50%;
 }
 
+#reptesonor .sonor {
+    width: 64px;
+    height: 86px;
+    left: 60px;
+    float: left;
+    opacity: 100%;
+}
+
 #reptesonor .tactil {
     width: 64px;
     height: 86px;
     left: 90px;
     float: left;
-    opacity: 100%;
+    opacity: 50%;
 }
 
 #reptesonor .reptes p {
@@ -437,12 +445,12 @@ h2 {
     margin-top: 30px;
 }
 
-#reptegustatiu {
+#reptetactil {
     width: 100%;
     height: 870px;
 }
 
-#reptegustatiu .visual {
+#reptetactil .visual {
     width: 64px;
     height: 86px;
     left: 30px;
@@ -450,7 +458,7 @@ h2 {
     opacity: 50%;
 }
 
-#reptegustatiu .sonor {
+#reptetactil .sonor {
     width: 64px;
     height: 86px;
     left: 60px;
@@ -458,7 +466,7 @@ h2 {
     opacity: 50%;
 }
 
-#reptegustatiu .tactil {
+#reptetactil .tactil {
     width: 64px;
     height: 86px;
     left: 90px;
@@ -466,7 +474,7 @@ h2 {
     opacity: 100%;
 }
 
-#reptegustatiu .reptes p {
+#reptetactil .reptes p {
     font-size: 0.875rem;
     color: #A1EDFF;
     font-weight: 600;
@@ -474,22 +482,14 @@ h2 {
     left: 10px;
 }
 
-#reptegustatiu .companyerisme {
+#reptetactil .companyerisme {
     width: 360px;
     height: 85px;
     background: #00C8FF;
     border-radius: 10px;
 }
 
-#reptegustatiu .confiança {
-    width: 360px;
-    height: 85px;
-    background: #00C8FF;
-    border-radius: 10px;
-    margin-top: 30px;
-}
-
-#reptegustatiu .amistat {
+#reptetactil .confiança {
     width: 360px;
     height: 85px;
     background: #00C8FF;
@@ -497,7 +497,7 @@ h2 {
     margin-top: 30px;
 }
 
-#reptegustatiu .llibertat {
+#reptetactil .amistat {
     width: 360px;
     height: 85px;
     background: #00C8FF;
@@ -505,7 +505,15 @@ h2 {
     margin-top: 30px;
 }
 
-#reptegustatiu .frustracio {
+#reptetactil .llibertat {
+    width: 360px;
+    height: 85px;
+    background: #00C8FF;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#reptetactil .frustracio {
     width: 360px;
     height: 85px;
     background: #00C8FF;

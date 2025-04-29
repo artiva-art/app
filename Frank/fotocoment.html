@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentaris amb foto</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.cdnfonts.com/css/carbona-test" rel="stylesheet">
+</head>
+<body id="fotocoment">
+    <div class="topbar">
+        <div class="creu"></div>
+        <h1>Comentaris</h1>
+        <div class="puntets"></div>
+    </div>
+
+    <div class="contingut">
+        <div class="comentprincipal">
+            <div class="usuari1">
+                <div class="perfil1"></div>
+                <p>jack_sparrow</p>
+                <h2>Fa 5h</h2>
+                <div class="visualitzacions1">
+                    <p>2m visualitzacions</p>
+                </div>
+                <div class="categoriaV"></div>
+                <img id="primeraimatge" src="img/fotocanvi1.png">
+                <button onclick="cambiarImagen()">Cambiar Imagen</button>
+            </div>
+
+            <div class="coment">
+                <p>Creieu que en la manera de caminar és un art?</p>
+            </div>
+
+            <div class="interaccions">
+                <div class="like">
+                    <div class="element1"></div>
+                    <p>16,1k</p>
+                </div>
+
+                <div class="comentari">
+                    <div class="element2"></div>
+                    <p>2.410</p>
+                </div>
+
+                <div class="compartir">
+                    <div class="element3"></div>
+                    <p>2,3k</p>
+                </div>
+            </div>
+            <hr class="linia1">
+        </div>
+
+        <div class="respostes">
+            <div class="resposta1">
+                <div class="usuari2">
+                    <div class="perfil2"></div>
+                    <p>irelia_blossom</p>
+                    <h2>Fa 1m</h2>
+                </div>
+
+                <div class="coment1">
+                    <p>Absolutament sí. La forma en què una persona camina diu tant d'ella… la seva energia, la seva història, el seu estat d'ànim. Hi ha gent que camina amb elegància natural, uns altres amb una força que gairebé imposa, i altres amb una lleugeresa que sembla que suren. És com una coreografia no assajada que tots tenim, sense adonar-nos. Per a mi, això és art en la seva forma més quotidiana i sincera.</p>
+
+                    <div class="interaccions">
+                        <div class="like2">
+                            <div class="element1"></div>
+                            <p>54</p>
+                        </div>
+    
+                        <div class="comentsResp">
+                            <div class="element4"></div>
+                            <p>5</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="linia2">
+
+            <div class="resposta2">
+                <div class="usuari3">
+                    <div class="perfil3"></div>
+                    <p>horizon_zero</p>
+                    <h2>Fa 7m</h2>
+                </div>
+
+                <div class="coment2">
+                    <p>Mai ho havia pensat així, però ara que ho dius, totalment. Observar com algú camina pot ser tan hipnòtic com veure una dansa. Hi ha una mica d'estil, d'actitud, d'essència única en cada pas. Fins i tot culturalment, la manera de caminar comunica molt. En fotografia o en cinema, hi ha plans on només es veu a algú caminant… i això basta per a contar una història. Això ja és art.</p>
+                </div>
+
+                <div class="interaccions">
+                    <div class="like3">
+                        <div class="element1"></div>
+                        <p>139</p>
+                    </div>
+
+                    <div class="comentsResp">
+                        <div class="element4"></div>
+                        <p>15</p>
+                </div>
+        </div>
+
+        <hr class="linia3">
+
+        <div class="resposta3">
+            <div class="usuari4">
+                <div class="perfil4"></div>
+                <p>tiffa_lockhart</p>
+                <h2>Fa 7m</h2>
+            </div>
+
+            <div class="coment3">
+                <p>Mai ho havia pensat així, però ara que ho dius, totalment. Observar com algú camina pot ser tan hipnòtic com veure una dansa. Hi ha una mica d'estil, d'actitud, d'essència única en cada pas. Fins i tot culturalment, la manera de caminar comunica molt.</p>
+            </div>
+
+            <div class="interaccions">
+                <div class="like4">
+                    <div class="element1"></div>
+                    <p>585</p>
+                </div>
+
+                <div class="comentsResp">
+                    <div class="element4"></div>
+                    <p>21</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="botbar">
+        <div class="conversa">
+            <input type="text" placeholder="Uneix-te a la conversa">
+        </div>
+    </div>
+
+    <script>
+        function cambiarImagen() {
+          var imagen = document.getElementById("primeraimatge");
+          var imagenOriginal = imagen.src;
+      
+          if (imagen.src === imagenOriginal) {
+            imagen.src = "fotocanvi2";
+          } else {
+            imagen.src = imagenOriginal;
+          }
+        }
+      </script>
+</body>
+</html>

@@ -1,18 +1,29 @@
+* {
+    position: relative;
+    font-family: 'Carbona Test', sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
 #perfil  .contingut {
     overflow: hidden;
 }
 
-#perfil  .topbar {
+#perfil .topbar {
     width: 430px;
     height: 50px;
     background: #282864;
+    position: fixed;
+    z-index: 10;
 }
 
 #perfil .topbar p {
     color: white;
     font-size: 0.938rem;
-    position: relative;
     top: 2px;
+    left: 15px;
 }
 
 #perfil .topbar .configuracio {
@@ -20,15 +31,17 @@
     height: 36px;
     background-image: url(../img/configuració.png);
     background-size: 100%;
-    position: fixed;
-    position: relative;
-    top: -32.5px;
-    left: 380px;
+    top: -40px;
+    left: 389px;
+}
+
+.contingut {
+    height: 1450px;
 }
 
 #perfil .perfilnou {
-    margin-top: 85px;
-    margin-left: 20px;
+    margin-top: 77px;
+    margin-left: 12px;
 }
 
 #perfil .fotoprev {
@@ -39,8 +52,7 @@
 }
 
 #perfil .perfilnou h3 {
-    position: relative;
-    top: -100px;
+    top: -96px;
     left: 105px;
     font-size: 1.313rem;
     color: #282864;
@@ -50,8 +62,7 @@
     font-size: 0.938rem;
     color: #282864;
     opacity: 30%;
-    position: relative;
-    top: -118px;
+    top: -116px;
     left: 116px;
 }
 
@@ -59,7 +70,6 @@
     width: 248px;
     font-size: 0.938rem;
     color: #282864;
-    position: relative;
     top: -135px;
     left: 116px;
     font-weight: 400;
@@ -68,39 +78,38 @@
 #perfil .seguidors {
     width: 80px;
     height: 60px;
-    margin-top: -140px;
-    margin-left: 20px;
+    margin-top: -136px;
+    margin-left: 12px;
 }
 
 #perfil .seguidors h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -177px;
+    color: #282864;
+    left: 26px;
 }
 
 #perfil .seguidors h2 {
     font-size: 0.938rem;
-    position: relative;
-    top: -20px;
+    top: -14px;
     color: #282864;
 }
 
 #perfil .seguits {
     width: 80px;
     height: 60px;
-    margin-top: -70px;
-    margin-left: 183px;
+    margin-top: -65px;
+    left: 175px;
 }
 
 #perfil .seguits h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -185px;
+    left: 16.5px;
+    color: #282864;
+    top: -3px;
 }
 
 #perfil .seguits h2 {
     font-size: 0.938rem;
-    position: relative;
     top: -20px;
     color: #282864;
 }
@@ -109,18 +118,18 @@
     width: 80px;
     height: 60px;
     margin-top: -70px;
-    margin-left: 335px;
+    margin-left: 327px;
 }
 
 #perfil .agrada h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -185px;
+    top: -3px;
+    left: 21.5px;
+    color: #282864;
 }
 
 #perfil .agrada h2 {
     font-size: 0.938rem;
-    position: relative;
     top: -20px;
     color: #282864;
 }
@@ -130,7 +139,8 @@
     height: 30px;
     background: #00C8A0;
     border-radius: 4px;
-    margin-left: 260px;
+    top: -6px;
+    margin-left: 252px;
 }
 
 #perfil .editar p {
@@ -146,8 +156,8 @@
     height: 30px;
     background: #00C8A0;
     border-radius: 4px;
-    margin-top: -35px;
-    margin-left: 370px;
+    margin-top: -41px;
+    margin-left: 362px;
 }
 
 #perfil .accions p {
@@ -161,12 +171,13 @@
 #perfil .perfilinteract {
     width: 390px;
     height: 400px;
+    top: 5px;
 }
 
 #perfil .publicacions {
     width: 100px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 17px;
     background: #282864;
     border-radius: 4px;
 }
@@ -176,12 +187,13 @@
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #perfil .llistes {
     width: 58px;
     height: 30px;
-    margin-left: 128px;
+    margin-left: 132px;
     border-radius: 4px;
     margin-top: -44px;
 }
@@ -191,14 +203,15 @@
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #perfil .coleccions {
     width: 93px;
     height: 30px;
-    margin-left: 195px;
+    margin-left: 202px;
     border-radius: 4px;
-    margin-top: -44px;
+    margin-top: -43px;
 }
 
 #perfil .coleccions p {
@@ -211,9 +224,9 @@
 #perfil .favorits {
     width: 93px;
     height: 30px;
-    margin-left: 298px;
+    margin-left: 297px;
     border-radius: 4px;
-    margin-top: -44px;
+    margin-top: -44.6px;
 }
 
 #perfil .favorits p {
@@ -227,13 +240,429 @@
     border-top: 1px solid #282864;
     border-bottom: 0;
     width: 400px;
-    margin-left: 15px;
-    margin-top: 0px;
+    margin-left: 7px;
+    margin-top: -1px;
 }
 
 .posts {
     width: 390px;
-    height: 500px;
-    background: red;
-    margin-left: 20px;
+    height: 1007px;
+    left: 12.5px;
+    top: 10px;
 }
+
+.post1 {
+    width: 186px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_1.jpeg);
+    background-size: cover;
+}
+
+.titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #282864;
+    border-radius: 18px 0 13px 0;
+}
+
+.categoria1 {
+    width: 21px;
+    height: 17px;
+    background-image: url(../img/icon_v.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 6.5px;
+    left: 13px;
+}
+
+.post1 p {
+    margin-left: 41px;
+    margin-top: -9px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post2 {
+    width: 186px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_2.jpg);
+    background-size: cover;
+    margin-top: -186px;
+    margin-left: 204px;
+}
+
+.post2 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #00C8FF;
+    border-radius: 18px 0 13px 0;
+}
+
+.categoria3 {
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/icon_t.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 6px;
+    left: 13px;
+}
+
+.post2 p {
+    width: 400px;
+    margin-left: 41px;
+    margin-top: -11px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post3 {
+    width: 390px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_3.jpg);
+    background-size: cover;
+    top: 19px;
+}
+
+.post3 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #F03C82;
+    border-radius: 18px 0 13px 0;
+}
+
+.categoria2 {
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/icon_s.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    top: 5px;
+    left: 13px;
+}
+
+.post3 p {
+    width: 400px;
+    margin-left: 41px;
+    margin-top: -11px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post3 img {
+    width: 93px;
+    height: 93px;
+    top: 20px;
+    left: 150px;
+}
+
+.post4 {
+    width: 186px;
+    height: 390px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_4.jpeg);
+    background-size: cover;
+    background-position: center;
+    top: 39px;
+}
+
+.post4 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #F03C82;
+    border-radius: 18px 0 13px 0;
+}
+
+.post4 p {
+    width: 400px;
+    margin-left: 41px;
+    margin-top: -11.5px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post4 img {
+    width: 93px;
+    height: 93px;
+    top: 110px;
+    left: 50px;
+}
+
+.post5 {
+    width: 186px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_5.jpeg);
+    background-size: cover;
+    background-position: center;
+    top: -351px;
+    left: 204px;
+}
+
+.post5 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #00C8A0;
+    border-radius: 18px 0 13px 0;
+}
+
+.post5 .categoria4 {
+    width: 21px;
+    height: 17px;
+    background-image: url(../img/icon_g.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 7.5px;
+    left: 13px;
+}
+
+.post5 p {
+    margin-left: 41px;
+    margin-top: -8.5px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post6 {
+    width: 186px;
+    height: 390px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_6.jpeg);
+    background-size: cover;
+    top: -331px;
+    left: 204px;
+}
+
+.post6 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #282864;
+    border-radius: 18px 0 13px 0;
+}
+
+.post6 .categoria1 {
+    width: 21px;
+    height: 17px;
+    background-image: url(../img/icon_v.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 6.5px;
+    left: 13px;
+}
+
+.post6 p {
+    margin-left: 41px;
+    margin-top: -9px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post7 {
+    width: 186px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_7.jpeg);
+    background-size: cover;
+    top: -517px;
+}
+
+.post7 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #282864;
+    border-radius: 18px 0 13px 0;
+}
+
+.post7 .categoria1 {
+    width: 21px;
+    height: 17px;
+    background-image: url(../img/icon_v.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 6.5px;
+    left: 13px;
+}
+
+.post7 p {
+    margin-left: 41px;
+    margin-top: -9px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.botbar {
+    position: fixed;
+    height: 60px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+  
+  .icona {
+    width: 7vw;
+    height: 7vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    background-position: center;
+    margin: 5.3vw 6.5vw 0 6.5vw;
+    }  
+
+.PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
+}
+
+.home {
+    background-image: url(../img/Icones/Icona_Home.png);
+}
+
+.reptes {
+    background-image: url(../img/Icones/Icona_Reptes.png);
+}
+
+.comunitat {
+    background-image: url(../img/Icones/Icona_Comunitat.png);
+}
+
+.perfilClicada {
+    background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
+    margin-top: 14px;
+}
+
+.publicar {
+    position: absolute;
+    top: 0vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7vw;
+    height: 7ww;
+    background-image: url(../img/Icones/Icona_Publicar.png);
+    background-position: center;
+    z-index: 99999999999999999999;
+    margin: 4vw -15px;
+    transform: scale(140%);
+    transform-origin: center;
+  }
+  
+  input[type=checkbox] {
+    visibility:hidden;
+  }
+  
+  #alternador label {
+    width:7vw;
+    height:7vw;
+    border-radius:0.5rem;
+    transition:all .5s ease;
+    cursor:pointer;
+    opacity:1;
+  }
+  
+  #alternador input[type=checkbox]:checked+label {
+    opacity:1;
+}
+  
+  #alternador input[type=checkbox]:checked+label~.quadreElegir {
+    left:0rem;
+}
+
+.quadreElegir {
+    width: 100%;
+    height: 900px;
+    margin: 0px;
+    position: absolute;
+    left:-500px;
+    top: -800px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .Opcions {
+    width: 91%;
+    height: 160px;
+    background-color: #282C63;
+    border-radius: 25px;
+    margin: 0 auto;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+  }
+  
+  .Tancar {
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  .Opcions p {
+    margin-top: 0px;
+    color: white;
+    font-size: 1.30rem;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Carbona Test', sans-serif;
+  }
+  
+  .Apartats {
+    width: 30%;
+    height: 120px;
+    text-align: center;
+    float: left;
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+  }
+
+.Individual {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Individual {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .Grupal {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Individual img {
+    margin-top: 6px;
+    width: 70%;
+    height: 90%;
+    text-align: center;
+  }
+  
+  .Grupal img {
+    margin-top: 8px;
+    width: 100%;
+    height: 90%;
+    position: center;
+  }
+
+  .Icona {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 3px;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
+  }
