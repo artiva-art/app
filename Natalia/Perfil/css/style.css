@@ -1,18 +1,28 @@
+* {
+    position: relative;
+    font-family: 'Carbona Test', sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
 #perfil  .contingut {
     overflow: hidden;
 }
 
-#perfil  .topbar {
+#perfil .topbar {
     width: 430px;
     height: 50px;
     background: #282864;
+    position: fixed;
 }
 
 #perfil .topbar p {
     color: white;
     font-size: 0.938rem;
-    position: relative;
     top: 2px;
+    left: 15px;
 }
 
 #perfil .topbar .configuracio {
@@ -20,15 +30,13 @@
     height: 36px;
     background-image: url(../img/configuració.png);
     background-size: 100%;
-    position: fixed;
-    position: relative;
-    top: -32.5px;
-    left: 380px;
+    top: -40px;
+    left: 389px;
 }
 
 #perfil .perfilnou {
-    margin-top: 85px;
-    margin-left: 20px;
+    margin-top: 77px;
+    margin-left: 12px;
 }
 
 #perfil .fotoprev {
@@ -39,8 +47,7 @@
 }
 
 #perfil .perfilnou h3 {
-    position: relative;
-    top: -100px;
+    top: -96px;
     left: 105px;
     font-size: 1.313rem;
     color: #282864;
@@ -50,7 +57,6 @@
     font-size: 0.938rem;
     color: #282864;
     opacity: 30%;
-    position: relative;
     top: -118px;
     left: 116px;
 }
@@ -59,7 +65,6 @@
     width: 248px;
     font-size: 0.938rem;
     color: #282864;
-    position: relative;
     top: -135px;
     left: 116px;
     font-weight: 400;
@@ -236,4 +241,118 @@
     height: 500px;
     background: red;
     margin-left: 20px;
+}
+
+.post1 {
+    width: 186px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_1.jpeg);
+    background-size: cover;
+}
+
+.titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #282864;
+    border-radius: 18px 0 13px 0;
+}
+
+.categoria1 {
+    width: 21px;
+    height: 17px;
+    background-image: url(../img/icon_v.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6.5px;
+    left: 13px;
+}
+
+.post1 p {
+    margin-left: 41px;
+    margin-top: -9px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post2 {
+    width: 186px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_2.jpg);
+    background-size: cover;
+    margin-top: -186px;
+    margin-left: 204px;
+}
+
+.post2 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #00C8FF;
+    border-radius: 18px 0 13px 0;
+}
+
+.categoria3 {
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/icon_t.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6px;
+    left: 13px;
+}
+
+.post2 p {
+    width: 400px;
+    margin-left: 41px;
+    margin-top: -11px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.post3 {
+    width: 390px;
+    height: 186px;
+    border-radius: 18px;
+    background-image: url(../img/Posts_perfil/post_3.jpg);
+    background-size: cover;
+}
+
+.post3 .titolpubli {
+    width: 160px;
+    height: 30px;
+    background: #F03C82;
+    border-radius: 18px 0 13px 0;
+}
+
+.categoria2 {
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/icon_s.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6px;
+    left: 13px;
+}
+
+.post3 p {
+    width: 400px;
+    margin-left: 41px;
+    margin-top: -11px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+#reptesantics .topbar {
+    width: 430;
+    height: 50px;   
+    background: #282864;
+}
+
+.categories {
+    height: 300px;
+    background: red;
 }

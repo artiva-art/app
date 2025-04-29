@@ -791,7 +791,6 @@ a {
 }
 
 .previperfil h3 {
-    position: relative;
     top: -90px;
     left: 105px;
     font-size: 1.313rem;
@@ -802,7 +801,6 @@ a {
     font-size: 0.938rem;
     color: #282864;
     opacity: 30%;
-    position: relative;
     top: -92px;
     left: 116px;
 }
@@ -811,7 +809,6 @@ a {
     width: 248px;
     font-size: 0.938rem;
     color: #282864;
-    position: relative;
     top: -98px;
     left: 116px;
     font-weight: 400;
@@ -824,7 +821,6 @@ a {
     border-radius: 10px;
     font-weight: 410;
     margin: 0 auto;
-    position: relative;
     top: 50px;
 }
 
@@ -857,12 +853,12 @@ a {
     width: 430px;
     height: 50px;
     background: #282864;
+    position: fixed;
 }
 
 #nouperfil .topbar p {
     color: white;
     font-size: 0.938rem;
-    position: relative;
     top: 17px;
 }
 
@@ -871,8 +867,6 @@ a {
     height: 36px;
     background-image: url(../img/configuració.png);
     background-size: 100%;
-    position: fixed;
-    position: relative;
     top: -17px;
     left: 374px;
 }
@@ -890,7 +884,6 @@ a {
 }
 
 #nouperfil .perfilnou h3 {
-    position: relative;
     top: -75px;
     left: 105px;
     font-size: 1.313rem;
@@ -1022,7 +1015,7 @@ a {
     left: 20px;
     background: #282864;
     border-radius: 4px;
-
+    margin-left: 5px;
 }
 
 #nouperfil .publicacions p {
@@ -1035,7 +1028,7 @@ a {
 #nouperfil .llistes {
     width: 58px;
     height: 30px;
-    margin-left: 128px;
+    margin-left: 140px;
     border-radius: 4px;
     margin-top: -44px;
     top: -26px;
@@ -1051,9 +1044,10 @@ a {
 #nouperfil .coleccions {
     width: 93px;
     height: 30px;
-    margin-left: 195px;
+    margin-left: 210px;
     border-radius: 4px;
     margin-top: -44px;
+    top: -12px;
 }
 
 #nouperfil .coleccions p {
@@ -1066,7 +1060,7 @@ a {
 #nouperfil .favorits {
     width: 93px;
     height: 30px;
-    margin-left: 298px;
+    margin-left: 305px;
     border-radius: 4px;
     margin-top: -44px;
 }
@@ -1081,9 +1075,8 @@ a {
 #nouperfil hr {
     border-top: 1px solid #282864;
     border-bottom: 0;
-    width: 390px;
-    left: 20px;
-    margin-left: 20px;
+    width: 400px;
+    margin-left: 15px;
     margin-top: 0px;
 }
 
@@ -1131,9 +1124,9 @@ a {
     z-index: 100;
     background-repeat: no-repeat;
     background-size: 100%;
-}
-
-.icona {
+    }
+  
+  .icona {
     width: 7vw;
     height: 7vw;
     background-repeat: no-repeat;
@@ -1141,7 +1134,7 @@ a {
     float: left;
     background-position: center;
     margin: 5.3vw 6.5vw 0 6.5vw;
-}
+    }  
 
 .PaginaPerfil {background-image: url(../img/Botbar/Botbar_Perfil.png);
 }
@@ -1159,7 +1152,7 @@ a {
 }
 
 .perfilClicada {
-    background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
+    background-image: url(../img/Icones/Clicades/Icona_Perfil\ .png);
     margin-top: 14px;
 }
 
@@ -1169,18 +1162,18 @@ a {
     left: 50%;
     transform: translateX(-50%);
     width: 7vw;
-    height: 7vw;
+    height: 7ww;
     background-image: url(../img/Icones/Icona_Publicar.png);
     background-position: center;
     z-index: 99999999999999999999;
     margin: 4vw -15px;
     transform: scale(140%);
     transform-origin: center;
-}
-
-input[type=checkbox] {
+  }
+  
+  input[type=checkbox] {
     visibility:hidden;
-}
+  }
   
   #alternador label {
     width:7vw;
@@ -1189,7 +1182,7 @@ input[type=checkbox] {
     transition:all .5s ease;
     cursor:pointer;
     opacity:1;
-}
+  }
   
   #alternador input[type=checkbox]:checked+label {
     opacity:1;
@@ -1199,7 +1192,7 @@ input[type=checkbox] {
     left:0rem;
 }
 
-  .quadreElegir {
+.quadreElegir {
     width: 100%;
     height: 900px;
     margin: 0px;
@@ -1208,9 +1201,9 @@ input[type=checkbox] {
     top: -800px;
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.4);
-}
+  }
 
-.Opcions {
+  .Opcions {
     width: 91%;
     height: 160px;
     background-color: #282C63;
@@ -1219,9 +1212,9 @@ input[type=checkbox] {
     position: absolute;
     top: 560px;
     left: 20px;
-}
-
-.Tancar {
+  }
+  
+  .Tancar {
     width: 15px;
     height: 15px;
     background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
@@ -1229,25 +1222,25 @@ input[type=checkbox] {
     background-repeat: no-repeat;
     margin-top: 15px;
     margin-left: 15px;
-}
+  }
 
-.Opcions p {
+  .Opcions p {
     margin-top: 0px;
     color: white;
     font-size: 1.30rem;
     text-align: center;
     font-weight: bolder;
     font-family: 'Carbona Test', sans-serif;
-}
-
-.Apartats {
+  }
+  
+  .Apartats {
     width: 30%;
     height: 120px;
     text-align: center;
     float: left;
     margin-left: 9.86%;
     margin-right: 9.86%;
-}
+  }
 
 .Individual {
     width: 100%;
@@ -1257,33 +1250,42 @@ input[type=checkbox] {
     margin-bottom: 10px;
 }
 
-.Grupal {
+.Individual {
     width: 100%;
     height: 70px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 10px;
-}
+  }
+  
+  .Grupal {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
 
-.Individual img {
+  .Individual img {
     margin-top: 6px;
     width: 70%;
     height: 90%;
     text-align: center;
-}
-
-.Grupal img {
+  }
+  
+  .Grupal img {
     margin-top: 8px;
     width: 100%;
     height: 90%;
     position: center;
-}
+  }
 
-.Icona {
+  .Icona {
     width: 64px;
     height: 64px;
     margin-bottom: 3px;
     margin: 0 auto;
     border-radius: 100%;
     text-align: center;
-}
+  }
+  
