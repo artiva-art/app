@@ -917,7 +917,6 @@ a {
 
 .seguidors h1 {
     font-size: 0.938rem;
-    left: -5px;
     top: -10px;
 }
 
@@ -1023,6 +1022,7 @@ a {
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #nouperfil .llistes {
@@ -1062,7 +1062,7 @@ a {
     height: 30px;
     margin-left: 305px;
     border-radius: 4px;
-    margin-top: -44px;
+    margin-top: -43.6px;
 }
 
 #nouperfil .favorits p {
@@ -1070,6 +1070,7 @@ a {
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #nouperfil hr {
@@ -1077,7 +1078,7 @@ a {
     border-bottom: 0;
     width: 400px;
     margin-left: 15px;
-    margin-top: 0px;
+    margin-top: 1px;
 }
 
 #nouperfil .pujar {

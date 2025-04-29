@@ -34,6 +34,10 @@
     left: 389px;
 }
 
+.contingut {
+    height: 844px;
+}
+
 #perfil .perfilnou {
     margin-top: 77px;
     margin-left: 12px;
@@ -57,7 +61,7 @@
     font-size: 0.938rem;
     color: #282864;
     opacity: 30%;
-    top: -118px;
+    top: -116px;
     left: 116px;
 }
 
@@ -73,39 +77,38 @@
 #perfil .seguidors {
     width: 80px;
     height: 60px;
-    margin-top: -140px;
-    margin-left: 20px;
+    margin-top: -136px;
+    margin-left: 12px;
 }
 
 #perfil .seguidors h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -177px;
+    color: #282864;
+    left: 26px;
 }
 
 #perfil .seguidors h2 {
     font-size: 0.938rem;
-    position: relative;
-    top: -20px;
+    top: -14px;
     color: #282864;
 }
 
 #perfil .seguits {
     width: 80px;
     height: 60px;
-    margin-top: -70px;
-    margin-left: 183px;
+    margin-top: -65px;
+    left: 175px;
 }
 
 #perfil .seguits h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -185px;
+    left: 16.5px;
+    color: #282864;
+    top: -3px;
 }
 
 #perfil .seguits h2 {
     font-size: 0.938rem;
-    position: relative;
     top: -20px;
     color: #282864;
 }
@@ -114,18 +117,18 @@
     width: 80px;
     height: 60px;
     margin-top: -70px;
-    margin-left: 335px;
+    margin-left: 327px;
 }
 
 #perfil .agrada h1 {
     font-size: 0.938rem;
-    position: relative;
-    left: -185px;
+    top: -3px;
+    left: 21.5px;
+    color: #282864;
 }
 
 #perfil .agrada h2 {
     font-size: 0.938rem;
-    position: relative;
     top: -20px;
     color: #282864;
 }
@@ -135,7 +138,8 @@
     height: 30px;
     background: #00C8A0;
     border-radius: 4px;
-    margin-left: 260px;
+    top: -6px;
+    margin-left: 252px;
 }
 
 #perfil .editar p {
@@ -151,8 +155,8 @@
     height: 30px;
     background: #00C8A0;
     border-radius: 4px;
-    margin-top: -35px;
-    margin-left: 370px;
+    margin-top: -41px;
+    margin-left: 362px;
 }
 
 #perfil .accions p {
@@ -166,12 +170,13 @@
 #perfil .perfilinteract {
     width: 390px;
     height: 400px;
+    top: 5px;
 }
 
 #perfil .publicacions {
     width: 100px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 17px;
     background: #282864;
     border-radius: 4px;
 }
@@ -181,12 +186,13 @@
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #perfil .llistes {
     width: 58px;
     height: 30px;
-    margin-left: 128px;
+    margin-left: 132px;
     border-radius: 4px;
     margin-top: -44px;
 }
@@ -196,14 +202,15 @@
     font-size: 0.875rem;
     text-align: center;
     line-height: 1.8rem;
+    top: 1px;
 }
 
 #perfil .coleccions {
     width: 93px;
     height: 30px;
-    margin-left: 195px;
+    margin-left: 202px;
     border-radius: 4px;
-    margin-top: -44px;
+    margin-top: -43px;
 }
 
 #perfil .coleccions p {
@@ -216,9 +223,9 @@
 #perfil .favorits {
     width: 93px;
     height: 30px;
-    margin-left: 298px;
+    margin-left: 297px;
     border-radius: 4px;
-    margin-top: -44px;
+    margin-top: -44.6px;
 }
 
 #perfil .favorits p {
@@ -232,7 +239,7 @@
     border-top: 1px solid #282864;
     border-bottom: 0;
     width: 400px;
-    margin-left: 15px;
+    margin-left: 7px;
     margin-top: 0px;
 }
 
@@ -240,7 +247,8 @@
     width: 390px;
     height: 500px;
     background: red;
-    margin-left: 20px;
+    left: 12.5px;
+    top: 10px;
 }
 
 .post1 {
