@@ -670,3 +670,18 @@ input[type=checkbox]{
     border-radius: 100%;
     text-align: center;
 }
+
+#configuracio .tornar {
+    width: 41px;
+    height: 25px;
+    background-image: url(../img/retorn.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    top: 10px;
+    left: 10px;
+    opacity: 80%;
+}
+
+#configuració h1 {
+    
+}
