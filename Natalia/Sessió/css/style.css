@@ -1179,7 +1179,7 @@ a {
     transform-origin: center;
 }
 
-input[type=checkbox]{
+#alterna{
     visibility:hidden;
   }
   
@@ -1291,4 +1291,151 @@ input[type=checkbox]{
     margin: 0 auto;
     border-radius: 100%;
     text-align: center;
+}
+
+#iniciar .contingut {
+    width: 390px;
+    height: 550px;
+    margin: 0 auto;
+    top: 210px;
+}
+
+#iniciar .formulari {
+    width: 96%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 20px;
+}
+
+#iniciar input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #E4E4EC;
+}
+
+#iniciar .correu {
+    height: 80px;
+    width: 95%;
+    opacity: 70%;
+    color: #282864;
+    margin: 0 2.4%;
+    float: left;
+}
+
+#iniciar .contrasenya {
+    height: 80px;
+    width: 95%;
+    opacity: 70%;
+    color: #282864;
+    margin: 0 2.4%;
+    float: left;
+}
+
+#iniciar .correu input {
+    width: 100%;
+}
+
+#iniciar .contrasenya input {
+    width: 100%;
+}
+
+#iniciar .repetir input {
+    width: 100%;
+}
+
+#iniciar .checks {
+    clear: both;
+    font-size: 0.75rem;
+    opacity: 70%;
+    color: #282864;
+    margin: 0 2.4%;
+}
+
+#iniciar .checks p {
+    font-size: 0.75rem;
+    color: #282864;
+    top: -17.5px;
+    left: 21px;
+}
+
+#iniciar .huma {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+#iniciar .accepto {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#iniciar .condicions {
+    top: -10px;
+}
+
+#iniciar .botoInicia {
+    width: 172px;
+    height: 40px;
+    background: #282864;
+    top: 10px;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 410;
+    left: 105px;
+}
+
+#iniciar .botoInicia a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.063rem;
+}
+
+#iniciar .inicia {
+    text-align: center;
+    line-height: 1rem;
+}
+
+#iniciar .inicia p {
+    font-size: 0.75rem;
+    opacity: 70%;
+    color: #282864;
+    top: 17px;
+}
+
+#iniciar .amb {
+    top: 50px;
+}
+
+#iniciar .amb p {
+    opacity: 70%;
+    text-align: center;
+    font-size: 1rem;
+    color: #282864;
+}
+
+#iniciar .opcionsamb {
+    top: 8px;
+}
+
+#iniciar .google img {
+    width: 7%;
+    float: left;
+    left: 40%;
+}
+
+#iniciar .facebook img {
+    width: 7%;
+    float: left;
+    left: 45%;
 }
