@@ -5,21 +5,21 @@
         .topbar {
             background: #282C63;
             position: fixed;
+            width: 100%;
             height: 50px;
-            width: 95.34%;
             top:0;
             left: 0;
             right: 0;
-            z-index: 100;
+            z-index: 10;
             padding-left: 20px;
             float: left;
         }
 
         .NomArtiva {
-            width: 78px;
+            width: 18%;
             height: 23px;
             margin-top: 13px;
-            margin-right: 43px;
+            margin-right: 34px;
             background-image: url(../img/Topbar_Principal/Artiva.png);
             background-repeat: no-repeat;
             background-size: 100%;
@@ -28,10 +28,9 @@
 
         .Temps {
             padding-top: 6px;
-            width: 159px;
+            width: 45%;
             height: 44px;
             float: left;
-            margin-right: 30px;
         }
 
         .compte {
@@ -73,7 +72,7 @@
         }
 
         .Botiga {
-            width: 5.7%;
+            width: 25px;
             height: 31px;
             margin-top: 10px;
             margin-right: 23px;
@@ -84,7 +83,7 @@
         }
 
         .Buscador {
-            width: 6.9%;
+            width: 30px;
             height: 31px;
             margin-top: 10px;
             background-image: url(../img/Topbar_Principal/Icona_Buscador.png);
@@ -102,48 +101,170 @@
             z-index: 100;
             background-repeat: no-repeat;
             background-size: 100%;
-            padding: 0px 30px;
-        }
-
-        .icona {
-            width: 27px;
-            height: 27px;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            float: left;
-            margin-top: 24px;
-        }
-
-        .PaginaHome {background-image: url(../img/Botbar/Botbar_Home.png);}
-
-        .homeClicada {
-            margin-right: 53px;
-            margin-top: 15px;
-            background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
-        }   
-
-        .reptes {
-            margin-right: 53px;
-            background-image: url(../img/Icones/Icona_Reptes.png);
-        }
-
-        .publicar {
-            width: 50px;
-            height: 50px;
-            margin-top: 4.5px;
-            margin-right: 53px;
-            background-image: url(../img/Icones/Icona_Publicar.png);
-        }
-
-        .comunitat {
-            width: 33px;
-            margin-right: 45px;
-            background-image: url(../img/Icones/Icona_Comunitat.png);
-        }
-
-        .perfil {
-            background-image: url(../img/Icones/Icona_Perfil.png);
-        }
+            }
+        
+            .icona {
+                width: 7vw;
+                height: 7vw;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                float: left;
+                background-position: center;
+                margin: 5.3vw 6.5vw 0 6.5vw;
+            }
+        
+            .PaginaHome {background-image: url(../img/Botbar/Botbar_Home.png);}
+        
+                        .homeClicada {
+                            background-image: url(../img/Icones/Clicades/Icona_Home\ _Clicada.png);
+                            margin-top: 14px;
+                        }   
+        
+                        .reptes {
+                            background-image: url(../img/Icones/Icona_Reptes.png);
+                        }
+        
+                        .invisible {
+                            background: transparent;
+                        }
+        
+                        .comunitat {
+                            background-image: url(../img/Icones/Icona_Comunitat.png);
+                        }
+        
+                        .perfil {
+                            background-image: url(../img/Icones/Icona_Perfil.png);
+                        }
+        
+        
+                        .publicar {
+                            position: absolute;
+                            top: 0vw;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 7vw;
+                            height: 7ww;
+                            background-image: url(../img/Icones/Icona_Publicar.png);
+                            background-position: center;
+                            z-index: 99999999999999999999;
+                            margin: 4vw -15px;
+                            transform: scale(140%);
+                            transform-origin: center;
+                        }
+        
+                        input[type=checkbox]{
+                            visibility:hidden;
+                          }
+                          
+                          #alternador{
+            
+                          }
+                          
+                          #alternador label{
+                            width:7vw;
+                            height:7vw;
+                            border-radius:0.5rem;
+                            transition:all .5s ease;
+                            cursor:pointer;
+                            opacity:1;
+                          }
+                          
+                          #alternador input[type=checkbox]:checked+label{
+                            opacity:1;
+                          }
+                          
+                          #alternador input[type=checkbox]:checked+label~.quadreElegir{
+                            left:0rem;
+                          }
+                        
+                          .quadreElegir {
+                            width: 100%;
+                            height: 900px;
+                            margin: 0px;
+                            position: absolute;
+                            left:-500px;
+                            top: -800px;
+                            opacity: 1;
+                            background-color: rgba(255, 255, 255, 0.4);
+                        }
+                        
+                        .Opcions {
+                            width: 91%;
+                            height: 160px;
+                            background-color: #282C63;
+                            border-radius: 25px;
+                            margin: 0 auto;
+                            position: absolute;
+                            top: 560px;
+                            left: 20px;
+                        }
+                        
+                        .Tancar {
+                            width: 15px;
+                            height: 15px;
+                            background-image: url(../img/Publicar_Publicacio/Icona_Creu_Blanca.png);
+                            background-size: 100%;
+                            background-repeat: no-repeat;
+                            margin-top: 15px;
+                            margin-left: 15px;
+                        }
+                        
+                        .Opcions p {
+                            margin-top: 0px;
+                            color: white;
+                            font-size: 1.30rem;
+                            text-align: center;
+                            font-weight: bolder;
+                            font-family: 'Carbona Test', sans-serif;
+                        }
+                        
+                        .Apartats {
+                            width: 30%;
+                            height: 120px;
+                            text-align: center;
+                            float: left;
+                            margin-left: 9.86%;
+                            margin-right: 9.86%;
+                        }
+                        
+                        .Individual {
+                            width: 100%;
+                            height: 70px;
+                            background-color: white;
+                            border-radius: 20px;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .Grupal {
+                            width: 100%;
+                            height: 70px;
+                            background-color: white;
+                            border-radius: 20px;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .Individual img {
+                            margin-top: 6px;
+                            width: 70%;
+                            height: 90%;
+                            text-align: center;
+                        }
+                        
+                        .Grupal img {
+                            margin-top: 8px;
+                            width: 100%;
+                            height: 90%;
+                            position: center;
+                        }
+        
+                        .Icona {
+                            width: 64px;
+                            height: 64px;
+                            margin-bottom: 3px;
+                            margin: 0 auto;
+                            border-radius: 100%;
+                            text-align: center;
+                        }
 
         .contingut {
             margin-top: 50px;
