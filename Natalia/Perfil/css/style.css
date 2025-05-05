@@ -723,3 +723,540 @@
     height: 16px;
     background-image: url(../img/buscador.png);
 }
+
+#configuracio .elementsConf {
+    width: 390px;
+    height: 1450px;
+    margin: 0 auto;
+}
+
+#configuracio .compte {
+    height: 102px;
+}
+
+#configuracio p {
+    font-size: 0.875rem;
+    color: #282864;
+    opacity: 70%;
+}
+
+#configuracio .iconaCompte {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/Configuració/centre_comptes.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio h2 {
+    font-size: 1rem;
+    color: #282864;
+    top: -2px;
+    left: 10px;
+}
+
+#configuracio h3 {
+    font-size: 0.875rem;
+    left: 40px;
+    top: -15px;
+    color: #282864;
+    font-weight: 400;
+}
+
+#configuracio .indicacio {
+    width: 390px;
+    height: 80px;
+    top: -113px;
+}
+
+#configuracio .indicacio p {
+    text-align: right;
+    font-size: 1.5rem;
+    line-height: 7rem;
+    color: #282864;
+    opacity: 70%;
+}
+
+#configuracio h5 {
+    font-size: 0.625rem;
+    font-weight: 400;
+    top: -130px;
+    color: #282864;
+    opacity: 70%;
+}
+
+#configuracio .utilitzacio {
+    height: 210px;
+}
+
+#configuracio .coleccionat {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaCol {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/col·leccionat.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    left: 12px;
+    color: #282864;
+}
+
+#configuracio .arxivat {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaArx {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/contingut_arxivat.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .activitat {
+    height: 20px;
+    top: -20px;
+}
+
+#configuracio .iconaAct {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/la_teva_activitat.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .notificacions {
+    height: 20px;
+    top: -25px;
+}
+
+#configuracio .iconaNot {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/notificacions.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .arxivat {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaArx {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/contingut_arxivat.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .temps {
+    height: 20px;
+    top: -30px;
+}
+
+#configuracio .iconaTem {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/administració_de_temps.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .social {
+    height: 173px;
+}
+
+#configuracio .comunitats {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaCom {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/comunitats.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .etiquetes {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaEt {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/etiquetes_mencions.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .comentaris {
+    height: 20px;
+    top: -20px;
+}
+
+#configuracio .iconaComent {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/filtratge_comentaris.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .amics {
+    height: 20px;
+    top: -25px;
+}
+
+#configuracio .iconaAm {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/seguir_invitar_amics.png);
+    background-size: 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .altres {
+    height: 173px;
+}
+
+#configuracio .interaccions {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaInt {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/limitar_interaccions.png);
+    background-size: 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .silenciades {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaSil {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/comptes_silenciades.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .bloquejades {
+    height: 20px;
+    top: -20px;
+}
+
+#configuracio .iconaBlo {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/comptes_bloquejades.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .restringides {
+    height: 20px;
+    top: -25px;
+}
+
+#configuracio .iconaRes {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/comptes_restringides.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .veu {
+    height: 138px;
+}
+
+#configuracio .preferencies {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaPref {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/preferències_contingut.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .ocultar {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaOcu {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/ocultar_quantitat_agrada.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .donacions {
+    height: 20px;
+    top: -20px;
+}
+
+#configuracio .iconaDon {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/donacions.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .app {
+    height: 248px;
+}
+
+#configuracio .permissos {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaPerm {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/comunitats.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .accessibilitat {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaAcc {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/accessibilitat_traduccions.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .idioma {
+    height: 20px;
+    top: -20px;
+}
+
+#configuracio .iconaIdi {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/idioma.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .descarrega {
+    height: 20px;
+    top: -25px;
+}
+
+#configuracio .iconaDesc {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/arxiu_descàrrega.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .usdades {
+    height: 20px;
+    top: -30px;
+}
+
+#configuracio .iconaUs {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/dades_contingut.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .permissosweb {
+    height: 20px;
+    top: -35px;
+}
+
+#configuracio .iconaWeb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/permissos_apps_webs.png);
+    background-size: 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .mes {
+    height: 176px;
+}
+
+#configuracio .mes p {
+    left: -20px;
+}
+
+#configuracio .ajuda {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaAju {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/ajuda.png);
+    background-size: 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .privacitat {
+    height: 20px;
+    top: -15px;
+}
+
+#configuracio .iconaPri {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/centre_privacitat.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .estatcompte {
+    height: 20px;
+    top: -20px;
+}
+
+#configuracio .iconaEstat {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/estat_compte.png);
+    background-size: 92%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .informacio {
+    height: 20px;
+    top: -25px;
+}
+
+#configuracio .iconaInfo {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/informació.png);
+    background-size: 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .altresfuncions {
+    height: 48px;
+}
+
+#configuracio .modefosc {
+    height: 20px;
+    top: -10px;
+}
+
+#configuracio .iconaMode {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Configuració/mode_fosc.png);
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#configuracio .tancar {
+    height: 50px;
+    top: 20px;
+}
+
+#configuracio .tancar p {
+    font-size: 1rem;
+    opacity: 100%;
+    color: #F03C82;
+}
+
+#configuracio a {
+    text-decoration: none;
+}
