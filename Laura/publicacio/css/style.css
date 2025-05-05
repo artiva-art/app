@@ -12,21 +12,21 @@
         .topbar {
             background: #282C63;
             position: fixed;
-            height: 50px;
             width: 100%;
+            height: 50px;
             top:0;
             left: 0;
             right: 0;
-            z-index: 100;
+            z-index: 10;
             padding-left: 20px;
             float: left;
         }
 
         .NomArtiva {
-            width: 78px;
+            width: 18%;
             height: 23px;
             margin-top: 13px;
-            margin-right: 43px;
+            margin-right: 34px;
             background-image: url(../img/Topbar_Principal/Artiva.png);
             background-repeat: no-repeat;
             background-size: 100%;
@@ -35,10 +35,9 @@
 
         .Temps {
             padding-top: 6px;
-            width: 159px;
+            width: 45%;
             height: 44px;
             float: left;
-            margin-right: 30px;
         }
 
         .compte {
