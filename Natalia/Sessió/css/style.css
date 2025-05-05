@@ -515,8 +515,10 @@ p {
     width: 124px;
     height: 124px;
     border-radius: 3.5px;
-    position: relative;
-    top: 100px;
+    top: 95px;
+    float: left;
+    margin: 5px;
+    left: 15px;
 }
 
 #ajusta body {
@@ -524,7 +526,6 @@ p {
 }
 
 .ajustarfoto {
-    position: relative;
     top: 190px;
     font-size: 2.25rem;
 }
